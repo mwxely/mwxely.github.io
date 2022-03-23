@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/mwxely/mwxely.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## 个人简历
+### 联系方式
+- 手机：17310143309
+- Email：1264205111@qq.com
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 个人信息
+ - 杨祖豪/男/1999
+ - 本科/加拿大阿尔伯塔大学/计算科学 2017-2021
+ - 硕士/新加坡国立大学/智能系统 2022-2024
+ - 工作年限：1年
+ - 技术博客：http://mwxely.github.io
+ - Github：http://github.com/mwxely
 
-### Markdown
+### 工作经历
+#### 上海钛米机器人股份有限公司（2021.5 ~ 至今）
+**项目描述:**
+该项目主要是XXXX。
+**实现技术:**
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**职责描述:**
+1. 作为NLP算法工程师XXXX。
+2.
+3.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+##### 其他项目XXX
+ - `xxxx项目`：该项目是XXXX，使用XXX技术，完成XXX功能
 
-- Bulleted
-- List
+#### XXX公司（xxxx.x ~ xxxx.x）
+**项目描述:**
 
-1. Numbered
-2. List
+**实现技术:**
 
-**Bold** and _Italic_ and `Code` text
+**职责描述:**
+1.
+2.
+3.
 
-[Link](url) and ![Image](src)
-```
+### 开源贡献
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mwxely/mwxely.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 个人简历
