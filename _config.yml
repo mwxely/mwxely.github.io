@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: mwxely的个人主页
 description: 欢迎来到我的个人主页！
+github_username: mwxely
+use_math: true
