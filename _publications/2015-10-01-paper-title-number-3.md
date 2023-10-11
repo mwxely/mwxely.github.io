@@ -1,15 +1,12 @@
 ---
-title: "Paper Title Number 3"
+title: "AI-Generated Images as Data Source: The Dawn of Synthetic Era"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+permalink: /publication/2023-10-03-AIGS-number-3
+date: 2023-10-03
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2310.01830'
 ---
-This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
+Authors: **Zuhao Yang**, Fangneng Zhan, Kunhao Liu, Muyu Xu, Shijian Lu
 
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+[Paper](https://arxiv.org/abs/2310.01830) | [Code](https://github.com/mwxely/AIGS)
