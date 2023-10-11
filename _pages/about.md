@@ -12,8 +12,8 @@ I am an incoming Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.g
 
 My research interests lie broadly in the realms of deep learning, computer vision, and natural language processing. I have been exploring the following research directions:
 
-* AI-generated Images as Data Source ([AIGS](https://arxiv.org/abs/2310.01830))<br>
-* Natural Language Generation ([FACE](https://arxiv.org/abs/2305.10307))<br>
+* AI-generated Images as Data Source (AIGS)<br>
+* Natural Language Generation (FACE)<br>
 * Multimodal Large Language Model (WIP)<br>
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
@@ -26,10 +26,10 @@ Education
 
 News
 ======
-* Oct 16, 2023 - Joined ByteDance AI Lab, SG
-* Oct 3, 2023 - One survey paper (AIGS) is released to arXiv
-* Sep 22, 2023 - One paper (FACE) is accepted to NeurIPS 2023
-* Jan 9, 2023 - Joined Visual Intelligence Lab, NTU
+* Oct 16, 2023 - Joined ByteDance AI Lab, SG.
+* Oct 3, 2023 - One survey paper ([AIGS](https://arxiv.org/abs/2310.01830)) is released.
+* Sep 22, 2023 - One paper ([FACE](https://arxiv.org/abs/2305.10307)) is accepted to NeurIPS 2023.
+* Jan 9, 2023 - Joined Visual Intelligence Lab, NTU.
 
 Awards
 ======
