@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at the [School of Computer Science and Engineering](https://www.ntu.edu.sg/scse), [Nanyang Technological University](https://www.ntu.edu.sg/). I am luckily supervised by brilliant and kind [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html) in 2021. I am also working as research intern at [ByteDance AI Lab, Singapore](https://www.bytedance.com/en/), supervised by [Dr. Song Bai](https://songbai.site/).
+I am an incoming Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), luckily supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). I also work closely with [Prof. Yang Xu](https://clcs-sustech.github.io/people.html) and [Dr. Fangneng Zhan](https://fnzhan.com/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html) in 2021. Recently, I joined [ByteDance AI Lab, Singapore](https://www.bytedance.com/en/) as research intern , supervised by [Dr. Song Bai](https://songbai.site/).
 
 My research interests lie broadly in the realms of deep learning, computer vision, and natural language processing. I have been exploring the following research directions:
 
@@ -33,12 +33,12 @@ News
 
 Awards
 ======
-* [China National Invention Patent](http://epub.cnipa.gov.cn/patent/CN113946669A), 2022
-* Outstanding Graduate, University of Alberta, 2021
-* Dean's Honor Roll Award, 2018 - 2020
-* International Student Scholarship, 2017 - 2019
+* [China National Invention Patent](http://epub.cnipa.gov.cn/patent/CN113946669A), awarded by CNIPA, 2022
+* Outstanding Graduate, awarded by University of Alberta, 2021
+* Dean's Honor Roll Award, awarded by University of Alberta, 2018 - 2020
+* International Student Scholarship, awarded by University of Alberta, 2017 - 2019
 
 Work Experiences
 ======
-* ByteDance AI Lab | Singapore | Computer Vision Researcher | Intern | Oct 16, 2023 - present
-* Taimi Robotics Technology Co. Ltd | Shanghai, China | NLP Algorithm Engineer | Full-time | May 1, 2021 - Jun 30, 2022
+* ByteDance AI Lab | Singapore | Computer Vision Researcher | Intern | Oct 2023 - present
+* Taimi Robotics Technology Co. Ltd | Shanghai, China | NLP Algorithm Engineer | Full-time | May 2021 - Jun 2022
