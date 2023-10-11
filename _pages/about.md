@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Zuhao Yang"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
