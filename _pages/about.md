@@ -20,9 +20,9 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 Education
 ======
-* Ph.D. in Computer Science and Engineering, Nanyang Technological University, 2027 (expected)
-* M.S. in Artificial Intelligence, Nanyang Technological University, 2023 (expected)
-* B.S. in Computing Science, University of Alberta, 2021
+* Ph.D. in Computer Science and Engineering, Nanyang Technological University, Jan 2024 - Dec 2027 (expected)
+* M.S. in Artificial Intelligence, Nanyang Technological University, Aug 2022 - Jan 2024 (expected)
+* B.S. in Computing Science, University of Alberta, Sep 2017 - Jun 2021
 
 News
 ======
@@ -30,7 +30,6 @@ News
 * Oct 3, 2023 - One survey paper (AIGS) is released to arXiv
 * Sep 22, 2023 - One paper (FACE) is accepted to NeurIPS 2023
 * Jan 9, 2023 - Joined Visual Intelligence Lab, NTU
-* Aug 8, 2022 - Joined the School of Computer Science and Engineering, NTU
 
 Awards
 ======
