@@ -85,10 +85,10 @@ author:
   bio              : "Incoming Ph.D. student at Nanyang Technological University, interested in multimodal comprehension and generation"
   location         : "Singapore"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=jV8CJkEAAAAJ"
   email            : "yang0756@e.ntu.edu.sg"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : # "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -102,7 +102,7 @@ author:
   instagram        :
   impactstory      : # "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/zuhao-yang-a39285231/"
+  linkedin         : "zuhao-yang-a39285231"
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
