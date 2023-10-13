@@ -33,8 +33,10 @@ Education
 
 Experiences
 ======
-* |: ByteDance AI Lab :|: Singapore :|: Computer Vision Researcher :|: Intern :|: Oct 2023 - Present :|
-* |: Taimi Robotics :|: Shanghai, China :|: NLP Algorithm Engineer :|: Full-time :|: May 2021 - Jun 2022 :|
+|   |   |   |   |   |
+|:--:|:--:|:--:|:--:|:--:|
+| ByteDance AI Lab | Singapore | Computer Vision Researcher | Intern | Oct 2023 - Present |
+| Taimi Robotics | Shanghai, China | NLP Algorithm Engineer | Full-time | May 2021 - Jun 2022 |
 
 Awards
 ======
