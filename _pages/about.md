@@ -12,7 +12,7 @@ I am an incoming Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.g
 
 My research interests lie broadly in the realms of deep learning, computer vision, and natural language processing. I have been exploring the following research directions:
 
-* AI-generated Images as Data Source (AIGS)<br>
+* AI-generated Images as Data Sources (AIGS)<br>
 * Natural Language Generation (FACE)<br>
 * Multimodal Large Language Model (WIP)<br>
 
