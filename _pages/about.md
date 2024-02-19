@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an first-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). I also work closely with [Prof. Yang Xu](https://clcs-sustech.github.io/people.html) and [Dr. Fangneng Zhan](https://fnzhan.com/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html) in 2021. Recently, I joined [ByteDance, Singapore](https://www.bytedance.com/en/) as a research intern, supervised by [Dr. Song Bai](https://songbai.site/).
+I am a first-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). I also work closely with [Prof. Yang Xu](https://clcs-sustech.github.io/people.html) and [Dr. Fangneng Zhan](https://fnzhan.com/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html) in 2021. Recently, I joined [ByteDance, Singapore](https://www.bytedance.com/en/) as a research intern, supervised by [Dr. Song Bai](https://songbai.site/).
 
 My research interests lie broadly in the realms of deep learning, computer vision, and natural language processing. I have been exploring the following research directions:
 
