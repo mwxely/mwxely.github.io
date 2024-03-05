@@ -14,7 +14,7 @@ My research interests lie broadly in the realms of deep learning, computer visio
 
 * AI-generated Content and Data Source (AIGS)<br>
 * NLG Evaluation (FACE)<br>
-* 3D AIGC (WIP)<br>
+* Multi-modal Large Language Model<br>
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
@@ -39,6 +39,8 @@ Experiences
 Services
 =====
 * Conference Reviewer, CVPR 2024 & ECCV 2024 & ACM MM 2024
+* Journal Reviewer, JEI
+* Workshop PC Member, SyntaGen - Harnessing Generative Models for Synthetic Visual Datasets (CVPR 2024)
 
 Awards
 ======
