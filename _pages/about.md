@@ -40,7 +40,7 @@ Services
 =====
 * Conference Reviewer, CVPR 2024 & ECCV 2024 & ACM MM 2024
 * Journal Reviewer, JEI
-* Workshop PC Member, SyntaGen - Harnessing Generative Models for Synthetic Visual Datasets (CVPR 2024)
+* Workshop PC Member, SyntaGen (CVPR 2024) & Neural Rendering Intelligence (CVPR 2024)
 
 Awards
 ======
