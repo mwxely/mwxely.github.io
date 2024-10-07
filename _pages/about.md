@@ -38,7 +38,7 @@ Experiences
 
 Services
 =====
-* Conference Reviewer, CVPR 2024 & ECCV 2024 & ACM MM 2024 & NeurIPS 2024 & ICLR 2025
+* Conference Reviewer, CVPR 2024 & ECCV 2024 & ACM MM 2024 & NeurIPS 2024 & ICLR 2025 & AISTATS 2025
 * Journal Reviewer, Pattern Recognition & Journal of Electronic Imaging
 * Workshop PC Member, SyntaGen (CVPR 2024) & Neural Rendering Intelligence (CVPR 2024)
 
