@@ -12,9 +12,9 @@ I am a first-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.
 
 My research interests lie broadly in the realms of deep learning, computer vision, and natural language processing. I have been exploring the following research directions:
 
-* AI-generated Content and Data Source (AIGS)<br>
-* NLG Evaluation (FACE)<br>
-* Multi-modal Large Language Model<br>
+* AI-generated Content as Data Source (AIGS)<br>
+* Evaluation on Natural Language Generation (FACE)<br>
+* Autoregressive Video Generation (diffusion-based) & Understanding (LLM-based)<br>
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
@@ -33,12 +33,12 @@ Education
 
 Experiences
 ======
-* | ByteDance | Singapore | Computer Vision Researcher | Intern | Oct 2023 - Present |
+* | ByteDance | Singapore | Computer Vision Researcher | Intern | Nov 2023 - Present |
 * | Taimi Robotics | Shanghai | NLP Algorithm Engineer | Full-time | May 2021 - Jun 2022 |
 
 Services
 =====
-* Conference Reviewer, CVPR 2024/2025 & ECCV 2024 & ACM MM 2024 & NeurIPS 2024 & ICLR 2025 & AISTATS 2025 & ICML 2025 & ICCV 2025
+* Conference Reviewer, CVPR 2024/2025 & ECCV 2024 & ACM MM 2024 & NeurIPS 2024/2025 & ICLR 2025 & AISTATS 2025 & ICML 2025 & ICCV 2025
 * Journal Reviewer, Pattern Recognition & Journal of Electronic Imaging
 * Workshop PC Member, SyntaGen (CVPR 2024) & Neural Rendering Intelligence (CVPR 2024)
 
