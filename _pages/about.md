@@ -14,7 +14,7 @@ My research interests lie broadly in the realms of deep learning, computer visio
 
 * AI-generated Content as Data Source (AIGS)<br>
 * Evaluation on Natural Language Generation (FACE)<br>
-* Autoregressive Video Generation (diffusion-based) & Understanding (LLM-based)<br>
+* Multi-modal Video Generation (diffusion-based) & Understanding (LLM-based)<br>
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
