@@ -2,13 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
   <meta name="description" content="DESCRIPTION META TAG">
   <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
   <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
   <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
   <meta property="og:image" content="static/image/your_banner_image.png" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
@@ -16,7 +16,7 @@
 
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
   <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
   <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
@@ -74,27 +74,36 @@
                     <br>
                     <span class="author-block"><strong>ICCV 2025</strong></span>
                   </div>
-
+                  
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                      <span class="link-block">
-                        <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
+                    <!-- Conference Proceeding Link -->
+                    <span class="link-block">
+                      <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                    <span>Paper</span>
                       </a>
                     </span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/2305.10307" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
+                    <!-- ArXiv Abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2305.10307" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                    <span>arXiv</span>
+                      
+                    <!-- HuggingFace Dataset Link -->
+                    <span class="link-block">
+                      <a href="https://huggingface.co/datasets/mwxely/TransitBench" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon" style="vertical-align: middle; font-size: 20px;">&#129303;</span>
+                      <span style="vertical-align: middle;">Benchmark</span>
+                    <span>arXiv</span>
                 </a>
               </span>
             </div>
@@ -410,7 +419,7 @@
 
     <!-- More Challenging Examples -->
     <h2 class="title is-4">More Challenging Examples</h2>
-    
+
     <!-- Challenging Motion Prediction -->
     <h3 class="title is-5">Challenging Motion Prediction</h3>
     <div class="image-container">
@@ -585,10 +594,10 @@
     <h2 class="title">BibTeX</h2>
     <div class="box">
       <pre><code>
-          @article{yang2025vtg,
+        @inproceedings{yang2025vtg,
           title={Versatile Transition Generation with Image-to-Video Diffusion},
           author={Yang, Zuhao and Zhang, Jiahui and Yu, Yingchen and Lu, Shijian and Bai, Song},
-          journal={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+          booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
           year={2025}
         }
       </code></pre>
