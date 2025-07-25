@@ -44,50 +44,68 @@
   <script src="static/js/index.js"></script>
   <!-- 在 index.html 的 <head> 里（Bulma 引入之后）新增 -->
   <style>
-    .vtg-image-container {
-      display: flex;
-      gap: 30px;
-      max-width: 1200px;
-      flex-wrap: nowrap; /* 如果需要单行 */
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+        margin: 0;
     }
-    .vtg-col {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
+    h1 {
+        margin: 20px 0;
+        font-size: 2em;
+        justify-content: center;
+        color: #333;
+    }
+    .vtg-image-container {
+        display: flex;
+        gap: 30px;
+        max-width: 1200px;
+    }
+    .vtg-column {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px; /* Space between rows */
+    }
+    .vtg-column-text {
+        font-weight: bold;
+    }
+    .vtg-image-container img {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
     }
     .vtg-text-column {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      gap: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px; /* Space between rows */
     }
     .vtg-text-box {
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      border: none;
-      width: 150px;
-      height: 120px;
-      text-align: left;
-      box-sizing: border-box;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        border: none;
+        width: 150px;
+        height: 120px;
+        text-align: left;
+        box-sizing: border-box;
     }
     .vtg-generative-column {
-      text-align: center;
-      white-space: normal;
-      overflow-wrap: break-word;
-      height: 18px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+        text-align: center; /* 保持文字居中 */
+        white-space: normal; /* 允许换行 */
+        overflow-wrap: break-word; /* 强制长词换行 */
+        height: 18px; /* 固定高度，确保换行后不挤压 */
+        display: flex; /* 使用 flex 布局 */
+        justify-content: center; /* 垂直居中 */
+        align-items: center; /* 水平居中 */
     }
-    .vtg-vtg-image-container img {
-      width:120px;
-      height:120px;
-      object-fit:cover;
-    }
-  </style>
+</style>
 </head>
 <body>
 
@@ -220,433 +238,550 @@
 <section class="section hero is-small">
   <div class="hero-body">
   <div class="container is-max-desktop">
-    <h1 class="title is-3">Visual Comparisons on Four Representative Transition Tasks</h1>
-
-    <!-- Object Morphing -->
-    <h2 class="title is-4">Object Morphing</h2>
+    <h1>Visual Comparisons on Four Representative Transition Tasks</h1>
+    <h2>Object Morphing</h2>
     <div class="vtg-image-container">
-      <div class="vtg-col"><div class="column-text">First Frame</div>
-        <img src="static/images/morph1_0.png"><img src="static/images/morph2_0.png">
-        <img src="static/images/morph3_0.png"><img src="static/images/morph4_0.png">
-        <img src="static/images/morph5_0.png">
-      </div>
-      <div class="vtg-col"><div class="column-text">Last Frame</div>
-        <img src="static/images/morph1_1.png"><img src="static/images/morph2_1.png">
-        <img src="static/images/morph3_1.png"><img src="static/images/morph4_1.png">
-        <img src="static/images/morph5_1.png">
-      </div>
-      <div class="text-column"><div class="column-text">Text Prompts</div>
-        <div class="text-box">a cat is sitting and facing to the right; a dog is facing forward</div>
-        <div class="text-box">an alpaca is facing forward; an alpaca is facing to the right</div>
-        <div class="text-box">a dog wearing sunglasses is facing forward; a dog wearing sunglasses is facing to the right</div>
-        <div class="text-box">a sculpture; a sculpture has turned his head a bit to the right</div>
-        <div class="text-box">a boy is facing forward; a boy is turning his head to the right and smiling</div>
-      </div>
-      <div class="vtg-col"><div class="column-text">Ours</div>
-        <img src="static/images/morph1_ours.gif"><img src="static/images/morph2_ours.gif">
-        <img src="static/images/morph3_ours.gif"><img src="static/images/morph4_ours.gif">
-        <img src="static/images/morph5_ours.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DiffMorpher</div>
-        <img src="static/images/morph1_diff.gif"><img src="static/images/morph2_diff.gif">
-        <img src="static/images/morph3_diff.gif"><img src="static/images/morph4_diff.gif">
-        <img src="static/images/morph5_diff.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">TVG</div>
-        <img src="static/images/morph1_tvg.gif"><img src="static/images/morph2_tvg.gif">
-        <img src="static/images/morph3_tvg.gif"><img src="static/images/morph4_tvg.gif">
-        <img src="static/images/morph5_tvg.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">SEINE</div>
-        <img src="static/images/morph1_seine.gif"><img src="static/images/morph2_seine.gif">
-        <img src="static/images/morph3_seine.gif"><img src="static/images/morph4_seine.gif">
-        <img src="static/images/morph5_seine.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DynamiCrafter</div>
-        <img src="static/images/morph1_dyna.gif"><img src="static/images/morph2_dyna.gif">
-        <img src="static/images/morph3_dyna.gif"><img src="static/images/morph4_dyna.gif">
-        <img src="static/images/morph5_dyna.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text generative-column">Generative Inbetweening</div>
-        <img src="static/images/morph1_gi.gif"><img src="static/images/morph2_gi.gif">
-        <img src="static/images/morph3_gi.gif"><img src="static/images/morph4_gi.gif">
-        <img src="static/images/morph5_gi.gif">
-      </div>
-    </div>
+        <div class="vtg-column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/morph1_0.png" alt="Object Morphing 1">
+            <img src="images/morph2_0.png" alt="Object Morphing 2">
+            <img src="images/morph3_0.png" alt="Object Morphing 3">
+            <img src="images/morph4_0.png" alt="Object Morphing 4">
+            <img src="images/morph5_0.png" alt="Object Morphing 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/morph1_1.png" alt="Object Morphing 1">
+            <img src="images/morph2_1.png" alt="Object Morphing 2">
+            <img src="images/morph3_1.png" alt="Object Morphing 3">
+            <img src="images/morph4_1.png" alt="Object Morphing 4">
+            <img src="images/morph5_1.png" alt="Object Morphing 5">
+ 
+        </div>
+        <div class="vtg-text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">a cat is sitting and facing to the right; a dog is sitting and facing forward</div>
+            <div class="vtg-text-box">an alpaca is facing forward; an alpaca is facing to the right</div>
+            <div class="vtg-text-box">a dog wearing sunglasses is facing forward;  a dog wearing sunglasses is facing to the right</div>
+            <div class="vtg-text-box">a sculpture; a sculpture has turned his head a bit to the right</div>
+            <div class="vtg-text-box">a boy is facing forward; a boy is turning his head to the right and smiling</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/morph1_ours.gif" alt="Object Morphing Ours 1">
+            <img src="images/morph2_ours.gif" alt="Object Morphing Ours 2">
+            <img src="images/morph3_ours.gif" alt="Object Morphing Ours 3">
+            <img src="images/morph4_ours.gif" alt="Object Morphing Ours 4">
+            <img src="images/morph5_ours.gif" alt="Object Morphing Ours 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/morph1_diff.gif" alt="Object Morphing DiffMorpher 1">
+            <img src="images/morph2_diff.gif" alt="Object Morphing DiffMorpher 2">
+            <img src="images/morph3_diff.gif" alt="Object Morphing DiffMorpher 3">
+            <img src="images/morph4_diff.gif" alt="Object Morphing DiffMorpher 4">
+            <img src="images/morph5_diff.gif" alt="Object Morphing DiffMorpher 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/morph1_tvg.gif" alt="Object Morphing TVG 1">
+            <img src="images/morph2_tvg.gif" alt="Object Morphing TVG 2">
+            <img src="images/morph3_tvg.gif" alt="Object Morphing TVG 3">
+            <img src="images/morph4_tvg.gif" alt="Object Morphing TVG 4">
+            <img src="images/morph5_tvg.gif" alt="Object Morphing TVG 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/morph1_seine.gif" alt="Object Morphing SEINE 1">
+            <img src="images/morph2_seine.gif" alt="Object Morphing SEINE 2">
+            <img src="images/morph3_seine.gif" alt="Object Morphing SEINE 3">
+            <img src="images/morph4_seine.gif" alt="Object Morphing SEINE 4">
+            <img src="images/morph5_seine.gif" alt="Object Morphing SEINE 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/morph1_dyna.gif" alt="Object Morphing DynamiCrafter 1">
+            <img src="images/morph2_dyna.gif" alt="Object Morphing DynamiCrafter 2">
+            <img src="images/morph3_dyna.gif" alt="Object Morphing DynamiCrafter 3">
+            <img src="images/morph4_dyna.gif" alt="Object Morphing DynamiCrafter 4">
+            <img src="images/morph5_dyna.gif" alt="Object Morphing DynamiCrafter 5">
+        </div>
+        <div class="column">
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/morph1_gi.gif" alt="Object Morphing Generative Inbetweening 1">
+            <img src="images/morph2_gi.gif" alt="Object Morphing Generative Inbetweening 2">
+            <img src="images/morph3_gi.gif" alt="Object Morphing Generative Inbetweening 3">
+            <img src="images/morph4_gi.gif" alt="Object Morphing Generative Inbetweening 4">
+            <img src="images/morph5_gi.gif" alt="Object Morphing Generative Inbetweening 5">
+        </div>
 
-    <!-- Motion Prediction -->
-    <h2 class="title is-4">Motion Prediction</h2>
+    </div>
+    <br><br>
+    <h2>Motion Prediction</h2>
     <div class="vtg-image-container">
-      <div class="vtg-col"><div class="column-text">First Frame</div>
-        <img src="static/images/motion1_0.png"><img src="static/images/motion2_0.png">
-        <img src="static/images/motion3_0.png"><img src="static/images/motion4_0.png">
-        <img src="static/images/motion5_0.png">
-      </div>
-      <div class="vtg-col"><div class="column-text">Last Frame</div>
-        <img src="static/images/motion1_1.png"><img src="static/images/motion2_1.png">
-        <img src="static/images/motion3_1.png"><img src="static/images/motion4_1.png">
-        <img src="static/images/motion5_1.png">
-      </div>
-      <div class="text-column"><div class="column-text">Text Prompts</div>
-        <div class="text-box">a camel is walking slowly to the right</div>
-        <div class="text-box">a woman is swinging on a swing</div>
-        <div class="text-box">a woman is riding a horse</div>
-        <div class="text-box">a man is surfing</div>
-        <div class="text-box">a woman is walking</div>
-      </div>
-      <div class="vtg-col"><div class="column-text">Ours</div>
-        <img src="static/images/motion1_ours.gif"><img src="static/images/motion2_ours.gif">
-        <img src="static/images/motion3_ours.gif"><img src="static/images/motion4_ours.gif">
-        <img src="static/images/motion5_ours.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DiffMorpher</div>
-        <img src="static/images/motion1_diff.gif"><img src="static/images/motion2_diff.gif">
-        <img src="static/images/motion3_diff.gif"><img src="static/images/motion4_diff.gif">
-        <img src="static/images/motion5_diff.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">TVG</div>
-        <img src="static/images/motion1_tvg.gif"><img src="static/images/motion2_tvg.gif">
-        <img src="static/images/motion3_tvg.gif"><img src="static/images/motion4_tvg.gif">
-        <img src="static/images/motion5_tvg.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">SEINE</div>
-        <img src="static/images/motion1_seine.gif"><img src="static/images/motion2_seine.gif">
-        <img src="static/images/motion3_seine.gif"><img src="static/images/motion4_seine.gif">
-        <img src="static/images/motion5_seine.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DynamiCrafter</div>
-        <img src="static/images/motion1_dyna.gif"><img src="static/images/motion2_dyna.gif">
-        <img src="static/images/motion3_dyna.gif"><img src="static/images/motion4_dyna.gif">
-        <img src="static/images/motion5_dyna.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text generative-column">Generative Inbetweening</div>
-        <img src="static/images/motion1_gi.gif"><img src="static/images/motion2_gi.gif">
-        <img src="static/images/motion3_gi.gif"><img src="static/images/motion4_gi.gif">
-        <img src="static/images/motion5_gi.gif">
-      </div>
-    </div>
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/motion1_0.png" alt="Motion Prediction 1">
+            <img src="images/motion2_0.png" alt="Motion Prediction 2">
+            <img src="images/motion3_0.png" alt="Motion Prediction 3">
+            <img src="images/motion4_0.png" alt="Motion Prediction 4">
+            <img src="images/motion5_0.png" alt="Motion Prediction 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/motion1_1.png" alt="Motion Prediction 1">
+            <img src="images/motion2_1.png" alt="Motion Prediction 2">
+            <img src="images/motion3_1.png" alt="Motion Prediction 3">
+            <img src="images/motion4_1.png" alt="Motion Prediction 4">
+            <img src="images/motion5_1.png" alt="Motion Prediction 5">
+ 
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">a camel is walking slowly to the right</div>
+            <div class="vtg-text-box">a woman is swinging on a swing</div>
+            <div class="vtg-text-box">a woman is riding a horse</div>
+            <div class="vtg-text-box">a man is surfing</div>
+            <div class="vtg-text-box">a woman is walking</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/motion1_ours.gif" alt="Motion Prediction Ours 1">
+            <img src="images/motion2_ours.gif" alt="Motion Prediction Ours 2">
+            <img src="images/motion3_ours.gif" alt="Motion Prediction Ours 3">
+            <img src="images/motion4_ours.gif" alt="Motion Prediction Ours 4">
+            <img src="images/motion5_ours.gif" alt="Motion Prediction Ours 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/motion1_diff.gif" alt="Motion Prediction DiffMorpher 1">
+            <img src="images/motion2_diff.gif" alt="Motion Prediction DiffMorpher 2">
+            <img src="images/motion3_diff.gif" alt="Motion Prediction DiffMorpher 3">
+            <img src="images/motion4_diff.gif" alt="Motion Prediction DiffMorpher 4">
+            <img src="images/motion5_diff.gif" alt="Motion Prediction DiffMorpher 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/motion1_tvg.gif" alt="Motion Prediction TVG 1">
+            <img src="images/motion2_tvg.gif" alt="Motion Prediction TVG 2">
+            <img src="images/motion3_tvg.gif" alt="Motion Prediction TVG 3">
+            <img src="images/motion4_tvg.gif" alt="Motion Prediction TVG 4">
+            <img src="images/motion5_tvg.gif" alt="Motion Prediction TVG 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/motion1_seine.gif" alt="Motion Prediction SEINE 1">
+            <img src="images/motion2_seine.gif" alt="Motion Prediction SEINE 2">
+            <img src="images/motion3_seine.gif" alt="Motion Prediction SEINE 3">
+            <img src="images/motion4_seine.gif" alt="Motion PredictionSEINE 4">
+            <img src="images/motion5_seine.gif" alt="Motion Prediction SEINE 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/motion1_dyna.gif" alt="Motion Prediction DynamiCrafter 1">
+            <img src="images/motion2_dyna.gif" alt="Motion Prediction DynamiCrafter 2">
+            <img src="images/motion3_dyna.gif" alt="Motion Prediction DynamiCrafter 3">
+            <img src="images/motion4_dyna.gif" alt="Motion Prediction DynamiCrafter 4">
+            <img src="images/motion5_dyna.gif" alt="Motion Prediction DynamiCrafter 5">
+        </div>
+        <div class="column">
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/motion1_gi.gif" alt="Motion Prediction Generative Inbetweening 1">
+            <img src="images/motion2_gi.gif" alt="Motion Prediction Generative Inbetweening 2">
+            <img src="images/motion3_gi.gif" alt="Motion Prediction Generative Inbetweening 3">
+            <img src="images/motion4_gi.gif" alt="Motion Prediction Generative Inbetweening 4">
+            <img src="images/motion5_gi.gif" alt="Motion Prediction Generative Inbetweening 5">
+        </div>
 
-    <!-- Concept Blending -->
-    <h2 class="title is-4">Concept Blending</h2>
+    </div>
+    
+     <br><br>
+     <h2>Concept Blending</h2>
     <div class="vtg-image-container">
-      <div class="vtg-col"><div class="column-text">First Frame</div>
-        <img src="static/images/blend1_0.png">
-        <img src="static/images/blend2_0.png">
-        <img src="static/images/blend3_0.png">
-        <img src="static/images/blend4_0.png">
-        <img src="static/images/blend5_0.png">
-      </div>
-      <div class="vtg-col"><div class="column-text">Last Frame</div>
-        <img src="static/images/blend1_1.png">
-        <img src="static/images/blend2_1.png">
-        <img src="static/images/blend3_1.png">
-        <img src="static/images/blend4_1.png">
-        <img src="static/images/blend5_1.png">
-      </div>
-      <div class="text-column"><div class="column-text">Text Prompts</div>
-        <div class="text-box">a lion; a truck</div>
-        <div class="text-box">an airplane; a cruise</div>
-        <div class="text-box">a bathtub; a bookshelf</div>
-        <div class="text-box">a bench; a cup of tea</div>
-        <div class="text-box">a merry-go-round; a mouse</div>
-      </div>
-      <div class="vtg-col"><div class="column-text">Ours</div>
-        <img src="static/images/blend1_ours.gif">
-        <img src="static/images/blend2_ours.gif">
-        <img src="static/images/blend3_ours.gif">
-        <img src="static/images/blend4_ours.gif">
-        <img src="static/images/blend5_ours.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DiffMorpher</div>
-        <img src="static/images/blend1_diff.gif">
-        <img src="static/images/blend2_diff.gif">
-        <img src="static/images/blend3_diff.gif">
-        <img src="static/images/blend4_diff.gif">
-        <img src="static/images/blend5_diff.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">TVG</div>
-        <img src="static/images/blend1_tvg.gif">
-        <img src="static/images/blend2_tvg.gif">
-        <img src="static/images/blend3_tvg.gif">
-        <img src="static/images/blend4_tvg.gif">
-        <img src="static/images/blend5_tvg.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">SEINE</div>
-        <img src="static/images/blend1_seine.gif">
-        <img src="static/images/blend2_seine.gif">
-        <img src="static/images/blend3_seine.gif">
-        <img src="static/images/blend4_seine.gif">
-        <img src="static/images/blend5_seine.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DynamiCrafter</div>
-        <img src="static/images/blend1_dyna.gif">
-        <img src="static/images/blend2_dyna.gif">
-        <img src="static/images/blend3_dyna.gif">
-        <img src="static/images/blend4_dyna.gif">
-        <img src="static/images/blend5_dyna.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text generative-column">Generative Inbetweening</div>
-        <img src="static/images/blend1_gi.gif">
-        <img src="static/images/blend2_gi.gif">
-        <img src="static/images/blend3_gi.gif">
-        <img src="static/images/blend4_gi.gif">
-        <img src="static/images/blend5_gi.gif">
-      </div>
-    </div>
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/blend1_0.png" alt="Concept Blending 1">
+            <img src="images/blend2_0.png" alt="Concept Blending 2">
+            <img src="images/blend3_0.png" alt="Concept Blending 3">
+            <img src="images/blend4_0.png" alt="Concept Blending 4">
+            <img src="images/blend5_0.png" alt="Concept Blending 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/blend1_1.png" alt="Concept Blending 1">
+            <img src="images/blend2_1.png" alt="Concept Blending 2">
+            <img src="images/blend3_1.png" alt="Concept Blending 3">
+            <img src="images/blend4_1.png" alt="Concept Blending 4">
+            <img src="images/blend5_1.png" alt="Concept Blending 5">
+ 
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">a lion; a truck</div>
+            <div class="vtg-text-box">an airplane; a cruise</div>
+            <div class="vtg-text-box">a bathtub; a bookshelf</div>
+            <div class="vtg-text-box">a bench; a cup of tea</div>
+            <div class="vtg-text-box">a merry-go-round; a mouse</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/blend1_ours.gif" alt="Concept Blending Ours 1">
+            <img src="images/blend2_ours.gif" alt="Concept Blending Ours 2">
+            <img src="images/blend3_ours.gif" alt="Concept Blending Ours 3">
+            <img src="images/blend4_ours.gif" alt="Concept Blending Ours 4">
+            <img src="images/blend5_ours.gif" alt="Concept Blending Ours 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/blend1_diff.gif" alt="Concept Blending DiffMorpher 1">
+            <img src="images/blend2_diff.gif" alt="Concept Blending DiffMorpher 2">
+            <img src="images/blend3_diff.gif" alt="Concept Blending DiffMorpher 3">
+            <img src="images/blend4_diff.gif" alt="Concept Blending DiffMorpher 4">
+            <img src="images/blend5_diff.gif" alt="Concept Blending DiffMorpher 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/blend1_tvg.gif" alt="Concept Blending TVG 1">
+            <img src="images/blend2_tvg.gif" alt="Concept Blending TVG 2">
+            <img src="images/blend3_tvg.gif" alt="Concept Blending TVG 3">
+            <img src="images/blend4_tvg.gif" alt="Concept Blending TVG 4">
+            <img src="images/blend5_tvg.gif" alt="Concept Blending TVG 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/blend1_seine.gif" alt="Concept Blending SEINE 1">
+            <img src="images/blend2_seine.gif" alt="Concept Blending SEINE 2">
+            <img src="images/blend3_seine.gif" alt="Concept Blending SEINE 3">
+            <img src="images/blend4_seine.gif" alt="Concept Blending SEINE 4">
+            <img src="images/blend5_seine.gif" alt="Concept Blending SEINE 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/blend1_dyna.gif" alt="Concept Blending DynamiCrafter 1">
+            <img src="images/blend2_dyna.gif" alt="Concept Blending DynamiCrafter 2">
+            <img src="images/blend3_dyna.gif" alt="Concept Blending DynamiCrafter 3">
+            <img src="images/blend4_dyna.gif" alt="Concept Blending DynamiCrafter 4">
+            <img src="images/blend5_dyna.gif" alt="Concept Blending DynamiCrafter 5">
+        </div>
+        <div class="column">
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/blend1_gi.gif" alt="Concept Blending Generative Inbetweening 1">
+            <img src="images/blend2_gi.gif" alt="Concept Blending Generative Inbetweening 2">
+            <img src="images/blend3_gi.gif" alt="Concept Blending Generative Inbetweening 3">
+            <img src="images/blend4_gi.gif" alt="Concept Blending Generative Inbetweening 4">
+            <img src="images/blend5_gi.gif" alt="Concept Blending Generative Inbetweening 5">
+        </div>
 
-    <!-- Scene Transition -->
-    <h2 class="title is-4">Scene Transition</h2>
+    </div>
+    
+     <br><br>
+    <h2>Scene Transition</h2>
     <div class="vtg-image-container">
-      <div class="vtg-col"><div class="column-text">First Frame</div>
-        <img src="static/images/scene1_0.png">
-        <img src="static/images/scene2_0.png">
-        <img src="static/images/scene3_0.png">
-        <img src="static/images/scene4_0.png">
-        <img src="static/images/scene5_0.png">
-      </div>
-      <div class="vtg-col"><div class="column-text">Last Frame</div>
-        <img src="static/images/scene1_1.png">
-        <img src="static/images/scene2_1.png">
-        <img src="static/images/scene3_1.png">
-        <img src="static/images/scene4_1.png">
-        <img src="static/images/scene5_1.png">
-      </div>
-      <div class="text-column"><div class="column-text">Text Prompts</div>
-        <div class="text-box">wide angle shot of an erupting volcano; close-up shot of hot lava</div>
-        <div class="text-box">close-up shot of a blooming cherry tree; wide angle shot of an alien cherry blossom forest</div>
-        <div class="text-box">overhead view of a bustling city street; aerial view of a futuristic city</div>
-        <div class="text-box">close-up shot of a candle lit; wide angle shot of a mystical land</div>
-        <div class="text-box">a wooden house in the forest; a wooden house in the snow</div>
-      </div>
-      <div class="vtg-col"><div class="column-text">Ours</div>
-        <img src="static/images/scene1_ours.gif">
-        <img src="static/images/scene2_ours.gif">
-        <img src="static/images/scene3_ours.gif">
-        <img src="static/images/scene4_ours.gif">
-        <img src="static/images/scene5_ours.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DiffMorpher</div>
-        <img src="static/images/scene1_diff.gif">
-        <img src="static/images/scene2_diff.gif">
-        <img src="static/images/scene3_diff.gif">
-        <img src="static/images/scene4_diff.gif">
-        <img src="static/images/scene5_diff.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">TVG</div>
-        <img src="static/images/scene1_tvg.gif">
-        <img src="static/images/scene2_tvg.gif">
-        <img src="static/images/scene3_tvg.gif">
-        <img src="static/images/scene4_tvg.gif">
-        <img src="static/images/scene5_tvg.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">SEINE</div>
-        <img src="static/images/scene1_seine.gif">
-        <img src="static/images/scene2_seine.gif">
-        <img src="static/images/scene3_seine.gif">
-        <img src="static/images/scene4_seine.gif">
-        <img src="static/images/scene5_seine.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text">DynamiCrafter</div>
-        <img src="static/images/scene1_dyna.gif">
-        <img src="static/images/scene2_dyna.gif">
-        <img src="static/images/scene3_dyna.gif">
-        <img src="static/images/scene4_dyna.gif">
-        <img src="static/images/scene5_dyna.gif">
-      </div>
-      <div class="vtg-col"><div class="column-text generative-column">Generative Inbetweening</div>
-        <img src="static/images/scene1_gi.gif">
-        <img src="static/images/scene2_gi.gif">
-        <img src="static/images/scene3_gi.gif">
-        <img src="static/images/scene4_gi.gif">
-        <img src="static/images/scene5_gi.gif">
-      </div>
-    </div>
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/scene1_0.png" alt="Scene Transition 1">
+            <img src="images/scene2_0.png" alt="Scene Transition 2">
+            <img src="images/scene3_0.png" alt="Scene Transition 3">
+            <img src="images/scene4_0.png" alt="Scene Transition 4">
+            <img src="images/scene5_0.png" alt="Scene Transition 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/scene1_1.png" alt="Scene Transition 1">
+            <img src="images/scene2_1.png" alt="Scene Transition 2">
+            <img src="images/scene3_1.png" alt="Scene Transition 3">
+            <img src="images/scene4_1.png" alt="Scene Transition 4">
+            <img src="images/scene5_1.png" alt="Scene Transition 5">
+ 
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">wide angle shot of an erupting volcano; close-up shot of hot lava</div>
+            <div class="vtg-text-box">close-up shot of a blooming cheery tree; wide angle shot of an alien cheery blossom forest</div>
+            <div class="vtg-text-box">overhead view of a bustling city street; aerial view of a futuristic city</div>
+            <div class="vtg-text-box">close-up shot of a candle lit; wide angle shot of a mystical land</div>
+            <div class="vtg-text-box">a wooden house in the forest; a wooden house in the snow</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/scene1_ours.gif" alt="Scene Transition Ours 1">
+            <img src="images/scene2_ours.gif" alt="Scene Transition Ours 2">
+            <img src="images/scene3_ours.gif" alt="Scene Transition Ours 3">
+            <img src="images/scene4_ours.gif" alt="Scene Transition Ours 4">
+            <img src="images/scene5_ours.gif" alt="Scene Transition Ours 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/scene1_diff.gif" alt="Scene Transition DiffMorpher 1">
+            <img src="images/scene2_diff.gif" alt="Scene Transition DiffMorpher 2">
+            <img src="images/scene3_diff.gif" alt="Scene Transition DiffMorpher 3">
+            <img src="images/scene4_diff.gif" alt="Scene Transition DiffMorpher 4">
+            <img src="images/scene5_diff.gif" alt="Scene Transition DiffMorpher 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/scene1_tvg.gif" alt="Scene Transition TVG 1">
+            <img src="images/scene2_tvg.gif" alt="Scene Transition TVG 2">
+            <img src="images/scene3_tvg.gif" alt="Scene Transition TVG 3">
+            <img src="images/scene4_tvg.gif" alt="Scene Transition TVG 4">
+            <img src="images/scene5_tvg.gif" alt="Scene Transition TVG 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/scene1_seine.gif" alt="Scene Transition SEINE 1">
+            <img src="images/scene2_seine.gif" alt="Scene Transition SEINE 2">
+            <img src="images/scene3_seine.gif" alt="Scene Transition SEINE 3">
+            <img src="images/scene4_seine.gif" alt="Scene Transition SEINE 4">
+            <img src="images/scene5_seine.gif" alt="Scene Transition SEINE 5">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/scene1_dyna.gif" alt="Scene Transition DynamiCrafter 1">
+            <img src="images/scene2_dyna.gif" alt="Scene Transition DynamiCrafter 2">
+            <img src="images/scene3_dyna.gif" alt="Scene Transition DynamiCrafter 3">
+            <img src="images/scene4_dyna.gif" alt="Scene Transition DynamiCrafter 4">
+            <img src="images/scene5_dyna.gif" alt="Scene Transition DynamiCrafter 5">
+        </div>
+        <div class="column">
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/scene1_gi.gif" alt="Scene Transition Generative Inbetweening 1">
+            <img src="images/scene2_gi.gif" alt="Scene Transition Generative Inbetweening 2">
+            <img src="images/scene3_gi.gif" alt="Scene Transition Generative Inbetweening 3">
+            <img src="images/scene4_gi.gif" alt="Scene Transition Generative Inbetweening 4">
+            <img src="images/scene5_gi.gif" alt="Scene Transition Generative Inbetweening 5">
+        </div>
+     </div>
 
-    <!-- More Challenging Examples -->
-    <h2 class="title is-4">More Challenging Examples</h2>
-
-    <!-- Challenging Motion Prediction -->
-    <h3 class="title is-5">Challenging Motion Prediction</h3>
+        <br><br>
+    <h1>More Challenging Examples</h1>
+    <h2>Challenging Motion Prediction</h2>
     <div class="vtg-image-container">
-      <div class="vtg-col">
-        <div class="column-text">First Frame</div>
-        <img src="static/images/lmotion1_0.png" alt="Challenging Motion Prediction 1 First">
-        <img src="static/images/lmotion2_0.png" alt="Challenging Motion Prediction 2 First">
-        <img src="static/images/lmotion3_0.png" alt="Challenging Motion Prediction 3 First">
-        <img src="static/images/lmotion4_0.png" alt="Challenging Motion Prediction 4 First">
-        <img src="static/images/lmotion5_0.png" alt="Challenging Motion Prediction 5 First">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">Last Frame</div>
-        <img src="static/images/lmotion1_1.png" alt="Challenging Motion Prediction 1 Last">
-        <img src="static/images/lmotion2_1.png" alt="Challenging Motion Prediction 2 Last">
-        <img src="static/images/lmotion3_1.png" alt="Challenging Motion Prediction 3 Last">
-        <img src="static/images/lmotion4_1.png" alt="Challenging Motion Prediction 4 Last">
-        <img src="static/images/lmotion5_1.png" alt="Challenging Motion Prediction 5 Last">
-      </div>
-      <div class="text-column">
-        <div class="column-text">Text Prompts</div>
-        <div class="text-box">a dog jumps out of the swimming pool with a tennis ball in its mouth</div>
-        <div class="text-box">a little girl is blowing bubbles</div>
-        <div class="text-box">a jet plane is flying over a forest</div>
-        <div class="text-box">a little boy and a little girl are playing with mud on the beach</div>
-        <div class="text-box">a brown bear is walking slowly</div>
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">Ours</div>
-        <img src="static/images/lmotion1_ours.gif" alt="Challenging Motion Prediction 1 Ours">
-        <img src="static/images/lmotion2_ours.gif" alt="Challenging Motion Prediction 2 Ours">
-        <img src="static/images/lmotion3_ours.gif" alt="Challenging Motion Prediction 3 Ours">
-        <img src="static/images/lmotion4_ours.gif" alt="Challenging Motion Prediction 4 Ours">
-        <img src="static/images/lmotion5_ours.gif" alt="Challenging Motion Prediction 5 Ours">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">DiffMorpher</div>
-        <img src="static/images/lmotion1_diff.gif" alt="Challenging Motion Prediction 1 DiffMorpher">
-        <img src="static/images/lmotion2_diff.gif" alt="Challenging Motion Prediction 2 DiffMorpher">
-        <img src="static/images/lmotion3_diff.gif" alt="Challenging Motion Prediction 3 DiffMorpher">
-        <img src="static/images/lmotion4_diff.gif" alt="Challenging Motion Prediction 4 DiffMorpher">
-        <img src="static/images/lmotion5_diff.gif" alt="Challenging Motion Prediction 5 DiffMorpher">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">TVG</div>
-        <img src="static/images/lmotion1_tvg.gif" alt="Challenging Motion Prediction 1 TVG">
-        <img src="static/images/lmotion2_tvg.gif" alt="Challenging Motion Prediction 2 TVG">
-        <img src="static/images/lmotion3_tvg.gif" alt="Challenging Motion Prediction 3 TVG">
-        <img src="static/images/lmotion4_tvg.gif" alt="Challenging Motion Prediction 4 TVG">
-        <img src="static/images/lmotion5_tvg.gif" alt="Challenging Motion Prediction 5 TVG">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">SEINE</div>
-        <img src="static/images/lmotion1_seine.gif" alt="Challenging Motion Prediction 1 SEINE">
-        <img src="static/images/lmotion2_seine.gif" alt="Challenging Motion Prediction 2 SEINE">
-        <img src="static/images/lmotion3_seine.gif" alt="Challenging Motion Prediction 3 SEINE">
-        <img src="static/images/lmotion4_seine.gif" alt="Challenging Motion Prediction 4 SEINE">
-        <img src="static/images/lmotion5_seine.gif" alt="Challenging Motion Prediction 5 SEINE">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text">DynamiCrafter</div>
-        <img src="static/images/lmotion1_dyna.gif" alt="Challenging Motion Prediction 1 DynamiCrafter">
-        <img src="static/images/lmotion2_dyna.gif" alt="Challenging Motion Prediction 2 DynamiCrafter">
-        <img src="static/images/lmotion3_dyna.gif" alt="Challenging Motion Prediction 3 DynamiCrafter">
-        <img src="static/images/lmotion4_dyna.gif" alt="Challenging Motion Prediction 4 DynamiCrafter">
-        <img src="static/images/lmotion5_dyna.gif" alt="Challenging Motion Prediction 5 DynamiCrafter">
-      </div>
-      <div class="vtg-col">
-        <div class="column-text generative-column">Generative Inbetweening</div>
-        <img src="static/images/lmotion1_gi.gif" alt="Challenging Motion Prediction 1 GI">
-        <img src="static/images/lmotion2_gi.gif" alt="Challenging Motion Prediction 2 GI">
-        <img src="static/images/lmotion3_gi.gif" alt="Challenging Motion Prediction 3 GI">
-        <img src="static/images/lmotion4_gi.gif" alt="Challenging Motion Prediction 4 GI">
-        <img src="static/images/lmotion5_gi.gif" alt="Challenging Motion Prediction 5 GI">
-      </div>
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/lmotion1_0.png" alt="Challeging Motion Prediction 1">
+            <img src="images/lmotion2_0.png" alt="Challeging Motion Prediction 2">
+            <img src="images/lmotion3_0.png" alt="Challeging Motion Prediction 3">
+            <img src="images/lmotion4_0.png" alt="Challeging Motion Prediction 4">
+            <img src="images/lmotion5_0.png" alt="Challeging Motion Prediction 6">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/lmotion1_1.png" alt="Challeging Motion Prediction 1">
+            <img src="images/lmotion2_1.png" alt="Challeging Motion Prediction 2">
+            <img src="images/lmotion3_1.png" alt="Challeging Motion Prediction 3">
+            <img src="images/lmotion4_1.png" alt="Challeging Motion Prediction 4">
+            <img src="images/lmotion5_1.png" alt="Challeging Motion Prediction 6">
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">a dog jumps out of the swimming pool with a tennis ball in its mouth</div>
+            <div class="vtg-text-box">a little girl is blowing bubbles</div>
+            <div class="vtg-text-box">a jet plane is flying over a forest</div>
+            <div class="vtg-text-box">a little boy and a little girl are playing with mud on the beach</div>
+            <div class="vtg-text-box">a brown bear is walking slowly</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/lmotion1_ours.gif" alt="Challeging Motion Prediction Ours 1">
+            <img src="images/lmotion2_ours.gif" alt="Challeging Motion Prediction Ours 2">
+            <img src="images/lmotion3_ours.gif" alt="Challeging Motion Prediction Ours 3">
+            <img src="images/lmotion4_ours.gif" alt="Challeging Motion Prediction Ours 4">
+            <img src="images/lmotion5_ours.gif" alt="Challeging Motion Prediction Ours 6">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/lmotion1_diff.gif" alt="Challeging Motion Prediction DiffMorpher 1">
+            <img src="images/lmotion2_diff.gif" alt="Challeging Motion Prediction DiffMorpher 2">
+            <img src="images/lmotion3_diff.gif" alt="Challeging Motion Prediction DiffMorpher 3">
+            <img src="images/lmotion4_diff.gif" alt="Challeging Motion Prediction DiffMorpher 4">
+            <img src="images/lmotion5_diff.gif" alt="Challeging Motion Prediction DiffMorpher 6">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/lmotion1_tvg.gif" alt="Challeging Motion Prediction TVG 1">
+            <img src="images/lmotion2_tvg.gif" alt="Challeging Motion Prediction TVG 2">
+            <img src="images/lmotion3_tvg.gif" alt="Challeging Motion Prediction TVG 3">
+            <img src="images/lmotion4_tvg.gif" alt="Challeging Motion Prediction TVG 4">
+            <img src="images/lmotion5_tvg.gif" alt="Challeging Motion Prediction TVG 6">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/lmotion1_seine.gif" alt="Challeging Motion Prediction SEINE 1">
+            <img src="images/lmotion2_seine.gif" alt="Challeging Motion Prediction SEINE 2">
+            <img src="images/lmotion3_seine.gif" alt="Challeging Motion Prediction SEINE 3">
+            <img src="images/lmotion4_seine.gif" alt="Challeging Motion Prediction SEINE 4">
+            <img src="images/lmotion5_seine.gif" alt="Challeging Motion Prediction SEINE 6">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/lmotion1_dyna.gif" alt="Challeging Motion Prediction DynamiCrafter 1">
+            <img src="images/lmotion2_dyna.gif" alt="Challeging Motion Prediction DynamiCrafter 2">
+            <img src="images/lmotion3_dyna.gif" alt="Challeging Motion Prediction DynamiCrafter 3">
+            <img src="images/lmotion4_dyna.gif" alt="Challeging Motion Prediction DynamiCrafter 4">
+            <img src="images/lmotion5_dyna.gif" alt="Challeging Motion Prediction DynamiCrafter 6">
+        </div>
+        <div class="column">
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/lmotion1_gi.gif" alt="Challeging Motion Prediction Generative Inbetweening 1">
+            <img src="images/lmotion2_gi.gif" alt="Challeging Motion Prediction Generative Inbetweening 2">
+            <img src="images/lmotion3_gi.gif" alt="Challeging Motion Prediction Generative Inbetweening 3">
+            <img src="images/lmotion4_gi.gif" alt="Challeging Motion Prediction Generative Inbetweening 4">
+            <img src="images/lmotion5_gi.gif" alt="Challeging Motion Prediction Generative Inbetweening 6">
+        </div>
+     </div>
+
+    <br><br>
+    <h2>Challenging Scene Transition</h2>
+    <div class="vtg-image-container">
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/lscene1_0.png" alt="Challenging Scene Transition 1">
+            <img src="images/lscene2_0.png" alt="challenging Scene Transition 2">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/lscene1_1.png" alt="Challenging Scene Transition 1">
+            <img src="images/lscene2_1.png" alt="challenging Scene Transition 2">
+ 
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompts</div>
+            <div class="vtg-text-box">a comic-style road with a yellowish hue; a highway in real world</div>
+            <div class="vtg-text-box">a cartoon-style robot factory; a futuristic, high-tech robot that is painting</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Ours</div>
+            <img src="images/lscene1_ours.gif" alt="Challenging Scene Transition Ours 1">
+            <img src="images/lscene2_ours.gif" alt="Challenging Scene Transition Ours 2">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DiffMorpher</div>
+            <img src="images/lscene1_diff.gif" alt="Challenging Scene Transition DiffMorpher 1">
+            <img src="images/lscene2_diff.gif" alt="Challenging Scene Transition DiffMorpher 2">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">TVG</div>
+            <img src="images/lscene1_tvg.gif" alt="Challenging Scene Transition TVG 1">
+            <img src="images/lscene2_tvg.gif" alt="Challenging Scene Transition TVG 2">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">SEINE</div>
+            <img src="images/lscene1_seine.gif" alt="Challenging Scene Transition SEINE 1">
+            <img src="images/lscene2_seine.gif" alt="Challenging Scene Transition SEINE 2">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">DynamiCrafter</div>
+            <img src="images/lscene1_dyna.gif" alt="Challenging Scene Transition DynamiCrafter 1">
+            <img src="images/lscene2_dyna.gif" alt="Challenging Scene Transition DynamiCrafter 2">
+        </div>
+        <div class="column"> 
+            <div class="column-text vtg-generative-column">Generative Inbetweening</div>
+            <img src="images/lscene1_gi.gif" alt="Challenging Scene Transition Generative Inbetweening 1">
+            <img src="images/lscene2_gi.gif" alt="Challenging Scene Transition Generative Inbetweening 2">
+        </div>
     </div>
 
-  <!-- Challenging Scene Transition -->
-  <h3 class="title is-5">Challenging Scene Transition</h3>
-  <div class="vtg-image-container">
-    <div class="vtg-col"><div class="column-text">First Frame</div>
-      <img src="static/images/lscene1_0.png">
-      <img src="static/images/lscene2_0.png">
+    <br><br>
+    <h1>Motion Pattern Summary</h1>
+    <h2>Successful Cases</h2>
+    <div class="vtg-image-container">
+        <div class="column">
+            <div class="vtg-column-text">First Frame</div>
+            <img src="images/motion1_0.png" alt="straight obj small cam first">
+            <img src="images/lmotion1_0.png" alt="curve obj small cam first">
+            <img src="images/dandelion_shake_first_frame.png" alt="shake obj small cam first">
+            <img src="images/lmotion3_0.png" alt="relative changing first">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Last Frame</div>
+            <img src="images/motion1_1.png" alt="straight obj small cam last">
+            <img src="images/lmotion1_1.png" alt="curve obj small cam last">
+            <img src="images/dandelion_shake_last_frame.png" alt="shake obj small cam last">
+            <img src="images/lmotion3_1.png" alt="relative changing last">
+        </div>
+        <div class="text-column">
+            <div class="vtg-column-text">Text Prompt</div>
+            <div class="vtg-text-box">a camel is walking slowly to the right</div>
+            <div class="vtg-text-box">a dog jumps out of the swimming pool with a tennis ball in its mouth</div>
+            <div class="vtg-text-box">a dandelion is shaking</div>
+            <div class="vtg-text-box">a jet plane is flying over a forest</div>
+        </div> 
+        <div class="column">
+            <div class="vtg-column-text">Annotated Frame</div>
+            <img src="images/motion1_ours_annotated_first_frame.png" alt="straight obj small cam anno">
+            <img src="images/large1_ours_annotated_first_frame.png" alt="curve obj small cam anno">
+            <img src="images/dandelion_annotated_first_frame.png" alt="shake obj small cam anno">
+            <img src="images/large3_ours_annotated_first_frame.png" alt="relative changing anno">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Annotation Types</div>
+            <div class="vtg-text-box">camel's moving trajectory (red) & camera movement (green)</div>
+            <div class="vtg-text-box">dog's moving trajectory (red) & camera movement (green)</div>
+            <div class="vtg-text-box">dandelion's shaking trajectory (red) & camera movement (green)</div>
+            <div class="vtg-text-box">jet's moving trajectory (red) & changing background (blue) & camera movement (green)</div>
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">VTG</div>
+            <img src="images/motion1_ours.gif" alt="straight obj small cam gif">
+            <img src="images/lmotion1_ours.gif" alt="curve obj small cam gif">
+            <img src="images/dandelion_shake.gif" alt="shake obj small cam gif">
+            <img src="images/lmotion3_ours.gif" alt="relative changing gif">
+        </div>
+        <div class="column">
+            <div class="vtg-column-text">Motion Pattern</div>
+            <div class="vtg-text-box">straight object trajectory with small camera movement</div>
+            <div class="vtg-text-box">curved object trajectory with small camera movement</div>
+            <div class="vtg-text-box">shaking object trajectory with small camera movement</div>
+            <div class="vtg-text-box">relative movement with changing background</div>
+        </div>
     </div>
-    <div class="vtg-col"><div class="column-text">Last Frame</div>
-      <img src="static/images/lscene1_1.png">
-      <img src="static/images/lscene2_1.png">
-    </div>
-    <div class="text-column"><div class="column-text">Text Prompts</div>
-      <div class="text-box">a comic-style road with a yellowish hue; a highway in real world</div>
-      <div class="text-box">a cartoon-style robot factory; a futuristic, high-tech robot that is painting</div>
-    </div>
-    <div class="vtg-col"><div class="column-text">Ours</div>
-      <img src="static/images/lscene1_ours.gif">
-      <img src="static/images/lscene2_ours.gif">
-    </div>
-    <div class="vtg-col"><div class="column-text">DiffMorpher</div>
-      <img src="static/images/lscene1_diff.gif">
-      <img src="static/images/lscene2_diff.gif">
-    </div>
-    <div class="vtg-col"><div class="column-text">TVG</div>
-      <img src="static/images/lscene1_tvg.gif">
-      <img src="static/images/lscene2_tvg.gif">
-    </div>
-    <div class="vtg-col"><div class="column-text">SEINE</div>
-      <img src="static/images/lscene1_seine.gif">
-      <img src="static/images/lscene2_seine.gif">
-    </div>
-    <div class="vtg-col"><div class="column-text">DynamiCrafter</div>
-      <img src="static/images/lscene1_dyna.gif">
-      <img src="static/images/lscene2_dyna.gif">
-    </div>
-    <div class="vtg-col"><div class="column-text generative-column">Generative Inbetweening</div>
-      <img src="static/images/lscene1_gi.gif">
-      <img src="static/images/lscene2_gi.gif">
-    </div>
-  </div>
 
-  <!-- Motion Pattern Summary Section -->
-  <h2 class="title is-4">Motion Pattern Summary</h2>
-
-  <h3 class="title is-5">Successful Cases</h3>
-  <div class="vtg-image-container">
-    <div class="vtg-col">
-      <div class="column-text">First Frame</div>
-      <img src="static/images/motion1_0.png" alt="successful straight obj small cam first">
-      <img src="static/images/lmotion1_0.png" alt="successful curve obj small cam first">
-      <img src="static/images/dandelion_shake_first_frame.png" alt="successful shake obj small cam first">
-      <img src="static/images/lmotion3_0.png" alt="successful relative changing first">
-    </div>
-    <div class="vtg-col">
-      <div class="column-text">Last Frame</div>
-      <img src="static/images/motion1_1.png" alt="successful straight obj small cam last">
-      <img src="static/images/lmotion1_1.png" alt="successful curve obj small cam last">
-      <img src="static/images/dandelion_shake_last_frame.png" alt="successful shake obj small cam last">
-      <img src="static/images/lmotion3_1.png" alt="successful relative changing last">
-    </div>
-    <div class="text-column">
-      <div class="vtg-text-column">Text Prompt</div>
-      <div class="text-box">a camel is walking slowly to the right</div>
-      <div class="text-box">a dog jumps out of the swimming pool with a tennis ball in its mouth</div>
-      <div class="text-box">a dandelion is shaking</div>
-      <div class="text-box">a jet plane is flying over a forest</div>
-    </div>
-    <div class="vtg-col">
-      <div class="column-text">Annotated Frame</div>
-      <img src="static/images/motion1_ours_annotated_first_frame.png" alt="annotated straight obj small cam first">
-      <img src="static/images/large1_ours_annotated_first_frame.png" alt="annotated curve obj small cam first">
-      <img src="static/images/dandelion_annotated_first_frame.png" alt="annotated shake obj small cam first">
-      <img src="static/images/large3_ours_annotated_first_frame.png" alt="annotated relative changing first">
-    </div>
-    <div class="vtg-col">
-      <div class="column-text">VTG</div>
-      <img src="static/images/motion1_ours.gif" alt="VTG straight obj small cam">
-      <img src="static/images/lmotion1_ours.gif" alt="VTG curve obj small cam">
-      <img src="static/images/dandelion_shake.gif" alt="VTG shake obj small cam">
-      <img src="static/images/lmotion3_ours.gif" alt="VTG relative changing">
-    </div>
-    <div class="vtg-col">
-      <div class="column-text">Motion Pattern</div>
-      <div class="text-box">straight object trajectory with small camera movement</div>
-      <div class="text-box">curved object trajectory with small camera movement</div>
-      <div class="text-box">shaking object trajectory with small camera movement</div>
-      <div class="text-box">relative movement with changing background</div>
-    </div>
-  </div>
-  </div>
-</section>
-
-<section class="section hero is-small is-light" id="BibTeX">
-  <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
-    <div class="box">
-      <pre><code>
-      @inproceedings{yang2025vtg,
-          title={Versatile Transition Generation with Image-to-Video Diffusion},
-          author={Yang, Zuhao and Zhang, Jiahui and Yu, Yingchen and Lu, Shijian and Bai, Song},
-          booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-          year={2025}
-      }
-      </code></pre>
-    </div>
+    <br><br>
+        <h2>Failed Cases</h2>
+        <div class="vtg-image-container">
+            <div class="column">
+                <div class="vtg-column-text">First Frame</div>
+                <img src="images/car_turn_first_frame.png" alt="complex obj large cam first">
+                <img src="images/man_skate_first_frame.png" alt="composite obj large cam first">
+                <img src="images/car_relative_first_frame.png" alt="relative unchanged first">
+            </div>
+            <div class="column">
+                <div class="vtg-column-text">Last Frame</div>
+                <img src="images/car_turn_last_frame.png" alt="complex obj large cam last">
+                <img src="images/man_skate_last_frame.png" alt="composite obj large cam last">
+                <img src="images/car_relative_last_frame.png" alt="relative unchanged last">
+            </div>
+            <div class="text-column">
+                <div class="vtg-column-text">Text Prompt</div>
+                <div class="vtg-text-box">a car is turning</div>
+                <div class="vtg-text-box">a man is skateboarding uphill</div>
+                <div class="vtg-text-box">a car is moving in high speed</div>
+            </div> 
+            <div class="column">
+                <div class="vtg-column-text">Annotated Frame</div>
+                <img src="images/car_turn_annotated_first_frame.png" alt="complex obj large cam anno">
+                <img src="images/man_skate_annotated_first_frame.png" alt="composite obj large cam anno">
+                <img src="images/car_relative_annotated_first_frame.png" alt="relative unchanged anno">
+            </div>
+            <div class="column">
+                <div class="vtg-column-text">Annotation Types</div>
+                <div class="vtg-text-box">car's moving trajectory (red) & camera movement (green)</div>
+                <div class="vtg-text-box">man's two-stage moving trajectory (red) & camera movement (green)</div>
+                <div class="vtg-text-box">car's moving trajectory (red) & almost unchanged background (blue)</div>
+            </div>
+            <div class="column">
+                <div class="vtg-column-text">VTG</div>
+                <img src="images/car_turn.gif" alt="complex obj large cam gif">
+                <img src="images/man_skate.gif" alt="composite obj large cam gif">
+                <img src="images/car_relative.gif" alt="relative unchanged gif">
+            </div>
+            <div class="column">
+                <div class="vtg-column-text">Motion Pattern</div>
+                <div class="vtg-text-box">complex object trajectory with large camera movement</div>
+                <div class="vtg-text-box">composite object trajectory with large camera movement</div>
+                <div class="vtg-text-box">relative movement with almost unchanged background</div>
+            </div>
+        </div>
   </div>
   </div>
 </section>
