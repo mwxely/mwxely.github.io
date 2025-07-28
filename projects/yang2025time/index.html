@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</title>
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://mwxely.github.io/" target="_blank">Zuhao Yang</a><sup>1*</sup>,</span>
+              <span class="author-block">
+                <a href="https://yingchen001.github.io/" target="_blank">Yingchen Yu</a><sup>2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://yunqing-me.github.io/" target="_blank">Yunqing Zhao</a><sup>2</sup>,</span>
+              <span class="author-block">
+                    <a href="https://personal.ntu.edu.sg/shijian.lu/" target="_blank">Shijian Lu</a><sup>1✝</sup>,</span>
+              <span class="author-block">
+                    <a href="https://songbai.site/" target="_blank">Song Bai</a><sup>2</sup></span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>College of Computing and Data Science, Nanyang Technological University, Singapore</span>
+                    <span class="author-block"><sup>2</sup>ByteDance, Singapore</span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>This work was done while Zuhao Yang was interning at ByteDance.</small></span>
+                    <span class="eql-cntrb"><small><br><sup>✝</sup>Shijian Lu is the corresponding author.</small></span>
+                    <br>
+                    <span class="author-block"><strong>ICCV 2025</strong></span>
+                  </div>
+                  
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                    <!-- Conference Proceeding Link -->
+                    <span class="link-block">
+                      <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                    <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- ArXiv Abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/abs/2305.10307" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                    <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Paper abstract -->
+<section class="section hero is-small is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video Temporal Grounding (VTG) aims to precisely identify video event segments in response to textual queries. The outputs of VTG tasks manifest as sequences of events, each defined by precise timestamps, saliency scores, and textual descriptions. Despite recent advances, a fundamental limitation persists in existing Video Large Language Models (Video-LLMs): they process all task tokens through identical and static pathways, failing to recognize that temporal localization, saliency assessment, and textual generation represent fundamentally distinct tasks requiring specialized processing. To address this, we introduce TimeExpert, a Mixture-of-Experts (MoE)-enhanced Video-LLM that effectively decomposes VTG tasks by dynamically routing task-specific tokens (e.g., timestamps, saliency scores) to specialized experts, with increased computational efficiency. Our design choice enables precise handling of each subtask, leading to improved event modeling across diverse VTG applications. Extensive experiments show that TimeExpert consistently achieves state-of-the-art performance on various fine-grained VTG tasks such as dense video captioning, moment retrieval, and video highlight detection.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Training Framework of VTG</h2>
+        <center>
+        <img src="static/images/carousel1.jpg" alt="Training Framework of TimeExpert class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+            In Bidirectional Motion Prediction (BMP), the noisy latent is flipped along the temporal dimension, and self-attention maps are rotated 180 degrees to establish reversed motion–time correlations. Two U-Nets separately predict forward and backward motion, with the backward noise flipped again and fused into the forward noise to ensure a consistent motion path during iterative denoising. In Representation Alignment Regularization (RAR), each frame is spatially patchified independently, and the per-patch alignment losses are then aggregated across the temporal dimension.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Inference Framework of VTG</h2>
+        <center>
+        <img src="static/images/carousel2.jpg" alt="Inference Framework of TimeExpert class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+            Our interpolation-based initialization features three components: ① Interpolated Noise Injection, ② LoRA Interpolation, and ③ Frame-aware Text Interpolation. VTG first converts the two encoded input frames into latent noises via DDIM inversion. Next, it interpolates between those two latent noises and concatenates the intermediate noises along the temporal dimension. To capture meaningful semantics and enable smooth transitions between conceptually different objects, we employ both LoRA interpolation and text interpolation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{yang2025time,
+      title={TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding},
+      author={Yang, Zuhao and Yu, Yingchen and Zhao, Yunqing and Lu, Shijian and Bai, Song},
+      booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+      year={2025}
+    }</code></pre>
+  </div>
+</section>
+<!--End BibTex citation -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
