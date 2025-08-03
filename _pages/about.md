@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zuhao Yang's Homepage"
+title: ""
 excerpt: "I am a second-year Ph.D. Student at NTU. My research interests include: video understanding, video reasoning, and video generation."
 author_profile: true
 redirect_from: 
