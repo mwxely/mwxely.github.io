@@ -114,7 +114,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Video Temporal Grounding (VTG) aims to precisely identify video event segments in response to textual queries. The outputs of VTG tasks manifest as sequences of events, each defined by precise timestamps, saliency scores, and textual descriptions. Despite recent advances, a fundamental limitation persists in existing Video Large Language Models (Video-LLMs): they process all task tokens through identical and static pathways, failing to recognize that temporal localization, saliency assessment, and textual generation represent fundamentally distinct tasks requiring specialized processing. To address this, we introduce TimeExpert, a Mixture-of-Experts (MoE)-enhanced Video-LLM that effectively decomposes VTG tasks by dynamically routing task-specific tokens (e.g., timestamps, saliency scores) to specialized experts, with increased computational efficiency. Our design choice enables precise handling of each subtask, leading to improved event modeling across diverse VTG applications. Extensive experiments show that TimeExpert consistently achieves state-of-the-art performance on various fine-grained VTG tasks such as dense video captioning, moment retrieval, and video highlight detection.
+            Video Temporal Grounding (VTG) aims to precisely identify video event segments in response to textual queries. The outputs of VTG tasks manifest as sequences of events, each defined by precise timestamps, saliency scores, and textual descriptions. Despite recent advances, a fundamental limitation persists in existing Video Large Language Models (Video-LLMs): they process all task tokens through identical and static pathways, failing to recognize that temporal localization, saliency assessment, and textual generation represent fundamentally distinct tasks requiring specialized processing. To address this, we introduce TimeExpert, a Mixture-of-Experts (MoE)-based Video-LLM that effectively decomposes VTG tasks by dynamically routing task-specific tokens (e.g., timestamps, saliency scores) to specialized experts, with increased computational efficiency. Our design choices enable precise handling of each subtask, leading to improved event modeling across diverse VTG applications. Extensive experiments demonstrate that TimeExpert consistently achieves state-of-the-art performance on various VTG tasks such as Dense Video Captioning, Moment Retrieval, and Video Highlight Detection.
           </p>
         </div>
       </div>
@@ -128,13 +128,13 @@
   <div class="columns is-centered">
     <div class="column is-full">
       <div class="content">
-        <h2 class="title is-3">Training Framework of VTG</h2>
+        <h2 class="title is-3">Video Temporal Grounding (VTG)</h2>
         <center>
-        <img src="static/images/carousel1.jpg" alt="Training Framework of TimeExpert class="center-image blend-img-background"/>
+        <img src="static/images/teaser.png" alt="Task Definition of TimeExpert." class="center-image blend-img-background"/>
         </center>
         <div class="level-set has-text-justified">
           <p>
-            In Bidirectional Motion Prediction (BMP), the noisy latent is flipped along the temporal dimension, and self-attention maps are rotated 180 degrees to establish reversed motion–time correlations. Two U-Nets separately predict forward and backward motion, with the backward noise flipped again and fused into the forward noise to ensure a consistent motion path during iterative denoising. In Representation Alignment Regularization (RAR), each frame is spatially patchified independently, and the per-patch alignment losses are then aggregated across the temporal dimension.
+            <strong>Left:</strong> Video Temporal Grounding (VTG) is a fine‑grained video understanding task that aims to accurately locate content along with event timestamps based on natural language queries. In this work, we mainly consider three major types of VTG tasks: (1) Moment Retrieval (MR), (2) Video Highlight Detection (VHD), and (3) Dense Video Captioning (DVC). The outputs of VTG often contain textual captions, <span style="color:FireBrick">timestamps</span>, and <span style="color:blue">saliency scores</span>. <strong>Right:</strong> Unlike existing methods (e.g., TimeChat) that employ a single <em>static</em> model, motivated by expert specialization on different task tokens, we propose <em>TimeExpert</em>, an expert‑guided Video LLM with <em>dynamic</em> token routing. Through task‑aware expert allocation, TimeExpert demonstrates substantial improvements over state‑of‑the‑art Video‑LLMs on several VTG benchmarks. For example, here we visualize zero‑shot F1 score for DVC on the YouCook2 dataset, R@1<sub>IoU=0.7</sub> for MR on the Charades‑STA dataset, and HIT@1 for VHD on the QVHighlights dataset. More results and analysis are in the experimental section.
           </p>
         </div>
       </div>
@@ -148,13 +148,33 @@
   <div class="columns is-centered">
     <div class="column is-full">
       <div class="content">
-        <h2 class="title is-3">Inference Framework of VTG</h2>
+        <h2 class="title is-3">Comparison across VTG Approaches</h2>
         <center>
-        <img src="static/images/carousel2.jpg" alt="Inference Framework of TimeExpert class="center-image blend-img-background"/>
+        <img src="static/images/method.png" alt="Comparison of VTG Approaches." class="center-image blend-img-background"/>
         </center>
         <div class="level-set has-text-justified">
           <p>
-            Our interpolation-based initialization features three components: ① Interpolated Noise Injection, ② LoRA Interpolation, and ③ Frame-aware Text Interpolation. VTG first converts the two encoded input frames into latent noises via DDIM inversion. Next, it interpolates between those two latent noises and concatenates the intermediate noises along the temporal dimension. To capture meaningful semantics and enable smooth transitions between conceptually different objects, we employ both LoRA interpolation and text interpolation.
+            <strong>(a):</strong> VTG‑specific Video‑LLM relies on a single static model with shared parameters for all tasks, limiting its ability to specialize across diverse VTG subtasks. <strong>(b):</strong> Vanilla MoE improves upon this by activating a fixed set (e.g., k=2) of experts, enabling a certain degree of task specialization. <strong>(c):</strong> Our <em>TimeExpert</em> goes further, implementing adaptive routing that dynamically allocates new experts when tokens lack suitable matches and prunes unmatched experts when necessary. This dynamic design significantly enhances computational efficiency while achieving superior specialization—especially for VTG subtasks that require distinct feature representations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+  <div class="columns is-centered">
+    <div class="column is-full">
+      <div class="content">
+        <h2 class="title is-3">Architecture Overview of TimeExpert</h2>
+        <center>
+        <img src="static/images/framework.png" alt="Framework Overview of TimeExpert." class="center-image blend-img-background"/>
+        </center>
+        <div class="level-set has-text-justified">
+          <p>
+            Our model leverages independent encoders and decoding heads to process time, score, and text inputs and outputs. The timestamps and saliency scores of sampled frames are encoded into special tokens and integrated into the corresponding visual tokens. During inference, the generated response follows a structured format, sequentially incorporating time tokens, score tokens, and text tokens.
           </p>
         </div>
       </div>
