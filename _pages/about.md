@@ -65,10 +65,10 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 ---
 * 2025.06 - Two papers were accepted by ICCV 2025.
 * 2025.05 - Two papers were accepted by ACL 2025.
-* 2025.04 - I Joined Shanda AI Research Institute as an AI Scientist Intern.
-* 2023.11 - I Joined ByteDance SG as a Research Intern.
+* 2025.04 - I joined Shanda AI Research Institute as an AI Scientist Intern.
+* 2023.11 - I joined ByteDance SG as an AI Research Intern.
 * 2023.09 - One paper was accepted by NeurIPS 2023.
-* 2023.01 - I Joined Visual Intelligence Lab, NTU.
+* 2023.01 - I joined Visual Intelligence Lab at NTU.
 
 
 📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
