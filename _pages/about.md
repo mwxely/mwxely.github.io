@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <style>
-  .paper-box {
+.paper-box {
   display: flex;
   align-items: flex-start;
   margin-bottom: 24px;
@@ -20,7 +20,7 @@ redirect_from:
   gap: 20px;
 }
 .paper-box-image {
-  flex: 0 0 160px;
+  flex: 0 0 220px;      /* 原来是160px，这里设大一点 */
   position: relative;
 }
 .paper-box-image .badge {
@@ -41,15 +41,19 @@ redirect_from:
 }
 .paper-box-text {
   flex: 1;
-  font-size: 1.05em;
+  font-size: 0.98em;    /* 这里设小一点，可以0.96em甚至0.92em */
+  line-height: 1.45;
+  color: #202124;
 }
 .paper-box-text a {
   color: #1684fc;
   font-weight: 600;
+  font-size: 1em;       /* 链接也小一点 */
 }
 .paper-box-text i {
   color: #555;
   font-style: italic;
+  font-size: 0.98em;
 }
 </style>
 
