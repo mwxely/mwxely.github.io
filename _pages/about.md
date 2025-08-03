@@ -67,7 +67,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * 2023.01 - Joined Visual Intelligence Lab, NTU.
 
 
-📝 Selected Publications ([Full List])(https://mwxely.github.io/publications/)
+📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
 ---
 <div class="paper-box">
   <div class="paper-box-image">
