@@ -74,7 +74,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <span class="badge">Preprint</span>
     <img src="images/ToDRE.png" alt="ToDRE" width="100%">
   </div>
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2505.18757"><b>ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models</b></a><br>
     Duo Li*, <u><b>Zuhao Yang*</b></u>, Shijian Lu<br>
     <i>Preprint 2025</i><br>
@@ -87,7 +87,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <span class="badge">ICCV</span>
     <img src="images/TE.png" alt="TimeExpert" width="100%">
   </div>
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2505.18757"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
     <u><b>Zuhao Yang</b></u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
@@ -100,7 +100,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <span class="badge">ICCV</span>
     <img src="images/VTG.png" alt="VTG" width="100%">
   </div>
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2505.18757"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
     <u><b>Zuhao Yang</b></u>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
@@ -113,7 +113,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <span class="badge">ACL</span>
     <img src="images/QAEval.png" alt="QAEval" width="100%">
   </div>
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
     <a href="https://aclanthology.org/2025.acl-long.716/"><b>QAEval: Mixture of Evaluators for Question‑Answering Task Evaluation</b></a><br>
     Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u><b>Zuhao Yang</b></u>, Dongyan Zhao<br>
     <i>ACL 2025</i><br>
@@ -126,7 +126,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <span class="badge">NeurIPS</span>
     <img src="images/FACE.png" alt="FACE" width="100%">
   </div>
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2305.10307"><b>FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross‑Entropy</b></a><br>
     <u><b>Zuhao Yang*</b></u>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen<br>
     <i>NeurIPS 2023</i><br>
