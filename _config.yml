@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Zuhao Yang"
+title                    : "Zuhao Yang's Homepage"
 title_separator          : "-"
 name                     : &name "Zuhao Yang"
-description              : &description "personal description"
+description              : &description "I am a second-year Ph.D. Student at NTU. My research interests include: video understanding, video reasoning, and video generation."
 url                      : https://mwxely.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "mwxely/mwxely.github.io"

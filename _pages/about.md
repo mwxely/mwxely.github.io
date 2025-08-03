@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: ""
-excerpt: "Homepage"
+title: "Zuhao Yang's Homepage"
+excerpt: "I am a second-year Ph.D. Student at NTU. My research interests include: video understanding, video reasoning, and video generation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -63,12 +63,12 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🔥 Exciting News
 ---
-* 2025.06 - Two papers are accepted to ICCV 2025.
-* 2025.05 - Two papers are accepted to ACL 2025.
-* 2025.04 - Joined Shanda AI Research Institute as an AI Scientist Intern.
-* 2023.11 - Joined ByteDance SG as a Research Intern.
-* 2023.09 - One paper is accepted to NeurIPS 2023.
-* 2023.01 - Joined Visual Intelligence Lab, NTU.
+* 2025.06 - Two papers were accepted by ICCV 2025.
+* 2025.05 - Two papers were accepted by ACL 2025.
+* 2025.04 - I Joined Shanda AI Research Institute as an AI Scientist Intern.
+* 2023.11 - I Joined ByteDance SG as a Research Intern.
+* 2023.09 - One paper was accepted by NeurIPS 2023.
+* 2023.01 - I Joined Visual Intelligence Lab, NTU.
 
 
 📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
