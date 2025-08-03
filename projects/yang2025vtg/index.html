@@ -204,7 +204,7 @@
         </center>
         <div class="level-set has-text-justified">
           <p>
-            Versatile Transition Generation (VTG) is capable of performing four types of transition generation, namely, (a) object morphing, (b) motion prediction, (c) concept blending, and (d) scene transition, within a single uniform framework.
+            <em>Versatile Transition Generation</em> (VTG) is capable of performing four types of transition generation, namely, (a) object morphing, (b) motion prediction, (c) concept blending, and (d) scene transition, within a single uniform framework.
           </p>
         </div>
       </div>
@@ -224,7 +224,7 @@
         </center>
         <div class="level-set has-text-justified">
           <p>
-            In Bidirectional Motion Prediction (BMP), the noisy latent is flipped along the temporal dimension, and self-attention maps are rotated 180 degrees to establish reversed motion–time correlations. Two U-Nets separately predict forward and backward motion, with the backward noise flipped again and fused into the forward noise to ensure a consistent motion path during iterative denoising. In Representation Alignment Regularization (RAR), each frame is spatially patchified independently, and the per-patch alignment losses are then aggregated across the temporal dimension.
+            In Bidirectional Motion Prediction (<span style="color:red">BMP</span>), the noisy latent is flipped along the temporal dimension, and self-attention maps are rotated 180 degrees to establish reversed motion–time correlations. Two U-Nets separately predict forward and backward motion, with the backward noise flipped again and fused into the forward noise to ensure a consistent motion path during iterative denoising. In Representation Alignment Regularization (<span style="color:red">RAR</span>), each frame is spatially patchified independently, and the per-patch alignment losses are then aggregated across the temporal dimension.
           </p>
         </div>
       </div>
@@ -244,7 +244,7 @@
         </center>
         <div class="level-set has-text-justified">
           <p>
-            Our interpolation-based initialization features three components: ① Interpolated Noise Injection, ② LoRA Interpolation, and ③ Frame-aware Text Interpolation. VTG first converts the two encoded input frames into latent noises via DDIM inversion. Next, it interpolates between those two latent noises and concatenates the intermediate noises along the temporal dimension. To capture meaningful semantics and enable smooth transitions between conceptually different objects, we employ both LoRA interpolation and text interpolation.
+            Our interpolation-based initialization features three components: <span style="color:red">①</span> Interpolated Noise Injection, <span style="color:red">②</span> LoRA Interpolation, and <span style="color:red">③</span> Frame-aware Text Interpolation. VTG first converts the two encoded input frames into latent noises via DDIM inversion. Next, it interpolates between those two latent noises and concatenates the intermediate noises along the temporal dimension. To capture meaningful semantics and enable smooth transitions between conceptually different objects, we employ both LoRA interpolation and text interpolation.
           </p>
         </div>
       </div>
