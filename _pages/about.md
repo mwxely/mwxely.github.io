@@ -8,22 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
-<span class='anchor' id='about-me'></span>
-
 I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html). I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind AI](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/en/). My research interests lie broadly in the realms of video processing, spanning generation, understanding, reasoning, and agentic tool use.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
-<span class='anchor' id='news'></span>
-
 🔥 Exciting News
+---
 * 2025.06 - Two papers are accepted to ICCV 2025.
 * 2025.05 - Two papers are accepted to ACL 2025.
 * 2025.04 - Joined Shanda AI Research Institute as an AI Scientist Intern.
@@ -31,17 +21,14 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * 2023.09 - One paper is accepted to NeurIPS 2023.
 * 2023.01 - Joined Visual Intelligence Lab, NTU.
 
-<span class='anchor' id='publications'></span>
 
-📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
-[//]: # (----------- Preprint 2025 -------------------------)
+📝 Selected Publications ([Full List](https://mwxely.github.io/publications/)
+---
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/ToDRE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models](https://arxiv.org/abs/2505.18757)
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 Duo Li*, <u><b>Zuhao Yang*</b></u>, Shijian Lu
 
@@ -53,14 +40,10 @@ Duo Li*, <u><b>Zuhao Yang*</b></u>, Shijian Lu
 </div>
 </div>
 
-[//]: # (----------- ICCV 2025 -------------------------)
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV</div><img src='images/TE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding](https://arxiv.org/abs/2505.18757)
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 <u><b>Zuhao Yang</b></u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai
 
@@ -73,14 +56,10 @@ Duo Li*, <u><b>Zuhao Yang*</b></u>, Shijian Lu
 </div>
 </div>
 
-[//]: # (----------- ICCV 2025 -------------------------)
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV</div><img src='images/VTG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Versatile Transition Generation with Image-to-Video Diffusion](https://arxiv.org/abs/2505.18757)
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 <u><b>Zuhao Yang</b></u>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai
 
@@ -93,14 +72,10 @@ Duo Li*, <u><b>Zuhao Yang*</b></u>, Shijian Lu
 </div>
 </div>
 
-[//]: # (----------- ACL 2025 -------------------------)
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL</div><img src='images/QAEval.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [QAEval: Mixture of Evaluators for Question-Answering Task Evaluation](https://aclanthology.org/2025.acl-long.716/)
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u><b>Zuhao Yang</b></u>, Dongyan Zhao
 
@@ -112,14 +87,10 @@ Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u><b>Zuhao Yang</b></u>, Dongyan Zhao
 </div>
 </div>
 
-[//]: # (----------- NeurIPS 2023 -------------------------)
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS</div><img src='images/ToDRE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross-Entropy](https://arxiv.org/abs/2305.10307)
-
-[//]: # (<strong><span class='show_paper_citations' data='ElujT6oAAAAJ:hqOjcs7Dif8C'></span></strong>)
 
 <u><b>Zuhao Yang*</b></u>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen
 
@@ -132,33 +103,32 @@ Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u><b>Zuhao Yang</b></u>, Dongyan Zhao
 </div>
 </div>
 
-<span class='anchor' id='education'></span>
-
 📖 Educational Background
+---
 * 2024.01 - Present: Doctor of Philosophy, College of Computing and Data Science, Nanyang Technological University
 * 2022.08 - 2024.01: Master in Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
 * 2017.09 - 2021.06: Bachelor in Computing Science, Department of Computing Science, University of Alberta
 
-<span class='anchor' id='work'></span>
-
 🧑‍⚖️ Working Experiences
+---
 * 2025.04 - Present: AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
 * 2023.11 - 2025.03: AI Research Intern, ByteDance Inc. & TikTok, Singapore
 * 2021.05 - 2022.06: NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
 
-<span class='anchor' id='service'></span>
-
 💻 Academic Services
+---
 Conference Reviewer
-* CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25, ICML 25, ICCV 25
-Journal Reviewer
-Pattern Recognition, Journal of Electronic Imaging
-* Workshop PC Member
-SyntaGen (CVPR 24/25), Neural Rendering Intelligence (CVPR 24), Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
+* CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25, ICML 25, ICCV 25  
 
-<span class='anchor' id='award'></span>
+Journal Reviewer
+* Pattern Recognition, Journal of Electronic Imaging  
+
+Workshop PC Member
+* SyntaGen (CVPR 24/25), Neural Rendering Intelligence (CVPR 24), Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
+
 
 🏆 Patent & Awards
+---
 * Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2024
 * Method, Device, and Medium for Generating Transition Videos with Diffusion Model, SG Patent, 2024
 * [Method, Device, and Medium for Automatic Question-Answering](http://epub.cnipa.gov.cn/patent/CN113946669A), CN Patent, 2022
