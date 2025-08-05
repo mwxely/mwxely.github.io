@@ -5,12 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+- **ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models** <br>
+Duo Li*, <b>Zuhao Yang*</b>, Shijian Lu<br>
+*Preprint 2025*<br>
+[[paper](https://arxiv.org/pdf/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre)]

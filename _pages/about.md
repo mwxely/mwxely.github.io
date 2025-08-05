@@ -95,7 +95,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2508.01699"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
     <u><b>Zuhao Yang</b></u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
-    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project page</a>
+    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project</a>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2508.01698"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
     <u><b>Zuhao Yang</b></u>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
-    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project page</a>
+    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project</a>
   </div>
 </div>
 
@@ -134,7 +134,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2305.10307"><b>FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross‑Entropy</b></a><br>
     <u><b>Zuhao Yang*</b></u>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen<br>
     <i>NeurIPS 2023</i><br>
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">project page</a>
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">project</a>
   </div>
 </div>
 
@@ -159,10 +159,9 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * Pattern Recognition, Journal of Electronic Imaging  
 
 **Workshop PC Member**
-* SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets (CVPR 24/25)
-* Neural Rendering Intelligence (CVPR 24)
+* [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
+* [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
 * Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
-
 
 🏆 Patent & Awards
 ---
