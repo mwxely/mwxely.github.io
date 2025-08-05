@@ -146,9 +146,9 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🧑‍⚖️ Working Experiences
 ---
-* **2025.04 - Present:**: AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
-* **2023.11 - 2025.03:**: AI Research Intern, ByteDance Inc. & TikTok, Singapore
-* **2021.05 - 2022.06:**: NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
+* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
+* **2023.11 - 2025.03:** AI Research Intern, ByteDance Inc. & TikTok, Singapore
+* **2021.05 - 2022.06:** NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
 
 💻 Academic Services
 ---
