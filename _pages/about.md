@@ -92,10 +92,10 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <img src="images/TE.png" alt="TimeExpert" width="100%">
   </div>
   <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2505.18757"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
+    <a href="https://arxiv.org/abs/2508.01699"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
     <u><b>Zuhao Yang</b></u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
-    <a href="https://arxiv.org/pdf/2505.18757">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project page</a>
+    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project page</a>
   </div>
 </div>
 
@@ -105,10 +105,10 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <img src="images/VTG.png" alt="VTG" width="100%">
   </div>
   <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2505.18757"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
+    <a href="https://arxiv.org/abs/2508.01698"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
     <u><b>Zuhao Yang</b></u>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
     <i>ICCV 2025</i><br>
-    <a href="https://arxiv.org/pdf/2505.18757">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project page</a>
+    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project page</a>
   </div>
 </div>
 
