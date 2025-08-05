@@ -57,7 +57,7 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html). I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind AI](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/en/). My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
+I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind AI and [Dr. Song Bai](https://songbai.site/) at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
@@ -65,10 +65,10 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 ---
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
-* 2025.04 - I joined Shanda AI Research Institute as an AI Scientist Intern.
-* 2023.11 - I joined ByteDance SG as an AI Research Intern.
+* 2025.04 - I joined [MiroMind AI](https://miromind.ai/) as an AI Scientist Intern.
+* 2023.11 - I joined [ByteDance](https://www.bytedance.com/en/) as an AI Research Intern.
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
-* 2023.01 - I joined Visual Intelligence Lab at NTU.
+* 2023.01 - I joined [Visual Intelligence Lab](https://sg-vilab.github.io/) at NTU.
 
 
 📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
