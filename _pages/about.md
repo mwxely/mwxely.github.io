@@ -57,17 +57,17 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html). I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind AI](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/en/). My research interests lie broadly in the realms of video processing, spanning generation, understanding, reasoning, and agentic tool use.
+I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at [Nanyang Technological University](https://www.ntu.edu.sg/), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from [University of Alberta](https://www.ualberta.ca/index.html). I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind AI](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/en/). My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
 🔥 Exciting News
 ---
-* 2025.06 - Two papers were accepted by ICCV 2025.
-* 2025.05 - Two papers were accepted by ACL 2025.
+* 2025.06 - Two papers were accepted by **ICCV 2025**.
+* 2025.05 - Two papers were accepted by **ACL 2025**.
 * 2025.04 - I joined Shanda AI Research Institute as an AI Scientist Intern.
 * 2023.11 - I joined ByteDance SG as an AI Research Intern.
-* 2023.09 - One paper was accepted by NeurIPS 2023.
+* 2023.09 - One paper was accepted by **NeurIPS 2023**.
 * 2023.01 - I joined Visual Intelligence Lab at NTU.
 
 
@@ -140,15 +140,15 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 📖 Educational Background
 ---
-* 2024.01 - Present: Doctor of Philosophy, College of Computing and Data Science, Nanyang Technological University
-* 2022.08 - 2024.01: Master in Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
-* 2017.09 - 2021.06: Bachelor in Computing Science, Department of Computing Science, University of Alberta
+* **2024.01 - Present:** Doctor of Philosophy, College of Computing and Data Science, Nanyang Technological University
+* **2022.08 - 2024.01:** Master in Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
+* **2017.09 - 2021.06:** Bachelor in Computing Science, Department of Computing Science, University of Alberta
 
 🧑‍⚖️ Working Experiences
 ---
-* 2025.04 - Present: AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
-* 2023.11 - 2025.03: AI Research Intern, ByteDance Inc. & TikTok, Singapore
-* 2021.05 - 2022.06: NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
+* **2025.04 - Present:**: AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
+* **2023.11 - 2025.03:**: AI Research Intern, ByteDance Inc. & TikTok, Singapore
+* **2021.05 - 2022.06:**: NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
 
 💻 Academic Services
 ---
@@ -159,12 +159,14 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * Pattern Recognition, Journal of Electronic Imaging  
 
 **Workshop PC Member**
-* SyntaGen (CVPR 24/25), Neural Rendering Intelligence (CVPR 24), Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
+* SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets (CVPR 24/25)
+* Neural Rendering Intelligence (CVPR 24)
+* Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
 
 
 🏆 Patent & Awards
 ---
-* Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2024
+* Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2025
 * Method, Device, and Medium for Generating Transition Videos with Diffusion Model, SG Patent, 2024
 * [Method, Device, and Medium for Automatic Question-Answering](http://epub.cnipa.gov.cn/patent/CN113946669A), CN Patent, 2022
 * Outstanding Graduate, University of Alberta, 2021
