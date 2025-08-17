@@ -95,7 +95,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2508.01699"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
     <b>Zuhao Yang</b>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
     ICCV 2025<br>
-    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project</a>
+    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">webpage</a>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2508.01698"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
     <b>Zuhao Yang</b>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
     ICCV 2025<br>
-    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project</a>
+    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">webpage</a>
   </div>
 </div>
 
@@ -121,7 +121,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://aclanthology.org/2025.acl-long.716"><b>QAEval: Mixture of Evaluators for Question‑Answering Task Evaluation</b></a><br>
     Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <b>Zuhao Yang</b>, Dongyan Zhao<br>
     ACL 2025<br>
-    <a href="https://aclanthology.org/2025.acl-long.716.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yue2025qaeval.html">bibtex</a>
+    <a href="https://aclanthology.org/2025.acl-long.716.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yue2025qaeval.html">bibtex</a> / <a href="https://github.com/yuetanbupt/QAEval">code</a>
   </div>
 </div>
 
@@ -134,7 +134,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <a href="https://arxiv.org/abs/2305.10307"><b>FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross‑Entropy</b></a><br>
     <b>Zuhao Yang*</b>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen<br>
     NeurIPS 2023<br>
-    <a href="https://arxiv.org/pdf/2305.10307">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">project</a>
+    <a href="https://arxiv.org/pdf/2305.10307">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">code</a>
   </div>
 </div>
 
