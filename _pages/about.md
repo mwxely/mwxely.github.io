@@ -57,7 +57,7 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind AI and [Dr. Song Bai](https://songbai.site/) at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
+I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind AI and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
@@ -71,7 +71,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * 2023.01 - I joined [Visual Intelligence Lab](https://sg-vilab.github.io/) at NTU.
 
 
-📝 Selected Publications ([Full List](https://scholar.google.com/citations?user=TlBhP8EAAAAJ&hl=en&oi=ao))
+📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
 ---
 <div class="paper-box">
   <div class="paper-box-image">
@@ -81,7 +81,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2505.18757"><b>ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models</b></a><br>
     Duo Li*, <b>Zuhao Yang*</b>, Shijian Lu<br>
-    <i>Preprint 2025</i><br>
+    Preprint 2025<br>
     <a href="https://arxiv.org/pdf/2505.18757">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025todre.html">bibtex</a>
   </div>
 </div>
@@ -94,7 +94,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2508.01699"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
     <b>Zuhao Yang</b>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
-    <i>ICCV 2025</i><br>
+    ICCV 2025<br>
     <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">project</a>
   </div>
 </div>
@@ -107,7 +107,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2508.01698"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
     <b>Zuhao Yang</b>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
-    <i>ICCV 2025</i><br>
+    ICCV 2025<br>
     <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">project</a>
   </div>
 </div>
@@ -118,9 +118,9 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
     <img src="images/QAEval.png" alt="QAEval" width="100%">
   </div>
   <div class="paper-box-text">
-    <a href="https://aclanthology.org/2025.acl-long.716/"><b>QAEval: Mixture of Evaluators for Question‑Answering Task Evaluation</b></a><br>
+    <a href="https://aclanthology.org/2025.acl-long.716"><b>QAEval: Mixture of Evaluators for Question‑Answering Task Evaluation</b></a><br>
     Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <b>Zuhao Yang</b>, Dongyan Zhao<br>
-    <i>ACL 2025</i><br>
+    ACL 2025<br>
     <a href="https://aclanthology.org/2025.acl-long.716.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yue2025qaeval.html">bibtex</a>
   </div>
 </div>
@@ -133,8 +133,8 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2305.10307"><b>FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross‑Entropy</b></a><br>
     <b>Zuhao Yang*</b>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen<br>
-    <i>NeurIPS 2023</i><br>
-    <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/37094fdc81632915a5738293cf9b7ad4-Paper-Conference.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">project</a>
+    NeurIPS 2023<br>
+    <a href="https://arxiv.org/pdf/2305.10307">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">project</a>
   </div>
 </div>
 
