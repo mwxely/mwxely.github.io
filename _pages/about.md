@@ -156,7 +156,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25, ICML 25, ICCV 25  
 
 **Journal Reviewer**
-* Pattern Recognition, Journal of Electronic Imaging  
+* TPAMI, Pattern Recognition, Journal of Electronic Imaging  
 
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
