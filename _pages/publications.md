@@ -5,6 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+- **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
+Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  
+EMNLP 2025  
+[[bibtex](https://mwxely.github.io/bibtex/liu2025evaluating.html)]  
+
 - **ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models**  
 Duo Li*, <u>Zuhao Yang</u>\*, Shijian Lu  
 Preprint 2025  
