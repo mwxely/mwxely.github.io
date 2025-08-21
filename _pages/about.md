@@ -63,7 +63,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🔥 Exciting News
 ---
-* 2025.08 - One paper was accepted by **EMNLP 2025**
+* 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
 * 2025.04 - I joined [MiroMind AI](https://miromind.ai/) as an AI Scientist Intern.
