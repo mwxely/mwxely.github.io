@@ -20,7 +20,7 @@ redirect_from:
   gap: 20px;
 }
 .paper-box-image {
-  flex: 0 0 220px;      /* 原来是160px，这里设大一点 */
+  flex: 0 0 220px;
   position: relative;
 }
 .paper-box-image .badge {
@@ -41,14 +41,14 @@ redirect_from:
 }
 .paper-box-text {
   flex: 1;
-  font-size: 0.98em;    /* 这里设小一点，可以0.96em甚至0.92em */
+  font-size: 0.98em;
   line-height: 1.45;
   color: #202124;
 }
 .paper-box-text a {
   color: #1684fc;
   font-weight: 600;
-  font-size: 1em;       /* 链接也小一点 */
+  font-size: 1em;
 }
 .paper-box-text i {
   color: #555;
@@ -63,7 +63,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🔥 Exciting News
 ---
-* 2025.08 - One paper were aceepted by **EMNLP 2025**
+* 2025.08 - One paper was aceepted by **EMNLP 2025**
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
 * 2025.04 - I joined [MiroMind AI](https://miromind.ai/) as an AI Scientist Intern.
