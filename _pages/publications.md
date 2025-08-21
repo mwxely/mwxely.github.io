@@ -34,10 +34,6 @@ ACL 2025
 Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan  
 Under Review  
 
-- **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
-Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  
-Under Review  
-
 - **AI-Generated Images as Data Sources: The Dawn of Synthetic Era**  
 <u>Zuhao Yang</u>, Fangneng Zhan, Kunhao Liu, Muyu Xu, Xiaoqin Zhang, Ling Shao, Shijian Lu  
 Preprint 2023  
