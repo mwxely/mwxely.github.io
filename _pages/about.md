@@ -157,12 +157,15 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25, ICML 25, ICCV 25  
 
 **Journal Reviewer**
-* TPAMI, Pattern Recognition, Journal of Electronic Imaging  
+* IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
 
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
 * Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
+
+**Teaching Assistant**
+* AI6121 - Computer Vision, NTU, 2025 Fall
 
 🏆 Patent & Awards
 ---
