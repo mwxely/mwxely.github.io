@@ -154,7 +154,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 💻 Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25, ICML 25, ICCV 25  
+* CVPR 24/25, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
