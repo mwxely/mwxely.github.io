@@ -57,7 +57,7 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind AI and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning video generation, understanding, reasoning, and agentic tool use.
+I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind.ai and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool use, and long-term memory.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
@@ -66,7 +66,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
-* 2025.04 - I joined [MiroMind AI](https://miromind.ai/) as an AI Scientist Intern.
+* 2025.04 - I joined [MiroMind.ai](https://miromind.ai/) as an AI Scientist Intern.
 * 2023.11 - I joined [ByteDance](https://www.bytedance.com/en/) as an AI Research Intern.
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
 * 2023.01 - I joined [Visual Intelligence Lab](https://sg-vilab.github.io/) at NTU.
@@ -147,7 +147,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🧑‍⚖️ Working Experiences
 ---
-* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind AI, Singapore
+* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind.ai, Singapore
 * **2023.11 - 2025.03:** AI Research Intern, ByteDance Inc. & TikTok, Singapore
 * **2021.05 - 2022.06:** NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
 
