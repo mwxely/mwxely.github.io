@@ -57,7 +57,7 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind.ai and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool use, and long-term memory.
+I am a second-year Ph.D. student with Visual Intelligence Lab at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Before joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at MiroMind.ai and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research broadly explores video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool use, and long-term memory.
 
 Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2aOeUuhHty-f3R5w2/view?usp=sharing) for collaborations, questions, or just to chat!
 
