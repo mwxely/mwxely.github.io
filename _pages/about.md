@@ -63,6 +63,7 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 
 🔥 Exciting News
 ---
+* 2025.10 - One paper was accepted by **SIGGRAPH ASIA 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
@@ -162,7 +163,6 @@ Feel free to [reach out to me](https://drive.google.com/file/d/1ru6JmlBLg1KN7Ht2
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
-* Agents That Help or Hinder? Rethinking Agentic AI in Real-World Workflows (AAAI 26)
 
 **Teaching Assistant**
 * AI6121 - Computer Vision, NTU, 2025 Fall
