@@ -5,6 +5,11 @@ permalink: /publications/
 author_profile: true
 ---
 
+- **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
+Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan  
+SIGGRAPH Asia 2025  
+[[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)]  
+
 - **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
 Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  
 EMNLP 2025  
@@ -13,7 +18,7 @@ EMNLP 2025
 - **ToDRE: Visual Token Pruning via Diversity and Task Awareness for Efficient Large Vision-Language Models**  
 Duo Li*, <u>Zuhao Yang</u>\*, Shijian Lu  
 Preprint 2025  
-[[paper](https://arxiv.org/abs/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre)]
+[[paper](https://arxiv.org/abs/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre.html)]
 
 - **TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding**  
 <u>Zuhao Yang</u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai  
@@ -28,11 +33,7 @@ ICCV 2025
 - **QAEval: Mixture of Evaluators for Question-Answering Task Evaluation**  
 Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u>Zuhao Yang</u>, Dongyan Zhao  
 ACL 2025    
-[[paper](https://aclanthology.org/2025.acl-long.716/)] [[bibtex](https://mwxely.github.io/bibtex/yue2025qaeval)] [[code](https://github.com/yuetanbupt/QAEval)]
-
-- **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
-Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan  
-Under Review  
+[[paper](https://aclanthology.org/2025.acl-long.716/)] [[bibtex](https://mwxely.github.io/bibtex/yue2025qaeval.html)] [[code](https://github.com/yuetanbupt/QAEval)]
 
 - **AI-Generated Images as Data Sources: The Dawn of Synthetic Era**  
 <u>Zuhao Yang</u>, Fangneng Zhan, Kunhao Liu, Muyu Xu, Xiaoqin Zhang, Ling Shao, Shijian Lu  
