@@ -42,7 +42,7 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
-  <!-- 在 index.html 的 <head> 里（Bulma 引入之后）新增 -->
+
   <style>
     body {
         font-family: Arial, sans-serif;
@@ -60,6 +60,18 @@
         justify-content: center;
         color: #333;
     }
+    .publication-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 10px;
+    }
+    .link-block .button {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
     .vtg-image-container {
         display: flex;
         gap: 30px;
@@ -69,7 +81,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px; /* Space between rows */
+        gap: 30px;
     }
     .vtg-column-text {
         font-weight: bold;
@@ -84,16 +96,16 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 30px; /* Space between rows */
+        gap: 30px;
     }
     .vtg-generative-column {
-        text-align: center; /* 保持文字居中 */
-        white-space: normal; /* 允许换行 */
-        overflow-wrap: break-word; /* 强制长词换行 */
-        height: 18px; /* 固定高度，确保换行后不挤压 */
-        display: flex; /* 使用 flex 布局 */
-        justify-content: center; /* 垂直居中 */
-        align-items: center; /* 水平居中 */
+        text-align: center;
+        white-space: normal;
+        overflow-wrap: break-word;
+        height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .vtg-table { display: flex; flex-direction: column; gap: 4px; width: 100%; }
     .vtg-row { display: flex; }
@@ -108,64 +120,98 @@
 </head>
 <body>
 
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">Versatile Transition Generation with Image-to-Video Diffusion</h1>
+          <!-- Authors -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://mwxely.github.io/" target="_blank">Zuhao Yang</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN" target="_blank">Jiahui Zhang</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://yingchen001.github.io/" target="_blank">Yingchen Yu</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://personal.ntu.edu.sg/shijian.lu/" target="_blank">Shijian Lu</a><sup>1✝</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://songbai.site/" target="_blank">Song Bai</a><sup>2</sup>
+            </span>
+          </div>
+          <!-- Affiliations -->
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Nanyang Technological University, Singapore</span><br>
+            <span class="author-block"><sup>2</sup>ByteDance, Singapore</span>
+            <span class="eql-cntrb">
+              <small><br><sup>*</sup>This work was done while Zuhao Yang was interning at ByteDance.</small>
+            </span>
+            <span class="eql-cntrb">
+              <small><br><sup>✝</sup>Shijian Lu is the corresponding author.</small>
+            </span>
+            <br>
+            <span class="author-block"><strong>ICCV 2025</strong></span>
+          </div>
+          <!-- Links -->
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Versatile Transition Generation with Image-to-Video Diffusion</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://mwxely.github.io/" target="_blank">Zuhao Yang</a><sup>1*</sup>,</span>
-              <span class="author-block">
-                <a href="https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN" target="_blank">Jiahui Zhang</a><sup>1</sup>,</span>
-              <span class="author-block">
-                <a href="https://yingchen001.github.io/" target="_blank">Yingchen Yu</a><sup>2</sup>,</span>
-              <span class="author-block">
-                    <a href="https://personal.ntu.edu.sg/shijian.lu/" target="_blank">Shijian Lu</a><sup>1✝</sup>,</span>
-              <span class="author-block">
-                    <a href="https://songbai.site/" target="_blank">Song Bai</a><sup>2</sup></span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>Nanyang Technological University, Singapore</span><br>
-                    <span class="author-block"><sup>2</sup>ByteDance, Singapore</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>This work was done while Zuhao Yang was interning at ByteDance.</small></span>
-                    <span class="eql-cntrb"><small><br><sup>✝</sup>Shijian Lu is the corresponding author.</small></span>
-                    <br>
-                    <span class="author-block"><strong>ICCV 2025</strong></span>
-                  </div>
-                  
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                    <!-- Conference Proceeding Link -->
-                    <span class="link-block">
-                      <a href="https://arxiv.org/pdf/2508.01698" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                    <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- ArXiv Abstract Link -->
-                    <span class="link-block">
-                      <a href="https://arxiv.org/abs/2508.01698" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="ai ai-arxiv"></i>
-                      </span>
-                    <span>arXiv</span>
-                      
-                    <!-- HuggingFace Dataset Link -->
-                    <span class="link-block">
-                      <a href="https://huggingface.co/datasets/mwxely/TransitBench" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon" style="vertical-align: middle; font-size: 20px;">&#129303;</span>
-                      <span style="vertical-align: middle;">Bench</span>
+            <div class="publication-links">
+              <!-- Paper -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2508.01698"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- arXiv -->
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2508.01698"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="ai ai-arxiv"></i></span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Bench -->
+              <span class="link-block">
+                <a href="https://huggingface.co/datasets/mwxely/TransitBench"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon" style="vertical-align: middle; font-size: 20px;">&#129303;</span>
+                  <span style="vertical-align: middle;">Bench</span>
+                </a>
+              </span>
+              <!-- Poster -->
+              <span class="link-block">
+                <a href="https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/1520.png?t=1759818503.7691205"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-image"></i></span>
+                  <span>Poster</span>
+                </a>
+              </span>
+              <!-- Slides -->
+              <span class="link-block">
+                <a href="https://iccv.thecvf.com/media/iccv-2025/Slides/1520.pdf"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-powerpoint"></i></span>
+                  <span>Slides</span>
+                </a>
+              </span>
+              <!-- Video -->
+              <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=a4OiLDwudYA"
+                   target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-video"></i></span>
+                  <span>Video</span>
                 </a>
               </span>
             </div>
