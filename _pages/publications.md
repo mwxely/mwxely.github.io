@@ -37,7 +37,7 @@ SIGGRAPH Asia 2025
 - **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
 Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  
 EMNLP 2025  
-[[paper](https://aclanthology.org/2025.findings-emnlp.132/)] [[bibtex](https://mwxely.github.io/bibtex/liu2025evaluating.html)]
+[[paper](https://aclanthology.org/2025.findings-emnlp.132/)] [[bibtex](https://mwxely.github.io/bibtex/liu2025evaluating.html)] [[code](https://github.com/CLCS-SUSTech/FACEScore)]
 
 - **TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding**  
 <u>Zuhao Yang</u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai  
