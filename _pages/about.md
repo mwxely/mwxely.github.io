@@ -80,7 +80,7 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.20785"><b>LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling</b></a><br>
-    <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing<br>
+    <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing<br>
     Preprint 2025<br>
     <a href="https://arxiv.org/pdf/2511.20785">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025longvt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/LongVT">code</a>
   </div>
