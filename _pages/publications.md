@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 - **LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling**  
-<u>Zuhao Yang</u>\*, Sudong Wang\*, Kaichen Zhang\*, Keming Wu, Sicong Leng, Yifan Zhang, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing  
+<u>Zuhao Yang</u>\*, Sudong Wang\*, Kaichen Zhang\*, Keming Wu, Sicong Leng, Yifan Zhang, Chengwei Qin, Bo Li, Shijian Lu, Xingxuan Li, Lidong Bing  
 Preprint 2025  
 [[paper](https://arxiv.org/abs/2511.20785)] [[bibtex](https://mwxely.github.io/bibtex/yang2025longvt.html)] [[code](https://github.com/EvolvingLMMs-Lab/LongVT)]
 
