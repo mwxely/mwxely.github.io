@@ -93,7 +93,7 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.16334"><b>OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe</b></a><br>
-    Kaichen Zhang*, Keming Wu*, <b>Zuhao Yang</b>, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing<br>
+    Kaichen Zhang*, Keming Wu*, <b>Zuhao Yang</b>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing<br>
     Preprint 2025<br>
     <a href="https://arxiv.org/pdf/2511.16334">paper</a> / <a href="https://mwxely.github.io/bibtex/zhang2025openmmreasoner.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/OpenMMReasoner">code</a>
   </div>
