@@ -57,13 +57,13 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool-using, and long-term memory.
+I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, complex reasoning, agentic tool-using, and long-term memory.
 
 I enjoy collaborating with passionate researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
 
 🔥 Exciting News
 ---
-* 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), long-video tool-using ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both LMMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based LMMs](https://arxiv.org/abs/2511.15098).
+* 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), long-video tool-using ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both autoregressive LMMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based LMMs](https://arxiv.org/abs/2511.15098).
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
