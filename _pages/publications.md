@@ -18,7 +18,7 @@ Preprint 2025
 - **A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models**  
 Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu  
 Preprint 2025  
-[[paper](https://arxiv.org/abs/2511.15098)] [[bibtex](https://mwxely.github.io/bibtex/li2025dmllm.html)]
+[[paper](https://arxiv.org/abs/2511.15098)] [[bibtex](https://mwxely.github.io/bibtex/li2025comprehensive.html)]
 
 - **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance**  
 Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu  
@@ -32,7 +32,7 @@ Under Review
 - **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
 Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan  
 SIGGRAPH Asia 2025  
-[[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)]  
+[[paper](https://dl.acm.org/doi/10.1145/3757376.3771409)][[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)]  
 
 - **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
 Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  

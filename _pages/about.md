@@ -57,13 +57,13 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool use, and long-term memory.
+I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, temporal reasoning, agentic tool-using, and long-term memory.
 
-I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
+I enjoy collaborating with passionate researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
 
 🔥 Exciting News
 ---
-* 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), multimodal agentic tool use ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both MLLMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based MLLMs](https://arxiv.org/abs/2511.15098).
+* 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), long-video tool-using ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both LMMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based LMMs](https://arxiv.org/abs/2511.15098).
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
@@ -80,7 +80,7 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.20785"><b>LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling</b></a><br>
-    <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Chengwei Qin, Bo Li, Shijian Lu, Xingxuan Li, Lidong Bing<br>
+    <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing<br>
     Preprint 2025<br>
     <a href="https://arxiv.org/pdf/2511.20785">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025longvt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/LongVT">code</a>
   </div>
@@ -108,7 +108,7 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
     <a href="https://arxiv.org/abs/2511.15098"><b>A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models</b></a><br>
     Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
     Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025dmllm.html">bibtex</a>
+    <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a>
   </div>
 </div>
 
@@ -186,13 +186,13 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
 🧑‍⚖️ Working Experiences
 ---
 * **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind.ai, Singapore
-* **2023.11 - 2025.03:** AI Research Intern, ByteDance Inc. & TikTok, Singapore
-* **2021.05 - 2022.06:** NLP Algorithm Engineer, TMI Robotics Technology, Shanghai
+* **2023.11 - 2025.03:** CV Research Intern, ByteDance Inc. & TikTok, Singapore
+* **2021.05 - 2022.06:** NLP Research Engineer, TMI Robotics Technology, Shanghai
 
 💻 Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24, ACMMM 24, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
+* CVPR 24/25/26, ECCV 24, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
@@ -200,6 +200,8 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
+* Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to
+Multimodal Grounding to Agentic Collaboration (AAAI 26)
 
 **Teaching Assistant**
 * AI6121 - Computer Vision, NTU, 2025 Fall
@@ -209,6 +211,6 @@ I enjoy collaborating with self-motivated researchers at [LMMs-Lab](https://www.
 * Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2025
 * Method, Device, and Medium for Generating Transition Videos with Diffusion Model, SG Patent, 2024
 * [Method, Device, and Medium for Automatic Question-Answering](http://epub.cnipa.gov.cn/patent/CN113946669A), CN Patent, 2022
-* Outstanding Graduate, University of Alberta, 2021
+* Outstanding Graduate with Distinction, University of Alberta, 2021
 * Dean's Honor Roll Award, University of Alberta, 2018 - 2020
 * International Student Scholarship, University of Alberta, 2017 - 2019
