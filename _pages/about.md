@@ -59,7 +59,7 @@ redirect_from:
 
 I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, complex reasoning, agentic tool use, and long-term memory.
 
-I enjoy collaborating with passionate researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
+I enjoy building with passionate researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models (LMMs) with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
 
 🔥 Exciting News
 ---
