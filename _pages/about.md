@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "I am a second-year Ph.D. Student at NTU. My research interests include: video understanding, video reasoning, and video generation."
+excerpt: "I am a second-year Ph.D. student at NTU. My research interests include: video understanding, video reasoning, and video generation."
 author_profile: true
 redirect_from: 
   - /about/
@@ -180,16 +180,16 @@ I enjoy building with passionate researchers at [LMMs-Lab](https://www.lmms-lab.
 📖 Educational Background
 ---
 * **2024.01 - Present:** Doctor of Philosophy, College of Computing and Data Science, Nanyang Technological University
-* **2022.08 - 2024.01:** Master in Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
+* **2022.08 - 2024.01:** Master of Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
 * **2017.09 - 2021.06:** Bachelor in Computing Science, Department of Computing Science, University of Alberta
 
-🧑‍⚖️ Working Experiences
+💼 Working Experience
 ---
 * **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind.ai, Singapore
 * **2023.11 - 2025.03:** CV Research Intern, ByteDance Inc. & TikTok, Singapore
 * **2021.05 - 2022.06:** NLP Research Engineer, TMI Robotics Technology, Shanghai
 
-💻 Academic Services
+✍️ Academic Services
 ---
 **Conference Reviewer**
 * CVPR 24/25/26, ECCV 24, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
@@ -200,11 +200,10 @@ I enjoy building with passionate researchers at [LMMs-Lab](https://www.lmms-lab.
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
-* Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to
-Multimodal Grounding to Agentic Collaboration (AAAI 26)
+* Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to Multimodal Grounding to Agentic Collaboration (AAAI 26)
 
 **Teaching Assistant**
-* AI6121 - Computer Vision, NTU, 2025 Fall
+* AI6121 - Computer Vision, NTU, Fall 2025
 
 🏆 Patent & Awards
 ---
