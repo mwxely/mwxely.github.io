@@ -17,7 +17,7 @@
           {% endfor %}
           <!-- Theme toggle -->
           <li class="masthead__menu-item">
-            <a id="theme-toggle" style="cursor:pointer;" onclick="(function(){var d=document.documentElement,c=d.getAttribute('data-theme')==='dark'?'light':'dark';localStorage.setItem('theme',c);d.setAttribute('data-theme',c==='dark'?'dark':'');var i=document.getElementById('theme-icon');if(i){i.className='fas fa-'+(c==='dark'?'moon':'sun');}})()">
+            <a id="theme-toggle" style="cursor:pointer;" onclick="var d=document.documentElement,isDark=d.getAttribute('data-theme')==='dark',c=isDark?'light':'dark';localStorage.setItem('theme',c);if(c==='dark'){d.setAttribute('data-theme','dark')}else{d.removeAttribute('data-theme')};var i=document.getElementById('theme-icon');if(i)i.className='fas fa-'+(c==='dark'?'moon':'sun')">
               <i id="theme-icon" class="fas fa-sun"></i>
             </a>
           </li>
