@@ -41,239 +41,48 @@
 @import "print";
 
 /* ==========================================================================
-   DARK MODE SUPPORT
+   DARK MODE
    ========================================================================== */
 
 :root {
-  --bg-color: #fff;
-  --text-color: #494e52;
-  --link-color: #52adc8;
-  --border-color: #e0e0e0;
-  --code-bg: #fafafa;
-  --masthead-bg: #fff;
-  --footer-bg: #fff;
-  --sidebar-bg: transparent;
-  --card-bg: #fff;
+  --bg: #fff;
+  --fg: #494e52;
+  --link: #52adc8;
+  --border: #e0e0e0;
+  --card: #fff;
 }
 
 [data-theme="dark"] {
-  --bg-color: #1a1a1a;
-  --text-color: #e0e0e0;
-  --link-color: #52adc8;
-  --border-color: #3a3a3a;
-  --code-bg: #2d2d2d;
-  --masthead-bg: #1a1a1a;
-  --footer-bg: #1a1a1a;
-  --sidebar-bg: transparent;
-  --card-bg: #252525;
+  --bg: #1a1a1a;
+  --fg: #e0e0e0;
+  --link: #52adc8;
+  --border: #3a3a3a;
+  --card: #252525;
 }
 
-/* Apply dark mode styles */
-[data-theme="dark"] body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
-[data-theme="dark"] a {
-  color: var(--link-color);
-}
-
-/* Masthead / Navigation */
-[data-theme="dark"] .masthead {
-  background-color: var(--masthead-bg) !important;
-  border-bottom-color: var(--border-color);
-}
-
-[data-theme="dark"] .greedy-nav {
-  background: var(--masthead-bg) !important;
-}
-
-[data-theme="dark"] .masthead__menu-item a,
-[data-theme="dark"] .greedy-nav a {
-  color: var(--text-color);
-}
-
-/* Footer */
-[data-theme="dark"] .page__footer {
-  background-color: var(--footer-bg) !important;
-  color: var(--text-color);
-}
-
-[data-theme="dark"] .page__footer a {
-  color: var(--link-color);
-}
-
-[data-theme="dark"] .page__footer-follow li,
-[data-theme="dark"] .page__footer-copyright {
-  color: var(--text-color);
-}
-
-/* Sidebar / Author profile */
-[data-theme="dark"] .sidebar,
-[data-theme="dark"] .author__avatar,
-[data-theme="dark"] .author__content,
-[data-theme="dark"] .author__urls-wrapper {
-  background-color: var(--sidebar-bg);
-}
-
+[data-theme="dark"] body { background: var(--bg); color: var(--fg); }
+[data-theme="dark"] a { color: var(--link); }
+[data-theme="dark"] .masthead,
+[data-theme="dark"] .greedy-nav { background: var(--bg) !important; }
+[data-theme="dark"] .masthead__menu-item a { color: var(--fg); }
+[data-theme="dark"] .page__footer { background: var(--bg) !important; color: var(--fg); }
+[data-theme="dark"] .sidebar { background: transparent; }
+[data-theme="dark"] .author__name,
 [data-theme="dark"] .author__bio,
-[data-theme="dark"] .author__urls-wrapper,
-[data-theme="dark"] .author__content,
-[data-theme="dark"] .author__name {
-  color: var(--text-color);
-}
-
-[data-theme="dark"] .author__urls li a {
-  color: var(--text-color);
-}
-
-/* Sidebar icons in dark mode - improve readability */
-[data-theme="dark"] .author__urls li a .fa,
-[data-theme="dark"] .author__urls li a .fas,
-[data-theme="dark"] .author__urls li a .fab,
-[data-theme="dark"] .author__urls li a .far,
-[data-theme="dark"] .author__urls li a .fal,
-[data-theme="dark"] .author__urls li a [class*="fa-"],
-[data-theme="dark"] .author__urls li .fa,
-[data-theme="dark"] .author__urls li .fas,
-[data-theme="dark"] .author__urls li .fab,
-[data-theme="dark"] .author__urls li [class*="fa-"],
-[data-theme="dark"] .author__urls li i,
-[data-theme="dark"] .author__urls .svg-inline--fa {
-  color: var(--text-color) !important;
-}
-
-/* Location icon specifically */
-[data-theme="dark"] .author__urls li .fa-map-marker,
-[data-theme="dark"] .author__urls li .fa-map-marker-alt,
-[data-theme="dark"] .author__urls li .fa-location-dot {
-  color: var(--text-color) !important;
-}
-
-/* All sidebar text and icons */
-[data-theme="dark"] .sidebar .fa,
-[data-theme="dark"] .sidebar .fas,
-[data-theme="dark"] .sidebar .fab,
-[data-theme="dark"] .sidebar .far,
-[data-theme="dark"] .sidebar i {
-  color: var(--text-color) !important;
-}
-
-/* Author URLs wrapper text */
-[data-theme="dark"] .author__urls-wrapper span,
-[data-theme="dark"] .author__urls li {
-  color: var(--text-color);
-}
-
-/* Page content */
-[data-theme="dark"] .page__content {
-  color: var(--text-color);
-}
-
-[data-theme="dark"] h1, 
-[data-theme="dark"] h2, 
-[data-theme="dark"] h3, 
-[data-theme="dark"] h4, 
-[data-theme="dark"] h5, 
-[data-theme="dark"] h6 {
-  color: var(--text-color);
-}
-
-/* Archive / Publication items */
-[data-theme="dark"] .archive__item,
-[data-theme="dark"] .archive__item-teaser,
-[data-theme="dark"] .feature__item {
-  background-color: var(--card-bg);
-}
-
-[data-theme="dark"] .archive__item-title a,
-[data-theme="dark"] .archive__item-excerpt {
-  color: var(--text-color);
-}
-
-/* Misc elements */
-[data-theme="dark"] hr {
-  border-top-color: var(--border-color);
-}
-
-[data-theme="dark"] p > code,
-[data-theme="dark"] a > code,
-[data-theme="dark"] li > code,
-[data-theme="dark"] td > code {
-  background: var(--code-bg);
-  border-color: var(--border-color);
-}
-
-[data-theme="dark"] blockquote {
-  color: var(--text-color);
-  border-left-color: var(--link-color);
-}
-
-[data-theme="dark"] table {
-  color: var(--text-color);
-  border-color: var(--border-color);
-}
-
-[data-theme="dark"] th, 
-[data-theme="dark"] td {
-  border-color: var(--border-color);
-}
-
-[data-theme="dark"] .notice,
-[data-theme="dark"] .notice--primary,
-[data-theme="dark"] .notice--info,
-[data-theme="dark"] .notice--warning,
-[data-theme="dark"] .notice--success,
-[data-theme="dark"] .notice--danger {
-  background-color: var(--code-bg);
-  color: var(--text-color);
-}
-
-/* Publication cards */
+[data-theme="dark"] .author__urls li a { color: var(--fg); }
+[data-theme="dark"] .sidebar i,
+[data-theme="dark"] .author__urls i { color: var(--fg) !important; }
+[data-theme="dark"] .page__content,
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3,
+[data-theme="dark"] h4, [data-theme="dark"] h5, [data-theme="dark"] h6 { color: var(--fg); }
+[data-theme="dark"] .archive__item { background: var(--card); }
+[data-theme="dark"] .archive__item-title a { color: var(--fg); }
 [data-theme="dark"] .pub-row,
-[data-theme="dark"] .paper-box {
-  background-color: var(--card-bg) !important;
-}
+[data-theme="dark"] .paper-box { background: var(--card) !important; }
+[data-theme="dark"] .hidden-links { background: var(--bg); border-color: var(--border); }
+[data-theme="dark"] .hidden-links a { color: var(--fg); }
 
-[data-theme="dark"] .paper-box-image,
-[data-theme="dark"] .paper-box-text {
-  background-color: transparent !important;
-}
-
-/* Hidden links dropdown in dark mode */
-[data-theme="dark"] .hidden-links {
-  background: var(--masthead-bg);
-  border-color: var(--border-color);
-}
-
-[data-theme="dark"] .hidden-links a {
-  color: var(--text-color);
-}
-
-/* ==========================================================================
-   THEME TOGGLE - Clean implementation based on XIAO4579
-   ========================================================================== */
-
-/* Prevent greedy-nav from hiding the toggle */
-#theme-toggle.persist {
-  display: table-cell !important;
-  visibility: visible !important;
-}
-
-/* Style the toggle link */
-#theme-toggle a {
-  cursor: pointer;
-  color: var(--link-color, #52adc8);
-  font-size: 1em;
-  padding: 0 0.5em;
-  transition: color 0.2s ease;
-}
-
-#theme-toggle a:hover {
-  color: var(--text-color, #494e52);
-}
-
-/* Icon styling */
-#theme-toggle i {
-  font-size: 1.1em;
-}
+/* Theme toggle button */
+#theme-toggle { cursor: pointer; color: var(--link); padding: 0 0.5em; }
+#theme-toggle:hover { color: var(--fg); }
+#theme-toggle i { font-size: 1.1em; }
