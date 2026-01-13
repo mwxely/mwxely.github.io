@@ -32,7 +32,7 @@ Under Review
 - **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
 Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan  
 SIGGRAPH Asia 2025  
-[[paper](https://dl.acm.org/doi/10.1145/3757376.3771409)][[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)][[code](https://github.com/01yzzyu/rechar.github.io/tree/master/ReChar)]  
+[[paper](https://dl.acm.org/doi/10.1145/3757376.3771409)] [[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)] [[code](https://github.com/01yzzyu/rechar.github.io/tree/master/ReChar)]  
 
 - **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**  
 Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u>  
