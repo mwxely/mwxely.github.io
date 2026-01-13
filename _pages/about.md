@@ -55,6 +55,20 @@ redirect_from:
   font-style: italic;
   font-size: 0.98em;
 }
+/* Dark mode styles */
+[data-theme="dark"] .paper-box {
+  background: #252525;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.3);
+}
+[data-theme="dark"] .paper-box-text {
+  color: #e0e0e0;
+}
+[data-theme="dark"] .paper-box-text a {
+  color: #52adc8;
+}
+[data-theme="dark"] .paper-box-text i {
+  color: #b0b0b0;
+}
 </style>
 
 I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind.ai](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning controllable generation, complex reasoning, agentic tool use, and long-term memory.
