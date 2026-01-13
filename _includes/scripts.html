@@ -1,3 +1,49 @@
+<!-- Theme toggle script - must run before main.min.js to ensure it works even if main.min.js has errors -->
+<script>
+(function() {
+  // Set the theme
+  function setTheme(theme) {
+    var useTheme = theme || localStorage.getItem('theme') || 'light';
+    
+    if (useTheme === 'dark') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      var icon = document.getElementById('theme-icon');
+      if (icon) {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+      var icon = document.getElementById('theme-icon');
+      if (icon) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      }
+    }
+  }
+
+  // Toggle the theme
+  function toggleTheme() {
+    var currentTheme = document.documentElement.getAttribute('data-theme');
+    var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    localStorage.setItem('theme', newTheme);
+    setTheme(newTheme);
+  }
+
+  // Initialize theme and icon on page load
+  setTheme();
+
+  // Enable the theme toggle - use event delegation for reliability
+  document.addEventListener('click', function(e) {
+    var toggle = e.target.closest('#theme-toggle');
+    if (toggle) {
+      e.preventDefault();
+      toggleTheme();
+    }
+  });
+})();
+</script>
+
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
 {% include analytics.html %}
