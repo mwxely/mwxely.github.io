@@ -16,13 +16,23 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
           <!-- Theme toggle -->
-          <li class="masthead__menu-item">
+          <li class="masthead__menu-item masthead__menu-item--theme-toggle">
             <a id="theme-toggle" style="cursor:pointer;" onclick="var d=document.documentElement,isDark=d.getAttribute('data-theme')==='dark',c=isDark?'light':'dark';localStorage.setItem('theme',c);if(c==='dark'){d.setAttribute('data-theme','dark')}else{d.removeAttribute('data-theme')};var i=document.getElementById('theme-icon');if(i)i.className='fas fa-'+(c==='dark'?'moon':'sun')">
               <i id="theme-icon" class="fas fa-sun"></i>
             </a>
           </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
+        <ul class="hidden-links hidden">
+          <!-- Mobile-only: pre-populated links for dropdown menu -->
+          {% for link in site.data.navigation.main %}
+            {% if link.url contains 'http' %}
+              {% assign domain = '' %}
+              {% else %}
+              {% assign domain = base_path %}
+            {% endif %}
+            <li class="mobile-dropdown-link"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+          {% endfor %}
+        </ul>
       </nav>
     </div>
   </div>
