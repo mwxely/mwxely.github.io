@@ -86,3 +86,57 @@
 #theme-toggle { cursor: pointer; color: var(--link); padding: 0 0.5em; }
 #theme-toggle:hover { color: var(--fg); }
 #theme-toggle i { font-size: 1.1em; }
+
+/* ==========================================================================
+   MOBILE STYLES - Only affects screens smaller than 768px
+   ========================================================================== */
+
+/* Desktop: hide mobile-only dropdown links (greedy-nav manages its own) */
+.hidden-links .mobile-dropdown-link {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  /* Mobile: show pre-populated dropdown links */
+  .hidden-links .mobile-dropdown-link {
+    display: block;
+  }
+
+  /* Hide all nav links except Homepage and theme toggle on mobile */
+  .greedy-nav .visible-links .masthead__menu-item:not(.masthead__menu-item--lg):not(.masthead__menu-item--theme-toggle) {
+    display: none;
+  }
+
+  /* Center theme toggle button on mobile */
+  .greedy-nav .visible-links .masthead__menu-item--theme-toggle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Adjust nav layout for mobile */
+  .greedy-nav .visible-links {
+    position: relative;
+    width: 100%;
+  }
+
+  /* Ensure dropdown button is visible on mobile */
+  .greedy-nav button {
+    display: block !important;
+  }
+  .greedy-nav button.hidden {
+    display: block !important;
+  }
+
+  /* Ensure hidden-links dropdown is styled properly */
+  .greedy-nav .hidden-links {
+    display: none;
+  }
+  .greedy-nav .hidden-links:not(.hidden) {
+    display: block;
+  }
+}
