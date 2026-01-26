@@ -113,13 +113,39 @@
   }
 
   /* Ensure dropdown button is always visible on mobile */
+  .greedy-nav {
+    position: relative;
+  }
   .greedy-nav button {
     display: block !important;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
+    padding: 0.5rem;
+    height: auto;
+    background: transparent;
+    color: #7a8288;
   }
+  .greedy-nav button .navicon {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    position: relative;
+  }
+  .greedy-nav button .navicon:before,
+  .greedy-nav button .navicon:after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    position: absolute;
+    left: 0;
+  }
+  .greedy-nav button .navicon:before { top: -6px; }
+  .greedy-nav button .navicon:after { top: 6px; }
 
   /* Hide Follow button on mobile */
   .author__urls-wrapper > button.btn {
@@ -140,6 +166,36 @@
   .author__urls:before,
   .author__urls:after {
     display: none !important;
+  }
+
+  /* Reduce spacing in author profile on mobile */
+  .sidebar {
+    margin-bottom: 0.5em !important;
+  }
+  .author__avatar {
+    width: 55px !important;
+  }
+  .author__avatar img {
+    max-width: 55px !important;
+  }
+  .author__content {
+    padding-right: 8px !important;
+  }
+  .author__name {
+    font-size: 1em !important;
+    margin-bottom: 2px !important;
+  }
+  .author__bio {
+    font-size: 0.75em !important;
+    margin-bottom: 3px !important;
+  }
+  .author__urls li {
+    font-size: 0.8em !important;
+    margin-bottom: 1px !important;
+  }
+  .author__urls a {
+    margin-bottom: 2px !important;
+    padding: 1px 0 !important;
   }
 
   /* Theme toggle in dropdown menu - center it */

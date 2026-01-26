@@ -73,22 +73,28 @@ redirect_from:
 @media (max-width: 768px) {
   .paper-box {
     position: relative;
-    padding: 12px;
-    padding-top: 32px; /* Space for badge at top */
-    gap: 12px;
+    flex-direction: column;
+    padding: 8px;
+    padding-top: 28px; /* Space for badge at top */
+    gap: 8px;
   }
   .paper-box-image {
-    flex: 0 0 120px;
-    align-self: flex-start;
+    position: static; /* Remove relative so badge positions to paper-box */
+    flex: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .paper-box-image .badge {
-    /* Move badge to paper-box top-left corner on mobile */
+    /* Badge at paper-box top-left corner */
     position: absolute;
     left: 0;
     top: 0;
     border-radius: 12px 0 8px 0;
   }
   .paper-box-image img {
+    width: 65%;
+    max-width: 200px;
     margin-top: 0;
   }
   .paper-box-text {
@@ -96,7 +102,6 @@ redirect_from:
     line-height: 1.35;
     overflow-wrap: break-word;
     word-wrap: break-word;
-    align-self: flex-start;
   }
   .paper-box-text a {
     font-size: 0.92em;
@@ -239,7 +244,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 ✍️ Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
