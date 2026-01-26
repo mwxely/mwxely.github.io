@@ -72,24 +72,34 @@ redirect_from:
 /* Mobile styles - only affects screens smaller than 768px */
 @media (max-width: 768px) {
   .paper-box {
-    align-items: center;
+    position: relative;
     padding: 12px;
+    padding-top: 32px; /* Space for badge at top */
     gap: 12px;
   }
   .paper-box-image {
-    flex: 0 0 140px;
+    flex: 0 0 120px;
+    align-self: flex-start;
+  }
+  .paper-box-image .badge {
+    /* Move badge to paper-box top-left corner on mobile */
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 12px 0 8px 0;
   }
   .paper-box-image img {
-    margin-top: 18px;
+    margin-top: 0;
   }
   .paper-box-text {
-    font-size: 0.88em;
+    font-size: 0.85em;
     line-height: 1.35;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    align-self: flex-start;
   }
   .paper-box-text a {
-    font-size: 0.95em;
+    font-size: 0.92em;
   }
 }
 </style>

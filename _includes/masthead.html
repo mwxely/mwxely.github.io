@@ -32,6 +32,12 @@
             {% endif %}
             <li class="mobile-dropdown-link"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <!-- Theme toggle in dropdown (mobile) -->
+          <li class="mobile-dropdown-link mobile-dropdown-link--theme-toggle">
+            <a id="theme-toggle-mobile" style="cursor:pointer;" onclick="var d=document.documentElement,isDark=d.getAttribute('data-theme')==='dark',c=isDark?'light':'dark';localStorage.setItem('theme',c);if(c==='dark'){d.setAttribute('data-theme','dark')}else{d.removeAttribute('data-theme')};var i=document.getElementById('theme-icon');if(i)i.className='fas fa-'+(c==='dark'?'moon':'sun');var i2=document.getElementById('theme-icon-mobile');if(i2)i2.className='fas fa-'+(c==='dark'?'moon':'sun')">
+              <i id="theme-icon-mobile" class="fas fa-sun"></i> Toggle Theme
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
