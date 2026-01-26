@@ -252,7 +252,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
-* Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to Multimodal Grounding to Agentic Collaboration (AAAI 26)
+* [Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to Multimodal Grounding to Agentic Collaboration](https://aaai.org/conference/aaai/aaai-26/interactive-industry-sessions/#ChenInstitute) (AAAI 26)
 
 **Teaching Assistant**
 * AI6121 - Computer Vision, NTU, Fall 2025
