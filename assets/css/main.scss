@@ -107,19 +107,12 @@
     display: none !important;
   }
 
-  /* Theme toggle centered between Homepage and menu button */
-  .greedy-nav .visible-links {
-    display: flex !important;
-    align-items: center;
-    width: 100%;
-  }
+  /* Keep Homepage and theme toggle visible in nav bar */
   .greedy-nav .visible-links .masthead__menu-item--lg {
-    flex: 0 0 auto;
+    display: table-cell !important;
   }
   .greedy-nav .visible-links .masthead__menu-item--theme-toggle {
-    display: block !important;
-    flex: 1;
-    text-align: center;
+    display: table-cell !important;
   }
 
   /* Ensure dropdown button is always visible on mobile */
@@ -187,6 +180,10 @@
   }
   .greedy-nav .hidden-links a {
     text-align: center;
+  }
+  /* Hide items moved by greedy-nav, only show pre-populated mobile links */
+  .greedy-nav .hidden-links > li:not(.mobile-dropdown-link) {
+    display: none !important;
   }
 
   /* Hide Follow button on mobile */
