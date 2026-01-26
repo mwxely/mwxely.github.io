@@ -107,9 +107,19 @@
     display: none !important;
   }
 
-  /* Show theme toggle in visible-links */
+  /* Theme toggle centered between Homepage and menu button */
+  .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+  }
+  .greedy-nav .visible-links .masthead__menu-item--lg {
+    flex: 0 0 auto;
+  }
   .greedy-nav .visible-links .masthead__menu-item--theme-toggle {
-    display: table-cell !important;
+    display: block !important;
+    flex: 1;
+    text-align: center;
   }
 
   /* Ensure dropdown button is always visible on mobile */
@@ -149,18 +159,34 @@
   }
   .greedy-nav button .navicon:before { top: -5px; }
   .greedy-nav button .navicon:after { top: 5px; }
+  /* Fix button icon when menu is open */
+  .greedy-nav button.close .navicon {
+    background: transparent;
+  }
+  .greedy-nav button.close .navicon:before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .greedy-nav button.close .navicon:after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
   
-  /* Ensure hidden-links shows when button clicked */
+  /* Dropdown menu styling */
   .greedy-nav .hidden-links {
     right: 0;
     top: 100%;
     margin-top: 5px;
+    text-align: center;
   }
   .greedy-nav .hidden-links.hidden {
     display: none !important;
   }
   .greedy-nav .hidden-links:not(.hidden) {
     display: block !important;
+  }
+  .greedy-nav .hidden-links a {
+    text-align: center;
   }
 
   /* Hide Follow button on mobile */
@@ -235,11 +261,4 @@
     margin-top: 0 !important;
   }
 
-  /* Theme toggle in dropdown menu - center it */
-  .hidden-links .mobile-dropdown-link--theme-toggle {
-    text-align: center;
-  }
-  .hidden-links .mobile-dropdown-link--theme-toggle a {
-    display: inline-block;
-  }
 }
