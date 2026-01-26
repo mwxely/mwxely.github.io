@@ -116,20 +116,23 @@
   .greedy-nav {
     position: relative;
   }
-  .greedy-nav button {
+  .greedy-nav button,
+  .greedy-nav button.hidden {
     display: block !important;
+    visibility: visible !important;
     position: absolute;
     right: 0;
     top: 50%;
     transform: translateY(-50%);
     padding: 0.5rem;
     height: auto;
-    background: transparent;
-    color: #7a8288;
+    background: #52adc8;
+    color: #fff;
+    border-radius: 4px;
   }
   .greedy-nav button .navicon {
     display: block;
-    width: 20px;
+    width: 18px;
     height: 2px;
     background: currentColor;
     position: relative;
@@ -138,14 +141,27 @@
   .greedy-nav button .navicon:after {
     content: "";
     display: block;
-    width: 20px;
+    width: 18px;
     height: 2px;
     background: currentColor;
     position: absolute;
     left: 0;
   }
-  .greedy-nav button .navicon:before { top: -6px; }
-  .greedy-nav button .navicon:after { top: 6px; }
+  .greedy-nav button .navicon:before { top: -5px; }
+  .greedy-nav button .navicon:after { top: 5px; }
+  
+  /* Ensure hidden-links shows when button clicked */
+  .greedy-nav .hidden-links {
+    right: 0;
+    top: 100%;
+    margin-top: 5px;
+  }
+  .greedy-nav .hidden-links.hidden {
+    display: none !important;
+  }
+  .greedy-nav .hidden-links:not(.hidden) {
+    display: block !important;
+  }
 
   /* Hide Follow button on mobile */
   .author__urls-wrapper > button.btn {
@@ -170,32 +186,53 @@
 
   /* Reduce spacing in author profile on mobile */
   .sidebar {
-    margin-bottom: 0.5em !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
   }
   .author__avatar {
     width: 55px !important;
+    vertical-align: top !important;
   }
   .author__avatar img {
     max-width: 55px !important;
   }
   .author__content {
     padding-right: 8px !important;
+    padding-bottom: 0 !important;
   }
   .author__name {
     font-size: 1em !important;
+    margin-top: 0 !important;
     margin-bottom: 2px !important;
   }
   .author__bio {
     font-size: 0.75em !important;
-    margin-bottom: 3px !important;
+    margin-bottom: 0 !important;
+  }
+  .author__urls-wrapper {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+  .author__urls {
+    margin-top: 0 !important;
   }
   .author__urls li {
     font-size: 0.8em !important;
-    margin-bottom: 1px !important;
+    margin-bottom: 0 !important;
+    line-height: 1.4 !important;
   }
   .author__urls a {
-    margin-bottom: 2px !important;
+    margin-bottom: 0 !important;
     padding: 1px 0 !important;
+  }
+  
+  /* Reduce gap between sidebar and content on mobile */
+  .page__content {
+    margin-top: 0 !important;
+    padding-top: 0.5em !important;
+  }
+  .page__content > p:first-child {
+    margin-top: 0 !important;
   }
 
   /* Theme toggle in dropdown menu - center it */
