@@ -3,111 +3,10 @@ permalink: /
 title: ""
 excerpt: "I am a second-year Ph.D. student at NTU. My research interests include: video understanding, video reasoning, and video agents."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-
-<style>
-.paper-box {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 24px;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.08);
-  background: #fff;
-  padding: 16px;
-  gap: 20px;
-}
-.paper-box-image {
-  flex: 0 0 220px;
-  position: relative;
-}
-.paper-box-image .badge {
-  position: absolute;
-  left: 0; top: 0;
-  background: #337ab7;
-  color: #fff;
-  padding: 2px 12px;
-  font-size: 14px;
-  border-radius: 8px 0 8px 0;
-  font-weight: 700;
-  z-index: 2;
-}
-.paper-box-image img {
-  width: 100%;
-  border-radius: 8px;
-  margin-top: 22px;
-}
-.paper-box-text {
-  flex: 1;
-  font-size: 0.98em;
-  line-height: 1.45;
-  color: #202124;
-}
-.paper-box-text a {
-  color: #1684fc;
-  font-weight: 600;
-  font-size: 1em;
-}
-.paper-box-text i {
-  color: #555;
-  font-style: italic;
-  font-size: 0.98em;
-}
-/* Dark mode styles */
-[data-theme="dark"] .paper-box {
-  background: #252525;
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.3);
-}
-[data-theme="dark"] .paper-box-text {
-  color: #e0e0e0;
-}
-[data-theme="dark"] .paper-box-text a {
-  color: #52adc8;
-}
-[data-theme="dark"] .paper-box-text i {
-  color: #b0b0b0;
-}
-/* Mobile styles - only affects screens smaller than 768px */
-@media (max-width: 768px) {
-  .paper-box {
-    position: relative;
-    flex-direction: column;
-    padding: 8px;
-    padding-top: 28px; /* Space for badge at top */
-    gap: 8px;
-  }
-  .paper-box-image {
-    position: static; /* Remove relative so badge positions to paper-box */
-    flex: none;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-  .paper-box-image .badge {
-    /* Badge at paper-box top-left corner */
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 12px 0 8px 0;
-  }
-  .paper-box-image img {
-    width: 65%;
-    max-width: 200px;
-    margin-top: 0;
-  }
-  .paper-box-text {
-    font-size: 0.85em;
-    line-height: 1.35;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-  }
-  .paper-box-text a {
-    font-size: 0.92em;
-  }
-}
-</style>
 
 I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, complex reasoning, agentic tool use, and self-evolving multi-agent systems.
 
@@ -125,109 +24,63 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 
 📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
 ---
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">Preprint</span>
-    <img src="images/LVT.png" alt="LVT" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2511.20785"><b>LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling</b></a><br>
-    <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing<br>
-    Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2511.20785">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025longvt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/LongVT">code</a>
-  </div>
-</div>
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">Preprint</span>
-    <img src="images/OMR.png" alt="OMR" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2511.16334"><b>OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe</b></a><br>
-    Kaichen Zhang*, Keming Wu*, <b>Zuhao Yang</b>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing<br>
-    Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2511.16334">paper</a> / <a href="https://mwxely.github.io/bibtex/zhang2025openmmreasoner.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/OpenMMReasoner">code</a>
-  </div>
-</div>
+**Video Understanding, Reasoning & Agentic Tool Use**
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">Preprint</span>
-    <img src="images/dMLLM.png" alt="dMLLM" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2511.15098"><b>A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models</b></a><br>
-    Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
-    Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a>
-  </div>
-</div>
+- **LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling**
+  <u>Zuhao Yang</u>\*, Sudong Wang\*, Kaichen Zhang\*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing · *Preprint 2025*
+  [[paper](https://arxiv.org/abs/2511.20785)] [[bibtex](https://mwxely.github.io/bibtex/yang2025longvt.html)] [[code](https://github.com/EvolvingLMMs-Lab/LongVT)]
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">Preprint</span>
-    <img src="images/ToDRE.png" alt="ToDRE" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2505.18757"><b>ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance</b></a><br>
-    Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
-    Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2505.18757">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025todre.html">bibtex</a>
-  </div>
-</div>
+- **OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe**
+  Kaichen Zhang\*, Keming Wu\*, <u>Zuhao Yang</u>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing · *Preprint 2025*
+  [[paper](https://arxiv.org/abs/2511.16334)] [[bibtex](https://mwxely.github.io/bibtex/zhang2025openmmreasoner.html)] [[code](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner)]
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">ICCV</span>
-    <img src="images/TE.png" alt="TimeExpert" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2508.01699"><b>TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding</b></a><br>
-    <b>Zuhao Yang</b>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai<br>
-    ICCV 2025<br>
-    <a href="https://arxiv.org/pdf/2508.01699">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025timeexpert.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025time/index">webpage</a>
-  </div>
-</div>
+- **TimeExpert: An Expert-Guided Video LLM for Video Temporal Grounding**
+  <u>Zuhao Yang</u>, Yingchen Yu, Yunqing Zhao, Shijian Lu, Song Bai · *ICCV 2025*
+  [[paper](https://arxiv.org/abs/2508.01699)] [[bibtex](https://mwxely.github.io/bibtex/yang2025timeexpert.html)] [[webpage](https://mwxely.github.io/projects/yang2025time/index)]
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">ICCV</span>
-    <img src="images/VTG.png" alt="VTG" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2508.01698"><b>Versatile Transition Generation with Image-to-Video Diffusion</b></a><br>
-    <b>Zuhao Yang</b>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai<br>
-    ICCV 2025<br>
-    <a href="https://arxiv.org/pdf/2508.01698">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025versatile.html">bibtex</a> / <a href="https://mwxely.github.io/projects/yang2025vtg/index">webpage</a>
-  </div>
-</div>
+- **SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration**
+  Zhongyu Yang, <u>Zuhao Yang</u>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan · *Under Review*
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">ACL</span>
-    <img src="images/QAEval.png" alt="QAEval" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://aclanthology.org/2025.acl-long.716"><b>QAEval: Mixture of Evaluators for Question‑Answering Task Evaluation</b></a><br>
-    Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <b>Zuhao Yang</b>, Dongyan Zhao<br>
-    ACL 2025<br>
-    <a href="https://aclanthology.org/2025.acl-long.716.pdf">paper</a> / <a href="https://mwxely.github.io/bibtex/yue2025qaeval.html">bibtex</a> / <a href="https://github.com/yuetanbupt/QAEval">code</a>
-  </div>
-</div>
+**Visual Generation & Efficient Multimodal Models**
 
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">NeurIPS</span>
-    <img src="images/FACE.png" alt="FACE" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2305.10307"><b>FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross‑Entropy</b></a><br>
-    <b>Zuhao Yang*</b>, Yingfang Yuan*, Yang Xu*, Shuo Zhan, Huajun Bai, Kefan Chen<br>
-    NeurIPS 2023<br>
-    <a href="https://arxiv.org/pdf/2305.10307">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2023face.html">bibtex</a> / <a href="https://github.com/CLCS-SUSTech/FACE">code</a>
-  </div>
-</div>
+- **Versatile Transition Generation with Image-to-Video Diffusion**
+  <u>Zuhao Yang</u>, Jiahui Zhang, Yingchen Yu, Shijian Lu, Song Bai · *ICCV 2025*
+  [[paper](https://arxiv.org/abs/2508.01698)] [[bibtex](https://mwxely.github.io/bibtex/yang2025versatile.html)] [[webpage](https://mwxely.github.io/projects/yang2025vtg/index)]
+
+- **A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models**
+  Duo Li\*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu · *Preprint 2025*
+  [[paper](https://arxiv.org/abs/2511.15098)] [[bibtex](https://mwxely.github.io/bibtex/li2025comprehensive.html)]
+
+- **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance**
+  Duo Li\*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu · *Preprint 2025*
+  [[paper](https://arxiv.org/abs/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre.html)]
+
+- **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**
+  Zhongyu Yang, Junhao Song, Zhang Luo, <u>Zuhao Yang</u>, Yang Xu, Jingfen Lan, Yonghan Zhang, Wei Pang, Siyang Song, Yingfang Yuan · *SIGGRAPH Asia 2025*
+  [[paper](https://dl.acm.org/doi/10.1145/3757376.3771409)] [[bibtex](https://mwxely.github.io/bibtex/yang2025rechar.html)] [[code](https://github.com/01yzzyu/rechar.github.io/tree/master/ReChar)]
+
+**Evaluation, Benchmarking & Surveys**
+
+- **AI-Generated Images as Data Sources: The Dawn of Synthetic Era**
+  <u>Zuhao Yang</u>, Fangneng Zhan, Kunhao Liu, Muyu Xu, Xiaoqin Zhang, Ling Shao, Shijian Lu · *TPAMI (under revision)*
+  [[paper](https://arxiv.org/abs/2310.01830)] [[bibtex](https://mwxely.github.io/bibtex/yang2023ai.html)] [[webpage](https://github.com/mwxely/AIGS)]
+
+- **FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross-Entropy**
+  <u>Zuhao Yang</u>\*, Yingfang Yuan\*, Yang Xu\*, Shuo Zhan, Huajun Bai, Kefan Chen · *NeurIPS 2023*
+  [[paper](https://arxiv.org/abs/2305.10307)] [[bibtex](https://mwxely.github.io/bibtex/yang2023face.html)] [[code](https://github.com/CLCS-SUSTech/FACE)]
+
+- **QAEval: Mixture of Evaluators for Question-Answering Task Evaluation**
+  Tan Yue, Rui Mao, Xuzhao Shi, Shuo Zhan, <u>Zuhao Yang</u>, Dongyan Zhao · *ACL 2025*
+  [[paper](https://aclanthology.org/2025.acl-long.716/)] [[bibtex](https://mwxely.github.io/bibtex/yue2025qaeval.html)] [[code](https://github.com/yuetanbupt/QAEval)]
+
+- **Evaluating Text Generation Quality Using Spectral Distances of Surprisal**
+  Zhichen Liu, Yongyuan Li, Yang Xu, Yu Wang, Yingfang Yuan, <u>Zuhao Yang</u> · *EMNLP 2025*
+  [[paper](https://aclanthology.org/2025.findings-emnlp.132/)] [[bibtex](https://mwxely.github.io/bibtex/liu2025evaluating.html)] [[code](https://github.com/CLCS-SUSTech/FACEScore)]
+
+- **PaCaNet: A Study on CycleGAN with Transfer Learning for Diversifying Fused Chinese Painting and Calligraphy**
+  <u>Zuhao Yang</u>\*, Huajun Bai\*, Zhang Luo, Yang Xu, Wei Pang, Yue Wang, Yisheng Yuan, Yeqi Hu, Yingfang Yuan · *Preprint 2023*
+  [[paper](https://arxiv.org/abs/2301.13082)] [[bibtex](https://mwxely.github.io/bibtex/yang2023pacanet.html)]
 
 📖 Educational Background
 ---
@@ -244,10 +97,10 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 ✍️ Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25
 
 **Journal Reviewer**
-* IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
+* IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging
 
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
