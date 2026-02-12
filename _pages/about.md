@@ -120,6 +120,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
+* 2024.01 - Accepted by **Jinny**.
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
 
 
@@ -244,7 +245,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 ✍️ Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25  
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
