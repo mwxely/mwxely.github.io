@@ -5,28 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
-- **LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling**
-<u>Zuhao Yang</u>\*, Sudong Wang\*, Kaichen Zhang\*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing
-CVPR 2026
+- **LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling**  
+<u>Zuhao Yang</u>\*, Sudong Wang\*, Kaichen Zhang\*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing  
+CVPR 2026  
 [[paper](https://arxiv.org/abs/2511.20785)] [[bibtex](https://mwxely.github.io/bibtex/yang2025longvt.html)] [[code](https://github.com/EvolvingLMMs-Lab/LongVT)]
 
-- **OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe**
-Kaichen Zhang\*, Keming Wu\*, <u>Zuhao Yang</u>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing
-CVPR 2026
+- **OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe**  
+Kaichen Zhang\*, Keming Wu\*, <u>Zuhao Yang</u>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing  
+CVPR 2026  
 [[paper](https://arxiv.org/abs/2511.16334)] [[bibtex](https://mwxely.github.io/bibtex/zhang2025openmmreasoner.html)] [[code](https://github.com/EvolvingLMMs-Lab/OpenMMReasoner)]
 
-- **SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration**
-Zhongyu Yang, <u>Zuhao Yang</u>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan
-CVPR 2026
+- **SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration**  
+Zhongyu Yang, <u>Zuhao Yang</u>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan  
+CVPR 2026  
 
-- **A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models**
-Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu
-CVPR 2026
+- **A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models**  
+Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu  
+CVPR 2026  
 [[paper](https://arxiv.org/abs/2511.15098)] [[bibtex](https://mwxely.github.io/bibtex/li2025comprehensive.html)]
 
-- **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance**
-Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu
-Preprint 2025
+- **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance**  
+Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu  
+Preprint 2025  
 [[paper](https://arxiv.org/abs/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre.html)]
 
 - **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
