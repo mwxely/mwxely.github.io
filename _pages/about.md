@@ -235,7 +235,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 * **2022.08 - 2024.01:** Master of Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
 * **2017.09 - 2021.06:** Bachelor in Computing Science, Department of Computing Science, University of Alberta
 
-💼 Working Experience
+💼 Work Experience
 ---
 * **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind, Singapore
 * **2023.11 - 2025.03:** CV Research Intern, ByteDance Inc. & TikTok, Singapore
