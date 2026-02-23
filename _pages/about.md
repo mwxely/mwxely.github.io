@@ -116,7 +116,6 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 🔥 Exciting News
 ---
 * 2026.02 - Four papers were accepted by **CVPR 2026**.
-* 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), long-video tool use ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both autoregressive LMMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based LMMs](https://arxiv.org/abs/2511.15098).
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
