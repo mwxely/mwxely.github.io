@@ -237,9 +237,9 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 
 💼 Working Experience
 ---
-* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind.ai, Singapore
+* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind, Singapore
 * **2023.11 - 2025.03:** CV Research Intern, ByteDance Inc. & TikTok, Singapore
-* **2021.05 - 2022.06:** NLP Research Engineer, TMI Robotics Technology, Shanghai
+* **2021.05 - 2022.06:** NLP Research Engineer, TMI Robotics Technology Co. Ltd, Shanghai
 
 ✍️ Academic Services
 ---
