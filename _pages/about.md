@@ -244,7 +244,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 ✍️ Academic Services
 ---
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
