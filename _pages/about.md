@@ -155,6 +155,18 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 <div class="paper-box">
   <div class="paper-box-image">
     <span class="badge">CVPR</span>
+    <img src="images/SVAgent.png" alt="SVAgent" width="100%">
+  </div>
+  <div class="paper-box-text">
+    <b>SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration</b><br>
+    Zhongyu Yang, <b>Zuhao Yang</b>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan<br>
+    CVPR 2026
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <span class="badge">CVPR</span>
     <img src="images/dMLLM.png" alt="dMLLM" width="100%">
   </div>
   <div class="paper-box-text">
@@ -162,18 +174,6 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
     Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
     CVPR 2026<br>
     <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a>
-  </div>
-</div>
-
-<div class="paper-box">
-  <div class="paper-box-image">
-    <span class="badge">CVPR</span>
-    <img src="images/SVAgent.png" alt="SVAgent" width="100%">
-  </div>
-  <div class="paper-box-text">
-    <b>SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration</b><br>
-    Zhongyu Yang, <b>Zuhao Yang</b>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan<br>
-    CVPR 2026
   </div>
 </div>
 
