@@ -115,6 +115,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 
 🔥 Exciting News
 ---
+* 2026.02 - Four papers were accepted by **CVPR 2026**.
 * 2025.10 - Four papers were released, focusing on multimodal reasoning ([OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/)), long-video tool use ([LongVT](https://evolvinglmms-lab.github.io/LongVT/)), and visual token redundancy in both autoregressive LMMs ([ToDRE](https://arxiv.org/abs/2505.18757)) and [diffusion-based LMMs](https://arxiv.org/abs/2511.15098).
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
@@ -128,53 +129,52 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 ---
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">Preprint</span>
+    <span class="badge">CVPR</span>
     <img src="images/LVT.png" alt="LVT" width="100%">
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.20785"><b>LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling</b></a><br>
     <b>Zuhao Yang*</b>, Sudong Wang*, Kaichen Zhang*, Keming Wu, Sicong Leng, Yifan Zhang, Bo Li, Chengwei Qin, Shijian Lu, Xingxuan Li, Lidong Bing<br>
-    Preprint 2025<br>
+    CVPR 2026<br>
     <a href="https://arxiv.org/pdf/2511.20785">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2025longvt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/LongVT">code</a>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">Preprint</span>
+    <span class="badge">CVPR</span>
     <img src="images/OMR.png" alt="OMR" width="100%">
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.16334"><b>OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe</b></a><br>
     Kaichen Zhang*, Keming Wu*, <b>Zuhao Yang</b>, Bo Li, Kairui Hu, Bin Wang, Ziwei Liu, Xingxuan Li, Lidong Bing<br>
-    Preprint 2025<br>
+    CVPR 2026<br>
     <a href="https://arxiv.org/pdf/2511.16334">paper</a> / <a href="https://mwxely.github.io/bibtex/zhang2025openmmreasoner.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/OpenMMReasoner">code</a>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">Preprint</span>
+    <span class="badge">CVPR</span>
     <img src="images/dMLLM.png" alt="dMLLM" width="100%">
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2511.15098"><b>A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models</b></a><br>
     Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
-    Preprint 2025<br>
+    CVPR 2026<br>
     <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a>
   </div>
 </div>
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">Preprint</span>
-    <img src="images/ToDRE.png" alt="ToDRE" width="100%">
+    <span class="badge">CVPR</span>
+    <img src="images/SVAgent.png" alt="SVAgent" width="100%">
   </div>
   <div class="paper-box-text">
-    <a href="https://arxiv.org/abs/2505.18757"><b>ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance</b></a><br>
-    Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
-    Preprint 2025<br>
-    <a href="https://arxiv.org/pdf/2505.18757">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025todre.html">bibtex</a>
+    <b>SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration</b><br>
+    Zhongyu Yang, <b>Zuhao Yang</b>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan<br>
+    CVPR 2026
   </div>
 </div>
 
