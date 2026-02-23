@@ -26,7 +26,7 @@ CVPR 2026
 
 - **ToDRE: Effective Visual Token Pruning via Token Diversity and Task Relevance**  
 Duo Li*, <u>Zuhao Yang</u>\*, Xiaoqin Zhang, Ling Shao, Shijian Lu  
-Preprint 2025  
+arXiv 2025  
 [[paper](https://arxiv.org/abs/2505.18757)] [[bibtex](https://mwxely.github.io/bibtex/li2025todre.html)]
 
 - **ReChar: Revitalising Characters with Structure-Preserved and User-Specified Aesthetic Enhancements**  
@@ -56,7 +56,7 @@ ACL 2025
 
 - **AI-Generated Images as Data Sources: The Dawn of Synthetic Era**  
 <u>Zuhao Yang</u>, Fangneng Zhan, Kunhao Liu, Muyu Xu, Xiaoqin Zhang, Ling Shao, Shijian Lu  
-Preprint 2023  
+arXiv 2023  
 [[paper](https://arxiv.org/abs/2310.01830)] [[bibtex](https://mwxely.github.io/bibtex/yang2023ai.html)] [[webpage](https://github.com/mwxely/AIGS)]  
 
 - **FACE: Evaluating Natural Language Generation with Fourier Analysis of Cross-Entropy**  
@@ -66,5 +66,5 @@ NeurIPS 2023
 
 - **PaCaNet: A Study on CycleGAN with Transfer Learning for Diversifying Fused Chinese Painting and Calligraphy**  
 <u>Zuhao Yang</u>\*, Huajun Bai\*, Zhang Luo, Yang Xu, Wei Pang, Yue Wang, Yisheng Yuan, Yeqi Hu, Yingfang Yuan  
-Preprint 2023  
+arXiv 2023  
 [[paper](https://arxiv.org/abs/2301.13082)] [[bibtex](https://mwxely.github.io/bibtex/yang2023pacanet.html)]
