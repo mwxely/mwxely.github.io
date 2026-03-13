@@ -255,7 +255,7 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 * [Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to Multimodal Grounding to Agentic Collaboration](https://aaai.org/conference/aaai/aaai-26/interactive-industry-sessions/#ChenInstitute) (AAAI 26)
 
 **Teaching Assistant**
-* AI6121 - Computer Vision, NTU, Fall 2025
+* AI6121 - Computer Vision, NTU, Fall 2025 / Spring 2026
 
 🏆 Patent & Awards
 ---
