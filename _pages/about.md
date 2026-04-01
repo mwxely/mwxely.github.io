@@ -120,7 +120,6 @@ I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://ww
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
 * 2025.06 - Two papers were accepted by **ICCV 2025**.
 * 2025.05 - Two papers were accepted by **ACL 2025**.
-* 2024.01 - Accepted by **Jinny**.
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
 
 
