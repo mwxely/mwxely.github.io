@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Zuhao Yang"
+masthead_title           : "Homepage"
 title_separator          : "-"
 name                     : &name "Zuhao Yang"
 description              : &description "I am a third-year Ph.D. candidate at NTU. My research interests include: video understanding, video reasoning, and video generation."

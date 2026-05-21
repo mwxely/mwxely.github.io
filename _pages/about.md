@@ -109,14 +109,13 @@ redirect_from:
 }
 </style>
 
-I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am now at [Kimi (Moonshot AI)](https://www.moonshot.cn/) building native multimodal foundation models, advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at ByteDance. I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/).
+I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am now at [Kimi (Moonshot AI)](https://www.moonshot.cn/) building native multimodal foundation models, advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/). I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, complex reasoning, agentic tool use, and self-evolving multi-agent systems.
 
-My research focuses on building **video-centric multimodal intelligence** that moves beyond passive perception toward active, agentic reasoning. Recent directions include **native tool calling for long video understanding** ([LongVT](https://arxiv.org/abs/2511.20785), [ParaVT](https://arxiv.org/abs/2605.20342)), **multimodal reinforcement learning** ([OpenMMReasoner](https://arxiv.org/abs/2511.16334), [PRISM](https://arxiv.org/abs/2604.28123)), and **multi-agent video systems** ([SVAgent](https://arxiv.org/abs/2604.05079)). My long-term goal is to teach large multimodal models to *think with* — rather than merely watch — long videos.
+*I am open to interesting ideas, questions, and future opportunities. Feel free to contact me via WeChat: 17310143309.*
 
-I am open to interesting ideas, queries, and future opportunities. Feel free to contact me via WeChat: **17310143309**.
-
-🔥 Exciting News
+Exciting News
 ---
+{: #exciting-news }
 * 2026.02 - Four papers were accepted by **CVPR 2026**.
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
@@ -125,8 +124,9 @@ I am open to interesting ideas, queries, and future opportunities. Feel free to 
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
 
 
-📝 Selected Publications ([Full List](https://mwxely.github.io/publications/))
+Selected Publications
 ---
+{: #selected-publications }
 <div class="paper-box">
   <div class="paper-box-image">
     <span class="badge">CVPR</span>
@@ -230,20 +230,10 @@ I am open to interesting ideas, queries, and future opportunities. Feel free to 
   </div>
 </div>
 
-📖 Educational Background
+Academic Services
 ---
-* **2024.01 - Present:** Doctor of Philosophy, College of Computing and Data Science, Nanyang Technological University
-* **2022.08 - 2024.01:** Master of Artificial Intelligence, College of Computing and Data Science, Nanyang Technological University
-* **2017.09 - 2021.06:** Bachelor in Computing Science, Department of Computing Science, University of Alberta
+{: #academic-services }
 
-💼 Work Experience
----
-* **2025.04 - Present:** AI Scientist Intern, Shanda AI Research Institute & MiroMind, Singapore
-* **2023.11 - 2025.03:** CV Research Intern, ByteDance Inc. & TikTok, Singapore
-* **2021.05 - 2022.06:** NLP Research Engineer, TMI Robotics Technology Co. Ltd, Shanghai
-
-✍️ Academic Services
----
 **Conference Reviewer**
 * CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
@@ -258,8 +248,22 @@ I am open to interesting ideas, queries, and future opportunities. Feel free to 
 **Teaching Assistant**
 * AI6121 - Computer Vision, NTU, Fall 2025 / Spring 2026
 
-🏆 Patent & Awards
+Invited Talks
 ---
+{: #invited-talks }
+
+*To be updated.*
+
+Technical Blogs
+---
+{: #technical-blogs }
+
+*To be updated.*
+
+Patent & Awards
+---
+{: #patent--awards }
+
 * Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2025
 * Method, Device, and Medium for Generating Transition Videos with Diffusion Model, SG Patent, 2024
 * [Method, Device, and Medium for Automatic Question-Answering](http://epub.cnipa.gov.cn/patent/CN113946669A), CN Patent, 2022

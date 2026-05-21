@@ -1,10 +1,13 @@
-# main links
+# main links — all anchors jump to sections on the homepage
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Academic Services"
+    url: /#academic-services
 
-  - title: "Blogs"
-    url: /blogs/
+  - title: "Invited Talks"
+    url: /#invited-talks
 
-  - title: "Talks"
-    url: /talks/
+  - title: "Technical Blogs"
+    url: /#technical-blogs
+
+  - title: "Patent & Awards"
+    url: /#patent--awards
