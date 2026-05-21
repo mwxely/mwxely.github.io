@@ -69,6 +69,40 @@ redirect_from:
 [data-theme="dark"] .paper-box-text i {
   color: #b0b0b0;
 }
+/* Publication carousel: horizontal-scroll cards with snap points */
+.paper-carousel {
+  position: relative;
+  margin: 0 -16px 24px;
+  padding: 4px 16px 16px;
+  overflow: hidden;
+}
+.paper-carousel-track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 16px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.25) transparent;
+  -webkit-overflow-scrolling: touch;
+}
+.paper-carousel-track::-webkit-scrollbar { height: 8px; }
+.paper-carousel-track::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+.paper-carousel-track .paper-box {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  margin-bottom: 0;
+}
+[data-theme="dark"] .paper-carousel-track {
+  scrollbar-color: rgba(255,255,255,0.25) transparent;
+}
+[data-theme="dark"] .paper-carousel-track::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.25);
+}
+
 /* Mobile styles - only affects screens smaller than 768px */
 @media (max-width: 768px) {
   .paper-box {
@@ -116,6 +150,8 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
+* 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) were released. Other work regarding **Audio-Visual Captioning**, **Multimodal Evaluation**, and **Database Agent** will be released soon.
+* 2026.03 - [**MiroThinker-1.7 & H1**](https://arxiv.org/abs/2603.15726) were released.
 * 2026.02 - Four papers were accepted by **CVPR 2026**.
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper was accepted by **EMNLP 2025**.
@@ -127,6 +163,36 @@ Exciting News
 Selected Publications ([Full List](https://scholar.google.com/citations?user=TlBhP8EAAAAJ&hl=en&oi=ao))
 ---
 {: #selected-publications }
+
+<div class="paper-carousel"><div class="paper-carousel-track">
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <span class="badge">arXiv</span>
+    <img src="images/ParaVT.png" alt="ParaVT" width="100%">
+  </div>
+  <div class="paper-box-text">
+    <a href="https://arxiv.org/abs/2605.20342"><b>ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning</b></a><br>
+    <b>Zuhao Yang</b>, Kaichen Zhang, Sudong Wang, Keming Wu, Zhongyu Yang, Bo Li, Xiaojuan Qi, Shijian Lu, Xingxuan Li, Lidong Bing<br>
+    arXiv 2026<br>
+    <a href="https://arxiv.org/pdf/2605.20342">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2026paravt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/ParaVT">code</a>
+  </div>
+</div>
+
+<div class="paper-box">
+  <div class="paper-box-image">
+    <span class="badge">arXiv</span>
+    <img src="images/VisGen.jpg" alt="Visual Generation Survey" width="100%">
+  </div>
+  <div class="paper-box-text">
+    <b>Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling</b><br>
+    Keming Wu<sup>*†</sup>, <b>Zuhao Yang<sup>*†</sup></b>, and 20+ authors<br>
+    arXiv 2026<br>
+    <a href="#">paper</a> / <a href="https://mwxely.github.io/bibtex/wu2026visgen.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation">webpage</a><br>
+    <i><sup>*</sup>Co-first authors. <sup>†</sup>Project organizer.</i>
+  </div>
+</div>
+
 <div class="paper-box">
   <div class="paper-box-image">
     <span class="badge">CVPR</span>
@@ -159,9 +225,10 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
     <img src="images/SVAgent.png" alt="SVAgent" width="100%">
   </div>
   <div class="paper-box-text">
-    <b>SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration</b><br>
+    <a href="https://arxiv.org/abs/2604.05079"><b>SVAgent: Storyline-guided Long Video Understanding via Cross-modal Multi-agent Collaboration</b></a><br>
     Zhongyu Yang, <b>Zuhao Yang</b>, Shuo Zhan, Tan Yue, Wei Pang, Yingfang Yuan<br>
-    CVPR 2026
+    CVPR 2026<br>
+    <a href="https://arxiv.org/pdf/2604.05079">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2026svagent.html">bibtex</a>
   </div>
 </div>
 
@@ -230,6 +297,8 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
   </div>
 </div>
 
+</div></div>
+
 Academic Services
 ---
 {: #academic-services }
@@ -252,9 +321,11 @@ Invited Talks
 ---
 {: #invited-talks }
 
-* [2026.01] Invited talk at AAAI ([slides](https://docs.google.com/presentation/d/1Xm0tH28hdZKBLB7d5LCNrFJNJQtd6kasKPov15FH4FE/edit?usp=sharing)), covering [MiroMind-M1](https://github.com/MiroMindAI/MiroMind-M1), [First Try Matters](https://github.com/Olafyii/first-try-matters), [MATPO](https://github.com/mzf666/MATPO), [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/), and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
-* [2025.12] Invited talk at BAAI ([slides & recording](https://event.baai.ac.cn/activities/983)), covering [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/) and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
-* [2025.11] Invited talk at [Dr. Bosheng Ding](https://www.boshengding.com/)'s reading group, covering [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
+* 2026.05 - At SenseTime, covering [Evolving Visual Generation](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation).
+* 2026.05 - At Cantina, covering [TimeExpert](https://mwxely.github.io/projects/yang2025time/index), [LongVT](https://evolvinglmms-lab.github.io/LongVT/), [ParaVT](https://evolvinglmms-lab.github.io/ParaVT/), and [ToDRE](https://arxiv.org/abs/2505.18757).
+* 2026.01 - At AAAI ([slides](https://docs.google.com/presentation/d/1Xm0tH28hdZKBLB7d5LCNrFJNJQtd6kasKPov15FH4FE/edit?usp=sharing)), covering [MiroMind-M1](https://github.com/MiroMindAI/MiroMind-M1), [First Try Matters](https://github.com/Olafyii/first-try-matters), [MATPO](https://github.com/mzf666/MATPO), [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/), and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
+* 2025.12 - At BAAI ([slides & recording](https://event.baai.ac.cn/activities/983)), covering [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/) and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
+* 2025.11 - At [Dr. Bosheng Ding](https://www.boshengding.com/)'s reading group, covering [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
 
 Technical Blogs
 ---
