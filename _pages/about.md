@@ -159,6 +159,7 @@ Exciting News
 ---
 {: #exciting-news }
 * 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) were released. Other work regarding Audio-Visual Captioning, Multimodal Evaluation, and Database Agent will be released soon.
+* 2026.04 - [**Evolving Visual Generation**](https://arxiv.org/abs/2604.28185) was released.
 * 2026.03 - [**MiroThinker-1.7 & H1**](https://arxiv.org/abs/2603.15726) was released.
 * 2026.02 - Four papers were accepted by **CVPR 2026**.
 * 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
@@ -193,10 +194,10 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
     <img src="images/VisGen.jpg" alt="Visual Generation Survey" width="100%">
   </div>
   <div class="paper-box-text">
-    <b>Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling</b><br>
-    Keming Wu<sup>*†</sup>, <b>Zuhao Yang<sup>*†</sup></b>, and 20+ authors<br>
+    <a href="https://arxiv.org/abs/2604.28185"><b>Visual Generation in the New Era: An Evolution from Atomic Mapping to Agentic World Modeling</b></a><br>
+    Keming Wu<sup>*†</sup>, <b>Zuhao Yang<sup>*†</sup></b>, and 25 other authors<br>
     arXiv 2026<br>
-    <a href="#">paper</a> / <a href="https://mwxely.github.io/bibtex/wu2026visgen.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation">webpage</a><br>
+    <a href="https://arxiv.org/pdf/2604.28185">paper</a> / <a href="https://mwxely.github.io/bibtex/wu2026visgen.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation">webpage</a><br>
     <i><sup>*</sup>Co-first authors. <sup>†</sup>Project organizer.</i>
   </div>
 </div>
@@ -329,8 +330,8 @@ Invited Talks
 ---
 {: #invited-talks }
 
-* 2026.05 - At SenseTime, covering [Evolving Visual Generation](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation).
 * 2026.05 - At Cantina, covering [TimeExpert](https://mwxely.github.io/projects/yang2025time/index), [LongVT](https://evolvinglmms-lab.github.io/LongVT/), [ParaVT](https://evolvinglmms-lab.github.io/ParaVT/), and [ToDRE](https://arxiv.org/abs/2505.18757).
+* 2026.05 - At SenseTime, covering [Evolving Visual Generation](https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation).
 * 2026.01 - At AAAI ([slides](https://docs.google.com/presentation/d/1Xm0tH28hdZKBLB7d5LCNrFJNJQtd6kasKPov15FH4FE/edit?usp=sharing)), covering [MiroMind-M1](https://github.com/MiroMindAI/MiroMind-M1), [First Try Matters](https://github.com/Olafyii/first-try-matters), [MATPO](https://github.com/mzf666/MATPO), [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/), and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
 * 2025.12 - At BAAI ([slides & recording](https://event.baai.ac.cn/activities/983)), covering [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/) and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
 * 2025.11 - At [Dr. Bosheng Ding](https://www.boshengding.com/)'s reading group, covering [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
