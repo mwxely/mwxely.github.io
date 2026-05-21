@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "I am a second-year Ph.D. student at NTU. My research interests include: video understanding, video reasoning, and video agents."
+excerpt: "I am a third-year Ph.D. candidate at NTU. My research interests include: video understanding, video reasoning, and video agents."
 author_profile: true
 redirect_from: 
   - /about/
@@ -109,9 +109,11 @@ redirect_from:
 }
 </style>
 
-I am a second-year Ph.D. student with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I also work closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) when he was at ByteDance. My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, complex reasoning, agentic tool use, and self-evolving multi-agent systems.
+I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am now at [Kimi (Moonshot AI)](https://www.moonshot.cn/) building native multimodal foundation models, advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at ByteDance. I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/).
 
-I enjoy vibe building with other researchers/developers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). Our mission is to advance large multimodal models (LMMs) with a shared vision of *Feeling the AGI*. We are actively looking for like-minded individuals to contribute to the community together!
+My research focuses on building **video-centric multimodal intelligence** that moves beyond passive perception toward active, agentic reasoning. Recent directions include **native tool calling for long video understanding** ([LongVT](https://arxiv.org/abs/2511.20785), [ParaVT](https://arxiv.org/abs/2605.20342)), **multimodal reinforcement learning** ([OpenMMReasoner](https://arxiv.org/abs/2511.16334), [PRISM](https://arxiv.org/abs/2604.28123)), and **multi-agent video systems** ([SVAgent](https://arxiv.org/abs/2604.05079)). My long-term goal is to teach large multimodal models to *think with* — rather than merely watch — long videos.
+
+I am open to interesting ideas, queries, and future opportunities. Feel free to contact me via WeChat: **17310143309**.
 
 🔥 Exciting News
 ---
