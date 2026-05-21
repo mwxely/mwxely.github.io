@@ -158,7 +158,7 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
-* 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) were released. Work on Audio-Visual Captioning, Multimodal Evaluation, and Database Agent is coming soon.
+* 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) were released. Several papers on Audio-Visual Captioning, Multimodal Evaluation, and Database Agent are coming soon.
 * 2026.04 - [**Evolving Visual Generation**](https://arxiv.org/abs/2604.28185) was released.
 * 2026.03 - [**MiroThinker-1.7 & H1**](https://arxiv.org/abs/2603.15726) was released.
 * 2026.02 - Four papers were accepted by **CVPR 2026**.
