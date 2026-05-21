@@ -109,7 +109,7 @@ redirect_from:
 }
 </style>
 
-I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am now at [Kimi (Moonshot AI)](https://www.moonshot.cn/) building native multimodal foundation models, advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/). I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, complex reasoning, agentic tool use, and self-evolving multi-agent systems.
+I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am now at [Kimi (Moonshot AI)](https://www.moonshot.cn/) building native multimodal foundation models, advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/). I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, agentic reasoning, long-horizon tool use, and self-evolving multi-agent systems.
 
 *I am open to interesting ideas, questions, and future opportunities. Feel free to contact me via WeChat: 17310143309.*
 
@@ -124,7 +124,7 @@ Exciting News
 * 2023.09 - One paper was accepted by **NeurIPS 2023**.
 
 
-Selected Publications
+Selected Publications ([Full List](https://scholar.google.com/citations?user=TlBhP8EAAAAJ&hl=en&oi=ao))
 ---
 {: #selected-publications }
 <div class="paper-box">
@@ -235,7 +235,7 @@ Academic Services
 {: #academic-services }
 
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
 **Journal Reviewer**
 * IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
@@ -252,13 +252,21 @@ Invited Talks
 ---
 {: #invited-talks }
 
-*To be updated.*
+* [2026.01] Invited talk at AAAI ([slides](https://docs.google.com/presentation/d/1Xm0tH28hdZKBLB7d5LCNrFJNJQtd6kasKPov15FH4FE/edit?usp=sharing)), covering [MiroMind-M1](https://github.com/MiroMindAI/MiroMind-M1), [First Try Matters](https://github.com/Olafyii/first-try-matters), [MATPO](https://github.com/mzf666/MATPO), [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/), and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
+* [2025.12] Invited talk at BAAI ([slides & recording](https://event.baai.ac.cn/activities/983)), covering [OpenMMReasoner](https://evolvinglmms-lab.github.io/OpenMMReasoner/) and [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
+* [2025.11] Invited talk at [Dr. Bosheng Ding](https://www.boshengding.com/)'s reading group, covering [LongVT](https://evolvinglmms-lab.github.io/LongVT/).
 
 Technical Blogs
 ---
 {: #technical-blogs }
 
-*To be updated.*
+**Chinese Blogs**
+* [LLM Tool Calling & Reinforcement Learning](https://www.notion.so/LLM-Tool-Calling-Reinforcement-Learning-22282320208b80db9ccbde95f76577c5?source=copy_link) (by [Dr. Handuo Zhang](https://zhanghanduo.github.io/))
+* [Thinking with Images & Agentic Tool Use](https://www.notion.so/Thinking-with-Images-Agentic-Tool-Use-22282320208b801fa6b4dcebc5b5da8d?source=copy_link) (by [Zuhao Yang](https://mwxely.github.io/))
+
+**English Blogs**
+* [OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe](https://www.lmms-lab.com/posts/openmmreasoner/) (by [Kaichen Zhang](https://kcz358.github.io/))
+* [LongVT: Incentivizing "Thinking with Long Videos" via Native Tool Calling](https://www.lmms-lab.com/posts/longvt/) (by [Zuhao Yang](https://mwxely.github.io/))
 
 Patent & Awards
 ---
