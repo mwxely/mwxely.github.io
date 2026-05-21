@@ -69,42 +69,50 @@ redirect_from:
 [data-theme="dark"] .paper-box-text i {
   color: #b0b0b0;
 }
-/* Publication carousel: horizontal-scroll cards with snap points */
+/* Publication carousel: VERTICAL-scroll cards inside a fixed-height window. */
 .paper-carousel {
   position: relative;
-  margin: 0 -16px 24px;
-  padding: 4px 16px 16px;
-  overflow: hidden;
-}
-.paper-carousel-track {
-  display: flex;
-  gap: 16px;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-padding: 16px;
+  max-height: 720px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-snap-type: y proximity;
+  margin-bottom: 24px;
+  padding-right: 6px;
   scrollbar-width: thin;
   scrollbar-color: rgba(0,0,0,0.25) transparent;
   -webkit-overflow-scrolling: touch;
+  /* Soft fade hint at the bottom so users see there's more to scroll */
+  mask-image: linear-gradient(180deg, #000 0, #000 calc(100% - 32px), transparent 100%);
+  -webkit-mask-image: linear-gradient(180deg, #000 0, #000 calc(100% - 32px), transparent 100%);
 }
-.paper-carousel-track::-webkit-scrollbar { height: 8px; }
-.paper-carousel-track::-webkit-scrollbar-thumb {
+.paper-carousel::-webkit-scrollbar { width: 8px; }
+.paper-carousel::-webkit-scrollbar-thumb {
   background: rgba(0,0,0,0.25);
   border-radius: 4px;
 }
+.paper-carousel-track {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 .paper-carousel-track .paper-box {
-  flex: 0 0 100%;
+  flex: 0 0 auto;
   scroll-snap-align: start;
   margin-bottom: 0;
 }
-[data-theme="dark"] .paper-carousel-track {
+[data-theme="dark"] .paper-carousel {
   scrollbar-color: rgba(255,255,255,0.25) transparent;
 }
-[data-theme="dark"] .paper-carousel-track::-webkit-scrollbar-thumb {
+[data-theme="dark"] .paper-carousel::-webkit-scrollbar-thumb {
   background: rgba(255,255,255,0.25);
 }
 
 /* Mobile styles - only affects screens smaller than 768px */
 @media (max-width: 768px) {
+  .paper-carousel {
+    max-height: 560px;
+    padding-right: 4px;
+  }
   .paper-box {
     position: relative;
     flex-direction: column;
