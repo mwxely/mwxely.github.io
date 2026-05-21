@@ -198,7 +198,7 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
     Keming Wu<sup>*†</sup>, <b>Zuhao Yang<sup>*†</sup></b>, and 25 other authors<br>
     arXiv 2026<br>
     <a href="https://arxiv.org/pdf/2604.28185">paper</a> / <a href="https://mwxely.github.io/bibtex/wu2026visgen.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/Evolving-Visual-Generation">webpage</a><br>
-    <i><sup>*</sup>Co-first authors. <sup>†</sup>Project organizer.</i>
+    <i><sup>*</sup>Equal Contribution. <sup>†</sup>Project Organizer.</i>
   </div>
 </div>
 
