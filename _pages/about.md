@@ -107,6 +107,57 @@ redirect_from:
   background: rgba(255,255,255,0.25);
 }
 
+/* Right-side floating Table-of-Contents — fixed position, jumps to in-page sections */
+.page-toc {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  padding: 14px 16px;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid #e4e7ec;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  font-size: 13.5px;
+  line-height: 1.7;
+  min-width: 124px;
+}
+.page-toc-title {
+  display: block;
+  font-weight: 700;
+  font-size: 10.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 8px;
+}
+.page-toc ul { list-style: none; margin: 0; padding: 0; }
+.page-toc li { margin: 0; }
+.page-toc a {
+  display: block;
+  color: #4a5568;
+  text-decoration: none;
+  padding: 2px 8px;
+  border-left: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.page-toc a:hover { color: #1684fc; border-left-color: #1684fc; }
+.page-toc a.active { color: #1684fc; border-left-color: #1684fc; font-weight: 600; }
+[data-theme="dark"] .page-toc {
+  background: rgba(30,30,30,0.92);
+  border-color: #3a3a3a;
+}
+[data-theme="dark"] .page-toc-title { color: #aaa; }
+[data-theme="dark"] .page-toc a { color: #c0c0c0; }
+[data-theme="dark"] .page-toc a:hover,
+[data-theme="dark"] .page-toc a.active { color: #52adc8; border-left-color: #52adc8; }
+/* Hide the floating TOC whenever screen is too narrow to host it without
+   overlapping the main content (tablet + mobile). */
+@media (max-width: 1199px) { .page-toc { display: none; } }
+
 /* Mobile styles - only affects screens smaller than 768px */
 @media (max-width: 768px) {
   .paper-carousel {
@@ -150,6 +201,43 @@ redirect_from:
   }
 }
 </style>
+
+<nav class="page-toc" aria-label="On this page">
+  <span class="page-toc-title">On this page</span>
+  <ul>
+    <li><a href="#exciting-news">News</a></li>
+    <li><a href="#selected-publications">Publications</a></li>
+    <li><a href="#academic-services">Services</a></li>
+    <li><a href="#invited-talks">Talks</a></li>
+    <li><a href="#technical-blogs">Blogs</a></li>
+    <li><a href="#patent--awards">Awards</a></li>
+  </ul>
+</nav>
+
+<script>
+(function() {
+  if (window.innerWidth < 1200) return;
+  var links = document.querySelectorAll('.page-toc a');
+  var map = {};
+  links.forEach(function(l) {
+    var id = l.getAttribute('href').slice(1);
+    if (document.getElementById(id)) map[id] = l;
+  });
+  if (Object.keys(map).length === 0) return;
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        links.forEach(function(l) { l.classList.remove('active'); });
+        var link = map[e.target.id];
+        if (link) link.classList.add('active');
+      }
+    });
+  }, { rootMargin: '-30% 0px -65% 0px' });
+  Object.keys(map).forEach(function(id) {
+    observer.observe(document.getElementById(id));
+  });
+})();
+</script>
 
 I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am currently working on native multimodal foundation models at [Kimi (Moonshot AI)](https://www.moonshot.cn/), advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/). I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, agentic reasoning, long-horizon tool use, and self-evolving multi-agent systems.
 
