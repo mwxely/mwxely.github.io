@@ -404,7 +404,7 @@ Academic Services
 * CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
 **Journal Reviewer**
-* IEEE TPAMI, Pattern Recognition, Journal of Electronic Imaging  
+* IEEE TPAMI, IEEE TMI, Pattern Recognition, Journal of Electronic Imaging  
 
 **Workshop PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
