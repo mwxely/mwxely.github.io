@@ -405,9 +405,9 @@ Academic Services
 * CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
 
 **Journal Reviewer**
-* IEEE TPAMI, IEEE TMI, Pattern Recognition, Journal of Electronic Imaging  
+* TPAMI, IJCV, PR, TMI, JEI  
 
-**Workshop PC Member**
+**PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
 * [Neural Rendering Intelligence](https://neural-rendering.com/) (CVPR 24)
 * [Engineering Agentic Intelligence: A Pipeline from Efficient Reasoning to Multimodal Grounding to Agentic Collaboration](https://aaai.org/conference/aaai/aaai-26/interactive-industry-sessions/#ChenInstitute) (AAAI 26)
