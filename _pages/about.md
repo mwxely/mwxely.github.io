@@ -246,16 +246,16 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
-* 2026.06 - One paper was accepted by **ECCV 2026**.
-* 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) were released. Several papers on Audio-Visual Captioning, Multimodal Evaluation, and Database Agent are coming soon.
-* 2026.04 - [**Evolving Visual Generation**](https://arxiv.org/abs/2604.28185) was released.
-* 2026.03 - [**MiroThinker-1.7 & H1**](https://arxiv.org/abs/2603.15726) was released.
-* 2026.02 - Four papers were accepted by **CVPR 2026**.
-* 2025.10 - One paper was accepted by **SIGGRAPH Asia 2025**.
-* 2025.08 - One paper was accepted by **EMNLP 2025**.
-* 2025.06 - Two papers were accepted by **ICCV 2025**.
-* 2025.05 - Two papers were accepted by **ACL 2025**.
-* 2023.09 - One paper was accepted by **NeurIPS 2023**.
+* 2026.06 - One paper is accepted by **ECCV 2026**.
+* 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) are released. Several papers on Audio-Visual Captioning, Multimodal Evaluation, and Database Agent are coming soon.
+* 2026.04 - [**Evolving Visual Generation**](https://arxiv.org/abs/2604.28185) is released.
+* 2026.03 - [**MiroThinker-1.7 & H1**](https://arxiv.org/abs/2603.15726) is released.
+* 2026.02 - Four papers are accepted by **CVPR 2026**.
+* 2025.10 - One paper is accepted by **SIGGRAPH Asia 2025**.
+* 2025.08 - One paper is accepted by **EMNLP 2025**.
+* 2025.06 - Two papers are accepted by **ICCV 2025**.
+* 2025.05 - Two papers are accepted by **ACL 2025**.
+* 2023.09 - One paper is accepted by **NeurIPS 2023**.
 
 
 Selected Publications ([Full List](https://scholar.google.com/citations?user=TlBhP8EAAAAJ&hl=en&oi=ao))
@@ -339,7 +339,7 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
     <a href="https://arxiv.org/abs/2511.15098"><b>A Comprehensive Study on Visual Token Redundancy for Discrete Diffusion-based Multimodal Large Language Models</b></a><br>
     Duo Li*, <b>Zuhao Yang*</b>, Xiaoqin Zhang, Ling Shao, Shijian Lu<br>
     CVPR 2026<br>
-    <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a>
+    <a href="https://arxiv.org/pdf/2511.15098">paper</a> / <a href="https://mwxely.github.io/bibtex/li2025comprehensive.html">bibtex</a> / <a href="https://github.com/Yrdal3910/dMLLM-Visual-Token-Redundancy-Analysis">code</a>
   </div>
 </div>
 
