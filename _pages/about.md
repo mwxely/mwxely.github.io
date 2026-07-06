@@ -402,7 +402,7 @@ Academic Services
 {: #academic-services }
 
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26
+* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26, ACL Rolling Review (ARR)
 
 **Journal Reviewer**
 * TPAMI, IJCV, TMC, TMI, PR, JEI  
