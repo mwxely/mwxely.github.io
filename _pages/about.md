@@ -267,7 +267,7 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">arXiv</span>
+    <span class="badge">Preprint</span>
     <img src="images/ParaVT.png" alt="ParaVT" width="100%">
   </div>
   <div class="paper-box-text">
@@ -280,7 +280,7 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">arXiv</span>
+    <span class="badge">Survey</span>
     <img src="images/VisGen.jpg" alt="Visual Generation Survey" width="100%">
   </div>
   <div class="paper-box-text">
