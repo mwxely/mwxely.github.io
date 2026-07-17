@@ -246,7 +246,8 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
-* 2026.06 - One paper is accepted by **ECCV 2026**.
+* 2026.07 - [**Kimi K3**](https://www.kimi.com/blog/kimi-k3) is released.
+* 2026.06 - [**Kimi K2.7 Code**](https://www.kimi.com/resources/kimi-k2-7-code) is released. One paper is accepted by **ECCV 2026**.
 * 2026.05 - One paper is accepted by **VLDB 2026**.
 * 2026.05 - [**ParaVT**](https://arxiv.org/abs/2605.20342), [**PRISM**](https://arxiv.org/abs/2604.28123), and [**WorldReasonBench**](https://arxiv.org/abs/2605.10434) are released.
 * 2026.04 - [**Kimi K2.6**](https://www.kimi.com/blog/kimi-k2-6) and [**Evolving Visual Generation**](https://arxiv.org/abs/2604.28185) are released.
@@ -443,9 +444,9 @@ Patent & Awards
 ---
 {: #patent--awards }
 
-* Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2025
-* Method, Device, and Medium for Generating Transition Videos with Diffusion Model, SG Patent, 2024
-* [Method, Device, and Medium for Automatic Question-Answering](http://epub.cnipa.gov.cn/patent/CN113946669A), CN Patent, 2022
+* Method, Device, and Medium for Video Temporal Grounding with Mixture-of-Experts, US Patent, 2026
+* [Method, Device, and Medium for Generating Transition Videos with Diffusion Model](https://patents.google.com/patent/US20260065559A1/en), US Patent, 2026
+* [Automatic Question Answering Method and Device, Electronic Device, Storage Medium](https://patents.google.com/patent/CN113946669A/en), CN Patent, 2022
 * Outstanding Graduate with Distinction, University of Alberta, 2021
 * Dean's Honor Roll Award, University of Alberta, 2018 - 2020
 * International Student Scholarship, University of Alberta, 2017 - 2019
