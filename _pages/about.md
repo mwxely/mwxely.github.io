@@ -250,7 +250,7 @@ Exciting News
 * 2026.06 - [**Kimi K2.7 Code**](https://www.kimi.com/resources/kimi-k2-7-code) is released. One paper is accepted by **ECCV 2026**.
 * 2026.05 - [**ParaVT**](https://evolvinglmms-lab.github.io/ParaVT/), [**PRISM**](https://xiao4579.github.io/PRISM/), and [**WorldReasonBench**](https://unix-ai-lab.github.io/WorldReasonBench/) are released. One paper is accepted by **VLDB 2026**.
 * 2026.04 - [**Kimi K2.6**](https://www.kimi.com/blog/kimi-k2-6) and [**Evolving Visual Generation**](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/) are released.
-* 2026.03 - [**MiroThinker-1.7 & H1**](https://dr.miromind.ai/) is released.
+* 2026.03 - [**MiroThinker-1.7 & H1**](https://www.miromind.ai/blog/miromind-1.7-h1-towards-heavy-duty-research-agents-via-verification) is released.
 * 2026.02 - Four papers are accepted by **CVPR 2026**.
 * 2025.10 - One paper is accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper is accepted by **EMNLP 2025**.
