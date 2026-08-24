@@ -244,6 +244,7 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
+* 2026.08 - [**StreamOPD**](https://unix-ai-lab.github.io/StreamOPD/) is released.
 * 2026.07 - [**Kimi K3**](https://www.kimi.com/blog/kimi-k3) and [**PerceptionBench**](https://www.kimi.com/blog/perception-bench) are released.
 * 2026.06 - [**Kimi K2.7 Code**](https://www.kimi.com/resources/kimi-k2-7-code) is released. One paper is accepted by **ECCV 2026**.
 * 2026.05 - [**ParaVT**](https://evolvinglmms-lab.github.io/ParaVT/), [**PRISM**](https://xiao4579.github.io/PRISM/), and [**WorldReasonBench**](https://unix-ai-lab.github.io/WorldReasonBench/) are released. One paper is accepted by **VLDB 2026**.
