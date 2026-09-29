@@ -244,10 +244,10 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Exciting News
 ---
 {: #exciting-news }
-* 2026.08 - [**StreamOPD**](https://unix-ai-lab.github.io/StreamOPD/) is released.
+* 2026.08 - [**StreamOPD**](https://unix-ai-lab.github.io/StreamOPD/) is released. Four papers are accepted by **NeurIPS 2026**.
 * 2026.07 - [**Kimi K3**](https://www.kimi.com/blog/kimi-k3) and [**PerceptionBench**](https://www.kimi.com/blog/perception-bench) are released.
 * 2026.06 - [**Kimi K2.7 Code**](https://www.kimi.com/resources/kimi-k2-7-code) is released. One paper is accepted by **ECCV 2026**.
-* 2026.05 - [**ParaVT**](https://evolvinglmms-lab.github.io/ParaVT/), [**PRISM**](https://xiao4579.github.io/PRISM/), and [**WorldReasonBench**](https://unix-ai-lab.github.io/WorldReasonBench/) are released. One paper is accepted by **VLDB 2026**.
+* 2026.05 - One paper is accepted by **VLDB 2026**.
 * 2026.04 - [**Kimi K2.6**](https://www.kimi.com/blog/kimi-k2-6) and [**Evolving Visual Generation**](https://evolvinglmms-lab.github.io/Evolving-Visual-Generation/) are released.
 * 2026.03 - [**MiroThinker-1.7 & H1**](https://www.miromind.ai/blog/miromind-1.7-h1-towards-heavy-duty-research-agents-via-verification) is released.
 * 2026.02 - Four papers are accepted by **CVPR 2026**.
@@ -266,13 +266,13 @@ Selected Publications ([Full List](https://scholar.google.com/citations?user=TlB
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <span class="badge">Preprint</span>
+    <span class="badge">NeurIPS</span>
     <img src="images/ParaVT.png" alt="ParaVT" width="100%">
   </div>
   <div class="paper-box-text">
     <a href="https://arxiv.org/abs/2605.20342"><b>ParaVT: Taming the Tool Prior Paradox for Parallel Tool Use in Agentic Video Reinforcement Learning</b></a><br>
     <b>Zuhao Yang</b>, Kaichen Zhang, Sudong Wang, Keming Wu, Zhongyu Yang, Bo Li, Xiaojuan Qi, Shijian Lu, Xingxuan Li, Lidong Bing<br>
-    arXiv 2026<br>
+    NeurIPS 2026<br>
     <a href="https://arxiv.org/pdf/2605.20342">paper</a> / <a href="https://mwxely.github.io/bibtex/yang2026paravt.html">bibtex</a> / <a href="https://github.com/EvolvingLMMs-Lab/ParaVT">code</a>
   </div>
 </div>
@@ -402,7 +402,7 @@ Academic Services
 {: #academic-services }
 
 **Conference Reviewer**
-* CVPR 24/25/26, ECCV 24/26, ACM MM 24/25/26, NeurIPS 24/25/26, ICLR 25, AISTATS 25/26, ICML 25, ICCV 25, BMVC 26, ARR 26, AAAI 27
+* NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ARR, AAAI, AISTATS, ACM MM, BMVC
 
 **Journal Reviewer**
 * TPAMI, IJCV, TMM, TMC, TMI, TCSVT, PR, TITS, JEI  
