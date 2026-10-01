@@ -255,7 +255,7 @@ Exciting News
 * 2025.10 - One paper is accepted by **SIGGRAPH Asia 2025**.
 * 2025.08 - One paper is accepted by **EMNLP 2025**.
 * 2025.06 - Two papers are accepted by **ICCV 2025**.
-* 2025.05 - Two papers are accepted by **ACL 2025**.
+* 2025.05 - One paper is accepted by **ACL 2025**.
 * 2023.09 - One paper is accepted by **NeurIPS 2023**.
 
 
