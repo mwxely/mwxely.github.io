@@ -1,7 +1,7 @@
 # main links — all anchors jump to sections on the homepage
 main:
   - title: "News"
-    url: /#exciting-news
+    url: /#recent-news
 
   - title: "Publications"
     url: /#selected-publications

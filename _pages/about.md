@@ -205,7 +205,7 @@ redirect_from:
 <nav class="page-toc" aria-label="On this page">
   <span class="page-toc-title">On this page</span>
   <ul>
-    <li><a href="#exciting-news">News</a></li>
+    <li><a href="#recent-news">News</a></li>
     <li><a href="#selected-publications">Publications</a></li>
     <li><a href="#academic-services">Services</a></li>
     <li><a href="#invited-talks">Talks</a></li>
@@ -241,9 +241,9 @@ redirect_from:
 
 I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vilab.github.io/) at Nanyang Technological University (NTU), supervised by [Prof. Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/). Prior to joining NTU, I obtained my B.S. degree in Computing Science from University of Alberta. I am currently working on native multimodal foundation models at [Kimi (Moonshot AI)](https://www.moonshot.cn/), advised by [Dr. Haoning Wu](https://teowu.github.io/) and [Xinyu Zhou](https://scholar.google.com/citations?user=Jv4LCj8AAAAJ&hl=en). Previously, I worked closely with [Dr. Lidong Bing](https://lidongbing.github.io/) at [MiroMind](https://miromind.ai/) and [Dr. Song Bai](https://songbai.site/) at [ByteDance](https://www.bytedance.com/). I also enjoy vibe building with other researchers at [LMMs-Lab](https://www.lmms-lab.com/), a non-profit open-source organization led by [Dr. Bo Li](https://brianboli.com/) and [Prof. Ziwei Liu](https://liuziwei7.github.io/). My research centers on the long-standing quest for building video-centric multimodal intelligence, spanning temporal grounding, agentic reasoning, long-horizon tool use, and self-evolving multi-agent systems. *<span style="text-decoration: underline !important;">WeChat: 17310143309</span>*
 
-Exciting News
+Recent News
 ---
-{: #exciting-news }
+{: #recent-news }
 * 2026.09 - Four papers are accepted by **NeurIPS 2026**.
 * 2026.08 - [**StreamOPD**](https://unix-ai-lab.github.io/StreamOPD/) is released.
 * 2026.07 - [**Kimi K3**](https://www.kimi.com/blog/kimi-k3) and [**PerceptionBench**](https://www.kimi.com/blog/perception-bench) are released.
