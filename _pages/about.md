@@ -406,7 +406,7 @@ Academic Services
 * NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, ARR, AAAI, AISTATS, ACM MM, BMVC
 
 **Journal Reviewer**
-* TPAMI, IJCV, TMM, TMC, TMI, TCSVT, PR, TITS, JEI  
+* TPAMI, IJCV, TMM, TMC, TMI, TCSVT, PR, TITS, SPL, JEI  
 
 **PC Member**
 * [SyntaGen: Harnessing Generative Models for Synthetic Visual Datasets](https://syntagen25.github.io/) (CVPR 24/25)
