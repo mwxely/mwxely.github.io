@@ -244,7 +244,7 @@ I am a third-year Ph.D. candidate with [Visual Intelligence Lab](https://sg-vila
 Recent News
 ---
 {: #recent-news }
-* 2026.10 - [**OmniCompass**](https://omnicompass.netlify.app/), [**MLLM-as-a-Judge**](https://arxiv.org/abs/2610.15035), and [**GroundedVDR**](https://arxiv.org/abs/2610.25493) are released.
+* 2026.10 - [**OmniCompass**](https://omnicompass.netlify.app/), [**UME-Recipes**](https://arxiv.org/abs/2610.15035), and [**GroundedVDR**](https://arxiv.org/abs/2610.25493) are released.
 * 2026.09 - Four papers are accepted by **NeurIPS 2026**.
 * 2026.08 - [**StreamOPD**](https://unix-ai-lab.github.io/StreamOPD/) is released.
 * 2026.07 - [**Kimi K3**](https://www.kimi.com/blog/kimi-k3) and [**PerceptionBench**](https://www.kimi.com/blog/perception-bench) are released.
